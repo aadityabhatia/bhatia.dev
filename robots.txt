@@ -1,1 +1,1 @@
-Sitemap: https://aadityabhatia.github.io/bhatia.dev/sitemap.xml
+Sitemap: https://bhatia.dev/sitemap.xml
