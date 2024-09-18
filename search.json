@@ -7,6 +7,13 @@
     "text": "Aaditya (Sonny) Bhatia is a Captain in the US Army and currently an instructor of Computer Science at the United States Military Academy at West Point."
   },
   {
+    "objectID": "index.html#currently",
+    "href": "index.html#currently",
+    "title": "Sonny Bhatia",
+    "section": "Currently",
+    "text": "Currently\nTeaching Computing Fundamentals at EECS Department at West Point"
+  },
+  {
     "objectID": "index.html#research-topics",
     "href": "index.html#research-topics",
     "title": "Sonny Bhatia",
@@ -14,10 +21,17 @@
     "text": "Research Topics\nCollective Intelligence; Cognitive Patterns; Software Architecture"
   },
   {
-    "objectID": "index.html#relevant-links",
-    "href": "index.html#relevant-links",
+    "objectID": "index.html#research-projects",
+    "href": "index.html#research-projects",
     "title": "Sonny Bhatia",
-    "section": "Relevant Links",
-    "text": "Relevant Links\nComputing Fundamentals currently being taught at West Point"
+    "section": "Research Projects",
+    "text": "Research Projects\nArgument Mapping to Guide Policy Decisions"
+  },
+  {
+    "objectID": "index.html#publications",
+    "href": "index.html#publications",
+    "title": "Sonny Bhatia",
+    "section": "Publications",
+    "text": "Publications\nModerating Democratic Discourse with LLMs, SBP-BRiMS (September 2024)\nUsing LLMs to Structure and Visualize Policy Discourse, DemocrAI workshop at IJCAI 2024 (August 2024)\nAdvancing Policy Insights: Opinion Data Analysis and Discourse Structuring Using LLMs (2024). Graduate Thesis and Dissertation 2023-2024. University of Central Florida.\nGenerally Genius: A Generals.io Agent Development and Data Collection Framework. Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment, 19(1), 400-406."
   }
 ]
