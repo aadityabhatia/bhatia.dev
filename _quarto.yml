@@ -1,0 +1,13 @@
+project:
+  type: website
+  render:
+    - index.qmd
+  preview:
+    port: 7827
+    browser: false
+    navigate: false
+    timeout: 3600
+
+website:
+  title: Sonny Bhatia
+  page-footer: "© 2024 Aaditya Bhatia"

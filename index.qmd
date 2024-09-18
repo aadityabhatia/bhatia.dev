@@ -1,0 +1,23 @@
+---
+title: "Sonny Bhatia"
+about:
+  template: jolla
+  image: profile.jpg
+  links:
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/aadityabhatia/
+    - icon: github
+      text: Github
+      href: https://github.com/aadityabhatia
+---
+
+Aaditya (Sonny) Bhatia is a Captain in the US Army and currently an instructor of Computer Science at the [United States Military Academy at West Point](https://www.westpoint.edu/).
+
+## Research Topics
+
+Collective Intelligence; Cognitive Patterns; Software Architecture
+
+## Relevant Links
+
+[Computing Fundamentals](https://cy105.bhatia.dev/) currently being taught at [West Point](https://www.westpoint.edu/)
