@@ -1,23 +1,72 @@
 ---
 title: "Sonny Bhatia"
 about:
-  template: jolla
-  image: profile.jpg
+  id: headline
+  template: trestles
+  image: https://gravatar.com/avatar/d3a9cc1b103d1d983c1cf41bad7b6587e5efd5a2525866b9fce14dcb5f949fcf?size=360
+  image-shape: round
+  image-width: 15em
   links:
     - icon: linkedin
-      text: linkedin
+      text: LinkedIn
       href: https://www.linkedin.com/in/aadityabhatia/
     - icon: github
       text: Github
       href: https://github.com/aadityabhatia
+    - icon: person-badge
+      text: ORCID
+      href: https://orcid.org/0000-0001-9953-8684
+format:
+  html:
+    toc: false
 ---
 
-Aaditya (Sonny) Bhatia is a Captain in the US Army and currently an instructor of Computer Science at the [United States Military Academy at West Point](https://www.westpoint.edu/).
+::: {#headline}
 
-## Research Topics
+Instructor, [EECS](https://www.westpoint.edu/academics/departments/electrical-engineering-and-computer-science), [US Military Academy at West Point](https://www.westpoint.edu/)
 
-Collective Intelligence; Cognitive Patterns; Software Architecture
 
-## Relevant Links
+### Teaching
 
-[Computing Fundamentals](https://cy105.bhatia.dev/) currently being taught at [West Point](https://www.westpoint.edu/)
+[CY350: Computer Networks](https://cy350.bhatia.dev/){.btn .btn-primary .disabled}
+[CS380: Computer Organization](https://cs380.bhatia.dev/){.btn .btn-primary .disabled}
+
+
+### Research Areas
+
+[Collective Intelligence]{.btn .btn-secondary .disabled}
+[Cognitive Patterns]{.btn .btn-secondary .disabled}
+[Software Architecture]{.btn .btn-secondary .disabled}
+
+
+### More
+[Awesome Articles and Resources](/awesome.qmd){.btn .btn-primary}
+
+:::
+
+<div style="margin-top: 3em;"></div>
+
+
+## Ideas
+
+- How can LLMs enable us to ingest massive streams of unstructured information, incorporate diverse perspectives and distill them into actionable insights that align with public opinion? [ArgMap](https://argmap.bhatia.dev/){.btn .btn-primary}
+
+
+## Publications
+
+- [Moderating Democratic Discourse with LLMs](https://link.springer.com/chapter/10.1007/978-3-031-72241-7_12), SBP-BRiMS (September 2024)
+
+- [Using LLMs to Structure and Visualize Policy Discourse](https://doi.org/10.1007/978-981-97-9536-9_5), [DemocrAI workshop at IJCAI 2024](https://sites.google.com/view/democrai2024) (August 2024) [Best Paper Award]{.btn .btn-success .disabled}
+
+- [Advancing Policy Insights: Opinion Data Analysis and Discourse Structuring Using LLMs](https://stars.library.ucf.edu/etd2023/204/). Graduate Thesis and Dissertation 2023-2024. University of Central Florida. (May 2024) [UCF Founders' Day Outstanding Master's Thesis Award]{.btn .btn-success .disabled}
+
+- [Generally Genius: A Generals.io Agent Development and Data Collection Framework](https://ojs.aaai.org/index.php/AIIDE/article/view/27536). Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (October 2023)
+
+
+## Past Courses
+
+### Spring 2025
+[CY305: Cyber Foundations]{.btn .btn-secondary .disabled}
+
+### Fall 2024
+[CY105: Computing Fundamentals](https://cy105.bhatia.dev/){.btn .btn-primary}

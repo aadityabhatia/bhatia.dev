@@ -10,4 +10,27 @@ project:
 
 website:
   title: Sonny Bhatia
-  page-footer: "© 2024 Aaditya Bhatia"
+  description:  Army Officer | Researcher | Software Architect
+  site-url: https://bhatia.dev
+  image: https://gravatar.com/avatar/d3a9cc1b103d1d983c1cf41bad7b6587e5efd5a2525866b9fce14dcb5f949fcf?size=360
+  open-graph: true
+  page-footer: "© 2025 Aaditya Bhatia"
+
+format:
+  html:
+    toc: true
+    toc-expand: 1
+    code-fold: true
+    smooth-scroll: true
+    page-layout: full
+    fig-align: center
+    fontsize: 1.4em
+    theme:
+      light:
+        - yeti
+      dark:
+        - darkly
+    mermaid:
+      theme: neutral
+    grid:
+      body-width: 1800px
