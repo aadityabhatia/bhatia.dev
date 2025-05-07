@@ -1,4 +1,6 @@
-# Awesome Resources and Articles
+---
+title: "Awesome Articles and Resources"
+---
 
 ## Cyber, Security, and Privacy
 
@@ -8,7 +10,7 @@
 - [Bleeping Computer](https://www.bleepingcomputer.com/) - [RSS](https://www.bleepingcomputer.com/feed/security/)
 - [Bruce Schneier](https://www.schneier.com/) - [RSS](https://www.schneier.com/feed/)
 - [Troy Hunt](https://www.troyhunt.com/) - [RSS](https://www.troyhunt.com/rss/)
-- [Hacker News](https://news.ycombinator.com/)
+- [Hacker News](https://news.ycombinator.com/) - [Quality News](https://news.social-protocols.org/)
 
 
 ### Learning Resources
@@ -50,9 +52,9 @@
 
 ### News, Articles, Documentaries
 
-- [Flipper Zero](https://www.youtube.com/embed/nLIp4wd0oXs)
-    - [Meanwhile, in Canada...](https://arstechnica.com/security/2024/02/canada-vows-to-ban-flipper-zero-device-in-crackdown-on-car-theft/)
-- [Inside the "3 Billion People" National Public Data Breach](https://www.troyhunt.com/inside-the-3-billion-people-national-public-data-breach/)
+- [Flipper Zero (2023)](https://www.youtube.com/embed/nLIp4wd0oXs)
+    - [Meanwhile, in Canada... {2024}](https://arstechnica.com/security/2024/02/canada-vows-to-ban-flipper-zero-device-in-crackdown-on-car-theft/)
+- [Inside the "3 Billion People" National Public Data Breach (2024)](https://www.troyhunt.com/inside-the-3-billion-people-national-public-data-breach/)
 - [The Global Surveillance Free-for-All in Mobile Ad Data (2024)](https://krebsonsecurity.com/2024/10/the-global-surveillance-free-for-all-in-mobile-ad-data/)
 - [Why digital privacy matters](https://www.privacyguides.org/en/basics/why-privacy-matters/)
 - [The Social Dilemma (2020)](https://www.netflix.com/title/81254224) - documentary on social media
