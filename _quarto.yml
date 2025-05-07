@@ -28,11 +28,12 @@ format:
     page-layout: full
     fig-align: center
     fontsize: 1.4em
+    respect-user-color-scheme: true
     theme:
       light:
         - yeti
       dark:
-        - darkly
+        - cyborg
     mermaid:
       theme: neutral
     grid:
