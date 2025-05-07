@@ -2,6 +2,8 @@ project:
   type: website
   render:
     - index.qmd
+  resources:
+    - CNAME
   preview:
     port: 7827
     browser: false
