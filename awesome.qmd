@@ -1,0 +1,110 @@
+# Awesome Resources and Articles
+
+## Cyber, Security, and Privacy
+
+### Feeds and News
+
+- [Krebs on Security](https://krebsonsecurity.com/) - [RSS](https://krebsonsecurity.com/feed/)
+- [Bleeping Computer](https://www.bleepingcomputer.com/) - [RSS](https://www.bleepingcomputer.com/feed/security/)
+- [Bruce Schneier](https://www.schneier.com/) - [RSS](https://www.schneier.com/feed/)
+- [Troy Hunt](https://www.troyhunt.com/) - [RSS](https://www.troyhunt.com/rss/)
+- [Hacker News](https://news.ycombinator.com/)
+
+
+### Learning Resources
+
+- [Privacy Guides](https://www.privacyguides.org/) - privacy-focused tools and recommendations
+    - [PrivacyTools](https://www.privacytools.io/)
+- [MITRE ATT&CK](https://attack.mitre.org/)
+- [Building a home lab](https://aj-labz.gitbook.io/aj-labz)
+- [USASOC Smart Cards](https://www.soc.mil/IdM/publications/IdMpubs.html)
+- [Terms of Service; Didn't Read](https://tosdr.org/)
+
+
+###  Tracker, Ad-blockers, and Malware Protection
+
+- [Cloudflare for Families](https://blog.cloudflare.com/introducing-1-1-1-1-for-families/) - DNS-based tracker and adult content blocker
+- [Pi-hole](https://pi-hole.net/) - network-wide DNS-based ad blocker
+- [pfSense](https://www.pfsense.org/) - open-source firewall
+- [NextDNS](https://nextdns.io/) - DNS-based tracker blocker
+
+
+###  Self-hosted services, tools, networks
+
+- [Tailscale](https://tailscale.com/) - mesh networking (personal VPN) for your devices
+- [Syncthing](https://syncthing.net/) - file synchronization across devices
+- [Nextcloud](https://nextcloud.com/) - self-hosted cloud storage, calendar, contacts, [RSS feed reader](https://en.wikipedia.org/wiki/RSS)
+- [Gitea](https://gitea.io/) - self-hosted Git service, replacement for GitHub
+- [Bitwarden](https://bitwarden.com/) - self-hosted password manager
+- [Jitsi](https://jitsi.org/) - self-hosted video conferencing
+- [Mattermost](https://mattermost.com/) - self-hosted Slack alternative
+
+
+### Messaging, Email, Communication
+
+- [Signal Messenger](https://signal.org/) - non-profit, encrypted messaging, voice, and video calls
+- [ProtonMail](https://protonmail.com/) - encrypted email
+- [Element](https://element.io/) - encrypted chat, video, and voice calls based on [Matrix](https://matrix.org/) protocol; can run your own server
+- [PGP Encryption](https://www.privacytools.io/encryption-tools/pgp/gpg/)
+
+
+### News, Articles, Documentaries
+
+- [Flipper Zero](https://www.youtube.com/embed/nLIp4wd0oXs)
+    - [Meanwhile, in Canada...](https://arstechnica.com/security/2024/02/canada-vows-to-ban-flipper-zero-device-in-crackdown-on-car-theft/)
+- [Inside the "3 Billion People" National Public Data Breach](https://www.troyhunt.com/inside-the-3-billion-people-national-public-data-breach/)
+- [The Global Surveillance Free-for-All in Mobile Ad Data (2024)](https://krebsonsecurity.com/2024/10/the-global-surveillance-free-for-all-in-mobile-ad-data/)
+- [Why digital privacy matters](https://www.privacyguides.org/en/basics/why-privacy-matters/)
+- [The Social Dilemma (2020)](https://www.netflix.com/title/81254224) - documentary on social media
+- [The Great Hack (2019)](https://www.netflix.com/title/80117542) - documentary on Cambridge Analytica scandal
+
+
+### What can you do?
+
+- [haveibeenpwned.com](https://haveibeenpwned.com/) - subscribe to breach notifications
+- [Mozilla Monitor](https://monitor.mozilla.org/) - find and fix data exposures
+- [Firefox](https://www.mozilla.org/en-US/firefox/) - privacy-focused browser
+- [DuckDuckGo](https://duckduckgo.com/privacy) - privacy-focused search engine
+- [Cover Your Tracks](https://coveryourtracks.eff.org/) - browser fingerprinting test
+- [NextDNS](https://nextdns.io/) - DNS-based tracker blocker
+    - or self-host [Pi-hole](https://pi-hole.net/)
+- [Consumer Reports: Privacy and Security](https://www.consumerreports.org/digital-security-privacy/)
+- [Surveillance Self-Defense](https://ssd.eff.org/)
+- [Data Removal Guide: inteltechniques.com](https://inteltechniques.com/workbook.html)
+
+
+## Computing and Technology
+
+- [Hackaday](https://hackaday.com/) - [RSS](https://hackaday.com/feed/)
+- [Hide and Seek!](https://www.youtube.com/embed/Lu56xVlZ40M)
+- [Can ChatGPT be wrong?](https://chatgpt.com/share/a329b032-7e1d-4568-be40-9227de866a8b)
+- [What is Python](https://www.youtube.com/embed/x7X9w_GIm1s)
+- [arrr](https://arrr.readthedocs.io/) - Pirate module for Python
+- [Where really is the Internet?](https://www.youtube.com/embed/Ve810FHZ1CQ)
+- [Seating chart generator](https://gist.github.com/aadityabhatia/86077fea4ccd353bfb017df733a70d19)
+- [Vortex Cannon vs Drone](https://www.youtube.com/embed/SrGENEXocJU)
+- Algorithms
+    - [The Better Boarding Method Airlines Won't Use](https://www.youtube.com/embed/oAHbLRjF0vo)
+    - [PB&J Sandwich](https://www.youtube.com/embed/FN2RM-CHkuI)
+
+
+## Learning and Productivity
+
+- [YouTube: Bloom’s Taxonomy: Structuring The Learning Journey](https://www.youtube.com/embed/ayefSTAnCR8)
+    - Ref: [Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/)
+- [Pareto Principle [The 80/20 Rule Explained]](https://www.youtube.com/embed/lsGwqk_agcQ)
+- [Growth Mindset](https://www.youtube.com/embed/KUWn_TJTrnU)
+- Why take good notes?
+    - [Active learning](https://www.youtube.com/embed/xxVxgQJwV7w)
+    - Memory retention
+    - Future reference
+- How to take good notes?
+    - [Logseq](https://logseq.com/) or [Obsidian](https://obsidian.md/) - journaling, linking, knowledge management
+    - OneNote
+    - [Zettelkasten](https://zettelkasten.de/) - integrated thinking method!
+        - [Zettelkasten Explained](https://www.youtube.com/embed/GpV47rUYk8I)
+- The need for sleep
+    - [Your Brain On Sleep Deprivation](https://www.youtube.com/embed/lvKrDsreUgM)
+    - [What would happen if you didn’t sleep?](https://www.youtube.com/embed/dqONk48l5vY)
+    - [How Sleep Affects Your Brain](https://www.youtube.com/embed/IzQ2siryQrM)
+- [About, Ideas, Now](https://aboutideasnow.com/)
