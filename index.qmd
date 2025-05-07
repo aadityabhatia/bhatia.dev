@@ -66,6 +66,17 @@ Instructor, [EECS](https://www.westpoint.edu/academics/departments/electrical-en
 - [Generally Genius: A Generals.io Agent Development and Data Collection Framework](https://ojs.aaai.org/index.php/AIIDE/article/view/27536). Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (October 2023)
 
 
+## Projects
+
+[<i class="bi bi-robot"></i> Generally Genius](https://corsaircoalition.github.io/){.btn .btn-info} bot framework to develop automated agents for [generals.io](https://generals.io/), a fast-paced real-time strategy game with imperfect information within a 2D grid world
+
+[<i class="bi bi-github"></i> AutoGrader](https://github.com/aadityabhatia/autograder){.btn .btn-info} is an experiment to automatically assess student homework using language models
+
+[<i class="bi bi-github"></i> Synthetic Data Generation Scripts](https://github.com/aadityabhatia/synthetic-dataset-generators){.btn .btn-info} Python scripts to generate synthetic datasets for educational purposes
+
+[<i class="bi bi-hourglass-split"></i> USMA Class Timer](https://classtime.bhatia.dev/){.btn .btn-info}
+
+
 ## Past Courses
 
 ### Spring 2025
