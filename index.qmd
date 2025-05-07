@@ -29,18 +29,15 @@ Instructor, [EECS](https://www.westpoint.edu/academics/departments/electrical-en
 ### Teaching
 
 [CY350: Computer Networks](https://cy350.bhatia.dev/){.btn .btn-primary .disabled}
-[CS380: Computer Organization](https://cs380.bhatia.dev/){.btn .btn-primary .disabled}
 
-
-### Research Areas
-
-[Collective Intelligence]{.btn .btn-secondary .disabled}
-[Cognitive Patterns]{.btn .btn-secondary .disabled}
-[Software Architecture]{.btn .btn-secondary .disabled}
+[CS380: Computer Systems and Organization](https://cs380.bhatia.dev/){.btn .btn-primary .disabled}
 
 
 ### More
+
 [Awesome Articles and Resources](/awesome.qmd){.btn .btn-primary}
+
+[ArgMap: MS Thesis Project](https://argmap.bhatia.dev/){.btn .btn-primary}
 
 :::
 
@@ -49,7 +46,7 @@ Instructor, [EECS](https://www.westpoint.edu/academics/departments/electrical-en
 
 ## Ideas
 
-- How can LLMs enable us to ingest massive streams of unstructured information, incorporate diverse perspectives and distill them into actionable insights that align with public opinion? [ArgMap](https://argmap.bhatia.dev/){.btn .btn-primary}
+- [ArgMap: How can LLMs enable us to ingest massive streams of unstructured information, incorporate diverse perspectives and distill them into actionable insights that align with public opinion?](https://argmap.bhatia.dev/)
 
 
 ## Publications
