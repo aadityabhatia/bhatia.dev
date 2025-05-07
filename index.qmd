@@ -28,16 +28,16 @@ Instructor, [EECS](https://www.westpoint.edu/academics/departments/electrical-en
 
 ### Teaching
 
-[CY350: Computer Networks](https://cy350.bhatia.dev/){.btn .btn-primary .disabled}
+[<i class="bi bi-hdd-network"></i> CY350: Computer Networks](https://cy350.bhatia.dev/){.btn .btn-primary .disabled}
 
-[CS380: Computer Systems and Organization](https://cs380.bhatia.dev/){.btn .btn-primary .disabled}
+[<i class="bi bi-cpu"></i> CS380: Computer Systems and Organization](https://cs380.bhatia.dev/){.btn .btn-primary .disabled}
 
 
 ### More
 
-[Awesome Articles and Resources](/awesome.qmd){.btn .btn-primary}
+[<i class="bi bi-bookmark-star"></i> Awesome Articles and Resources](/awesome){.btn .btn-primary}
 
-[ArgMap: MS Thesis Project](https://argmap.bhatia.dev/){.btn .btn-primary}
+[<i class="bi bi-mortarboard"></i> ArgMap: MS Thesis Project](https://argmap.bhatia.dev/){.btn .btn-primary}
 
 :::
 
@@ -59,9 +59,9 @@ Instructor, [EECS](https://www.westpoint.edu/academics/departments/electrical-en
 
 - [Moderating Democratic Discourse with LLMs](https://link.springer.com/chapter/10.1007/978-3-031-72241-7_12), SBP-BRiMS (September 2024)
 
-- [Using LLMs to Structure and Visualize Policy Discourse](https://doi.org/10.1007/978-981-97-9536-9_5), [DemocrAI workshop at IJCAI 2024](https://sites.google.com/view/democrai2024) (August 2024) [Best Paper Award]{.btn .btn-success .disabled}
+- [Using LLMs to Structure and Visualize Policy Discourse](https://doi.org/10.1007/978-981-97-9536-9_5), [DemocrAI workshop at IJCAI 2024](https://sites.google.com/view/democrai2024) (August 2024) [<i class="bi bi-award"></i> Best Paper Award]{.btn .btn-success .disabled}
 
-- [Advancing Policy Insights: Opinion Data Analysis and Discourse Structuring Using LLMs](https://stars.library.ucf.edu/etd2023/204/). Graduate Thesis and Dissertation 2023-2024. University of Central Florida. (May 2024) [UCF Founders' Day Outstanding Master's Thesis Award]{.btn .btn-success .disabled}
+- [Advancing Policy Insights: Opinion Data Analysis and Discourse Structuring Using LLMs](https://stars.library.ucf.edu/etd2023/204/). Graduate Thesis and Dissertation 2023-2024. University of Central Florida. (May 2024) [<i class="bi bi-award"></i> UCF Founders' Day Outstanding Master's Thesis Award]{.btn .btn-success .disabled}
 
 - [Generally Genius: A Generals.io Agent Development and Data Collection Framework](https://ojs.aaai.org/index.php/AIIDE/article/view/27536). Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (October 2023)
 
@@ -69,7 +69,7 @@ Instructor, [EECS](https://www.westpoint.edu/academics/departments/electrical-en
 ## Past Courses
 
 ### Spring 2025
-[CY305: Cyber Foundations]{.btn .btn-secondary .disabled}
+[<i class="bi bi-clipboard-data"></i> CY305: Cyber Foundations]{.btn .btn-secondary .disabled}
 
 ### Fall 2024
-[CY105: Computing Fundamentals](https://cy105.bhatia.dev/){.btn .btn-primary}
+[<i class="bi bi-pc-display-horizontal"></i> CY105: Computing Fundamentals](https://cy105.bhatia.dev/){.btn .btn-primary}
