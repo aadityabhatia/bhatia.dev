@@ -46,7 +46,13 @@ Instructor, [EECS](https://www.westpoint.edu/academics/departments/electrical-en
 
 ## Ideas
 
-- [ArgMap: How can LLMs enable us to ingest massive streams of unstructured information, incorporate diverse perspectives and distill them into actionable insights that align with public opinion?](https://argmap.bhatia.dev/)
+- [ArgMap: How can LLMs enable us to ingest massive streams of unstructured information, incorporate diverse perspectives and distill them into actionable insights that align with public opinion?](https://argmap.bhatia.dev/). [Bowling Green, KY ran a study](https://polygraph-cool.github.io/m2-report/) (2025) using [pol.is](https://pol.is/) for deliberation at scale.
+
+- How do we leverage AI to best develop critical thinking skills in the classroom? How do we protect against AI taking over? [Lodestone](https://maggieappleton.com/lodestone/) is a great thought experiment in this space.
+
+- [AutoGrader: How can LLMs assess student homework and provide meaningful feedback?](https://github.com/aadityabhatia/autograder)
+
+- What design patterns can enable us to collaborate with other humans and AI agents to collectively solve [wicked problems](https://en.m.wikipedia.org/wiki/Wicked_problem)? How do we leverage machines to act as [complementary](https://nautil.us/will-ai-harm-us-better-to-ask-how-well-reckon-with-our-hybrid-nature-236098/) [cognitive artifacts](https://doi.org/10.1007/BF02032391) that augment our human capabilities?
 
 
 ## Publications
