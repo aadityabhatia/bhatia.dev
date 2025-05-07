@@ -1,0 +1,7 @@
+---
+title: "Not Found"
+---
+
+This page has gone to that great server in the sky. Try refreshing your life choices.
+
+[back_to_home();](/){.btn .btn-danger}

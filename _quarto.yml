@@ -14,6 +14,7 @@ website:
   title: Sonny Bhatia
   description:  Army Officer | Researcher | Software Architect
   site-url: https://bhatia.dev
+  repo-url: https://github.com/aadityabhatia/bhatia.dev
   image: https://gravatar.com/avatar/d3a9cc1b103d1d983c1cf41bad7b6587e5efd5a2525866b9fce14dcb5f949fcf?size=360
   open-graph: true
   page-footer: "© 2025 Aaditya Bhatia"
