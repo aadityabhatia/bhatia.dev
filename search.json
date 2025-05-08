@@ -4,62 +4,83 @@
     "href": "index.html",
     "title": "Sonny Bhatia",
     "section": "",
-    "text": "LinkedIn\n  \n  \n    \n     Github\n  \n  \n    \n     ORCID\n  \n\n  \n  \nInstructor, EECS, US Military Academy at West Point\n\n\n CY350: Computer Networks\n CS380: Computer Systems and Organization\n\n\n\n Awesome Articles and Resources\n ArgMap: MS Thesis Project"
+    "text": "LinkedIn\n  \n  \n    \n     Github\n  \n  \n    \n     ORCID\n  \n\n  \n  \n\n\n🪖 Captain, U.S. Army\n🏫 Instructor, EECS, US Military Academy at West Point\n🔎 Researching Collective Intelligence, Democratic Deliberation and AI in Education\n\n\n\n🖧 CY350: Computer Networks\n CS380: Computer Systems and Organization\n\n\n\n⭐ Awesome Stuff\n🎓 ArgMap: MS Thesis Project"
+  },
+  {
+    "objectID": "index.html#now",
+    "href": "index.html#now",
+    "title": "Sonny Bhatia",
+    "section": "",
+    "text": "🪖 Captain, U.S. Army\n🏫 Instructor, EECS, US Military Academy at West Point\n🔎 Researching Collective Intelligence, Democratic Deliberation and AI in Education"
+  },
+  {
+    "objectID": "index.html#fall-2025",
+    "href": "index.html#fall-2025",
+    "title": "Sonny Bhatia",
+    "section": "",
+    "text": "🖧 CY350: Computer Networks\n CS380: Computer Systems and Organization"
+  },
+  {
+    "objectID": "index.html#more",
+    "href": "index.html#more",
+    "title": "Sonny Bhatia",
+    "section": "",
+    "text": "⭐ Awesome Stuff\n🎓 ArgMap: MS Thesis Project"
   },
   {
     "objectID": "index.html#ideas",
     "href": "index.html#ideas",
     "title": "Sonny Bhatia",
-    "section": "Ideas",
-    "text": "Ideas\n\nArgMap: How can LLMs enable us to ingest massive streams of unstructured information, incorporate diverse perspectives and distill them into actionable insights that align with public opinion?. Bowling Green, KY ran a study (2025) using pol.is for deliberation at scale.\nHow do we leverage AI to best develop critical thinking skills in the classroom? How do we protect against AI taking over? Lodestone is a great thought experiment in this space.\nAutoGrader: How can LLMs assess student homework and provide meaningful feedback?\nWhat design patterns can enable us to collaborate with other humans and AI agents to collectively solve wicked problems? How do we leverage machines to act as complementary cognitive artifacts that augment our human capabilities?"
+    "section": "🧠 Ideas",
+    "text": "🧠 Ideas\n\nHow can LLMs enable us to ingest massive streams of unstructured information, incorporate diverse perspectives and distill them into actionable insights that align with public opinion?  ArgMap\nHow do we leverage AI to best develop critical thinking skills in the classroom? How do we maintain our cognitive abilities? 🌿 Lodestone is a great thought experiment in this space.\nHow can LLMs assess student homework and provide meaningful feedback?  AutoGrader\nWhat design patterns can enable us to collaborate with other humans and AI agents to collectively solve wicked problems? How do we leverage machines to act as complementary cognitive artifacts that augment our human capabilities?"
   },
   {
     "objectID": "index.html#publications",
     "href": "index.html#publications",
     "title": "Sonny Bhatia",
-    "section": "Publications",
-    "text": "Publications\n\nModerating Democratic Discourse with LLMs, SBP-BRiMS (September 2024)\nUsing LLMs to Structure and Visualize Policy Discourse, DemocrAI workshop at IJCAI 2024 (August 2024)  Best Paper Award\nAdvancing Policy Insights: Opinion Data Analysis and Discourse Structuring Using LLMs. Graduate Thesis and Dissertation 2023-2024. University of Central Florida. (May 2024)  UCF Founders’ Day Outstanding Master’s Thesis Award\nGenerally Genius: A Generals.io Agent Development and Data Collection Framework. Proceedings of the AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (October 2023)"
+    "section": "📜 Publications",
+    "text": "📜 Publications\n\nModerating Democratic Discourse with LLMs, SBP-BRiMS (September 2024)\nUsing LLMs to Structure and Visualize Policy Discourse, DemocrAI workshop at IJCAI 2024 (August 2024) 🏆 Best Paper Award\nAdvancing Policy Insights: Opinion Data Analysis and Discourse Structuring Using LLMs. Graduate Thesis and Dissertation 2023-2024. University of Central Florida. (May 2024) 🏆 UCF Founders’ Day Outstanding Master’s Thesis Award\nGenerally Genius: A Generals.io Agent Development and Data Collection Framework. AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment (October 2023)"
   },
   {
     "objectID": "index.html#projects",
     "href": "index.html#projects",
     "title": "Sonny Bhatia",
-    "section": "Projects",
-    "text": "Projects\n Generally Genius bot framework to develop automated agents for generals.io, a fast-paced real-time strategy game with imperfect information within a 2D grid world\n AutoGrader is an experiment to automatically assess student homework using language models\n Synthetic Data Generation Scripts Python scripts to generate synthetic datasets for educational purposes\n USMA Class Timer"
+    "section": "🏗️ Projects",
+    "text": "🏗️ Projects\n🤖 Generally Genius bot framework to develop automated agents for generals.io, a fast-paced real-time strategy game with imperfect information within a 2D grid world TypeScript Python \n Synthetic Data Generator scripts to generate synthetic datasets for educational purposes Python \n⏳ USMA Class Timer generated primarily using ChatGPT HTML JavaScript"
   },
   {
     "objectID": "index.html#past-courses",
     "href": "index.html#past-courses",
     "title": "Sonny Bhatia",
-    "section": "Past Courses",
-    "text": "Past Courses\n\nSpring 2025\n CY305: Cyber Foundations\n\n\nFall 2024\n CY105: Computing Fundamentals"
+    "section": "🏫 Past Courses",
+    "text": "🏫 Past Courses\n\n🗓️ Spring 2025 🗃️ CY305: Cyber Foundations\n\n\n🗓️ Fall 2024 🖥️ CY105: Computing Fundamentals"
   },
   {
     "objectID": "awesome.html",
     "href": "awesome.html",
-    "title": "Awesome Articles and Resources",
+    "title": "Awesome Stuff",
     "section": "",
-    "text": "Krebs on Security - RSS\nBleeping Computer - RSS\nBruce Schneier - RSS\nTroy Hunt - RSS\nHacker News - Quality News\n\n\n\n\n\nPrivacy Guides - privacy-focused tools and recommendations\n\nPrivacyTools\n\nMITRE ATT&CK\nBuilding a home lab\nUSASOC Smart Cards\nTerms of Service; Didn’t Read\n\n\n\n\n\nCloudflare for Families - DNS-based tracker and adult content blocker\nPi-hole - network-wide DNS-based ad blocker\npfSense - open-source firewall\nNextDNS - DNS-based tracker blocker\n\n\n\n\n\nTailscale - mesh networking (personal VPN) for your devices\nSyncthing - file synchronization across devices\nNextcloud - self-hosted cloud storage, calendar, contacts, RSS feed reader\nGitea - self-hosted Git service, replacement for GitHub\nBitwarden - self-hosted password manager\nJitsi - self-hosted video conferencing\nMattermost - self-hosted Slack alternative\n\n\n\n\n\nSignal Messenger - non-profit, encrypted messaging, voice, and video calls\nProtonMail - encrypted email\nElement - encrypted chat, video, and voice calls based on Matrix protocol; can run your own server\nPGP Encryption\n\n\n\n\n\nFlipper Zero (2023)\n\nMeanwhile, in Canada… {2024}\n\nInside the “3 Billion People” National Public Data Breach (2024)\nThe Global Surveillance Free-for-All in Mobile Ad Data (2024)\nWhy digital privacy matters\nThe Social Dilemma (2020) - documentary on social media\nThe Great Hack (2019) - documentary on Cambridge Analytica scandal\n\n\n\n\n\nhaveibeenpwned.com - subscribe to breach notifications\nMozilla Monitor - find and fix data exposures\nFirefox - privacy-focused browser\nDuckDuckGo - privacy-focused search engine\nCover Your Tracks - browser fingerprinting test\nNextDNS - DNS-based tracker blocker\n\nor self-host Pi-hole\n\nConsumer Reports: Privacy and Security\nSurveillance Self-Defense\nData Removal Guide: inteltechniques.com"
+    "text": "Krebs on Security \nBleeping Computer \nBruce Schneier \nTroy Hunt \nHacker News - Quality News\n\n\n\n\n\nPrivacy Guides  - privacy-focused tools and recommendations\n\nPrivacyTools\n\nMITRE ATT&CK\nBuilding a home lab\nUSASOC Smart Cards\nTerms of Service; Didn’t Read\n\n\n\n\n\nCloudflare for Families - DNS-based tracker and adult content blocker\nPi-hole - network-wide DNS-based ad blocker\npfSense - open-source firewall\nNextDNS - DNS-based tracker blocker\n\n\n\n\n\nTailscale - mesh networking (personal VPN) for your devices\nSyncthing - file synchronization across devices\nNextcloud - self-hosted cloud storage, calendar, contacts, RSS feed reader\nGitea - self-hosted Git service, replacement for GitHub\nBitwarden - self-hosted password manager\nJitsi - self-hosted video conferencing\nMattermost - self-hosted Slack alternative\n\n\n\n\n\nSignal Messenger - non-profit, encrypted messaging, voice, and video calls\nProtonMail - encrypted email\nElement - encrypted chat, video, and voice calls based on Matrix protocol; can run your own server\nPGP Encryption\n\n\n\n\n\nFlipper Zero (2023)\n\nMeanwhile, in Canada… {2024}\n\nInside the “3 Billion People” National Public Data Breach (2024)\nThe Global Surveillance Free-for-All in Mobile Ad Data (2024)\nWhy digital privacy matters\nThe Social Dilemma (2020) - documentary on social media\nThe Great Hack (2019) - documentary on Cambridge Analytica scandal\n\n\n\n\n\nhaveibeenpwned.com - subscribe to breach notifications\nMozilla Monitor - find and fix data exposures\nFirefox - privacy-focused browser\nDuckDuckGo - privacy-focused search engine\nCover Your Tracks - browser fingerprinting test\nNextDNS - DNS-based tracker blocker\n\nor self-host Pi-hole\n\nConsumer Reports: Privacy and Security\nSurveillance Self-Defense\nData Removal Guide: inteltechniques.com"
   },
   {
     "objectID": "awesome.html#cyber-security-and-privacy",
     "href": "awesome.html#cyber-security-and-privacy",
-    "title": "Awesome Articles and Resources",
+    "title": "Awesome Stuff",
     "section": "",
-    "text": "Krebs on Security - RSS\nBleeping Computer - RSS\nBruce Schneier - RSS\nTroy Hunt - RSS\nHacker News - Quality News\n\n\n\n\n\nPrivacy Guides - privacy-focused tools and recommendations\n\nPrivacyTools\n\nMITRE ATT&CK\nBuilding a home lab\nUSASOC Smart Cards\nTerms of Service; Didn’t Read\n\n\n\n\n\nCloudflare for Families - DNS-based tracker and adult content blocker\nPi-hole - network-wide DNS-based ad blocker\npfSense - open-source firewall\nNextDNS - DNS-based tracker blocker\n\n\n\n\n\nTailscale - mesh networking (personal VPN) for your devices\nSyncthing - file synchronization across devices\nNextcloud - self-hosted cloud storage, calendar, contacts, RSS feed reader\nGitea - self-hosted Git service, replacement for GitHub\nBitwarden - self-hosted password manager\nJitsi - self-hosted video conferencing\nMattermost - self-hosted Slack alternative\n\n\n\n\n\nSignal Messenger - non-profit, encrypted messaging, voice, and video calls\nProtonMail - encrypted email\nElement - encrypted chat, video, and voice calls based on Matrix protocol; can run your own server\nPGP Encryption\n\n\n\n\n\nFlipper Zero (2023)\n\nMeanwhile, in Canada… {2024}\n\nInside the “3 Billion People” National Public Data Breach (2024)\nThe Global Surveillance Free-for-All in Mobile Ad Data (2024)\nWhy digital privacy matters\nThe Social Dilemma (2020) - documentary on social media\nThe Great Hack (2019) - documentary on Cambridge Analytica scandal\n\n\n\n\n\nhaveibeenpwned.com - subscribe to breach notifications\nMozilla Monitor - find and fix data exposures\nFirefox - privacy-focused browser\nDuckDuckGo - privacy-focused search engine\nCover Your Tracks - browser fingerprinting test\nNextDNS - DNS-based tracker blocker\n\nor self-host Pi-hole\n\nConsumer Reports: Privacy and Security\nSurveillance Self-Defense\nData Removal Guide: inteltechniques.com"
+    "text": "Krebs on Security \nBleeping Computer \nBruce Schneier \nTroy Hunt \nHacker News - Quality News\n\n\n\n\n\nPrivacy Guides  - privacy-focused tools and recommendations\n\nPrivacyTools\n\nMITRE ATT&CK\nBuilding a home lab\nUSASOC Smart Cards\nTerms of Service; Didn’t Read\n\n\n\n\n\nCloudflare for Families - DNS-based tracker and adult content blocker\nPi-hole - network-wide DNS-based ad blocker\npfSense - open-source firewall\nNextDNS - DNS-based tracker blocker\n\n\n\n\n\nTailscale - mesh networking (personal VPN) for your devices\nSyncthing - file synchronization across devices\nNextcloud - self-hosted cloud storage, calendar, contacts, RSS feed reader\nGitea - self-hosted Git service, replacement for GitHub\nBitwarden - self-hosted password manager\nJitsi - self-hosted video conferencing\nMattermost - self-hosted Slack alternative\n\n\n\n\n\nSignal Messenger - non-profit, encrypted messaging, voice, and video calls\nProtonMail - encrypted email\nElement - encrypted chat, video, and voice calls based on Matrix protocol; can run your own server\nPGP Encryption\n\n\n\n\n\nFlipper Zero (2023)\n\nMeanwhile, in Canada… {2024}\n\nInside the “3 Billion People” National Public Data Breach (2024)\nThe Global Surveillance Free-for-All in Mobile Ad Data (2024)\nWhy digital privacy matters\nThe Social Dilemma (2020) - documentary on social media\nThe Great Hack (2019) - documentary on Cambridge Analytica scandal\n\n\n\n\n\nhaveibeenpwned.com - subscribe to breach notifications\nMozilla Monitor - find and fix data exposures\nFirefox - privacy-focused browser\nDuckDuckGo - privacy-focused search engine\nCover Your Tracks - browser fingerprinting test\nNextDNS - DNS-based tracker blocker\n\nor self-host Pi-hole\n\nConsumer Reports: Privacy and Security\nSurveillance Self-Defense\nData Removal Guide: inteltechniques.com"
   },
   {
     "objectID": "awesome.html#computing-and-technology",
     "href": "awesome.html#computing-and-technology",
-    "title": "Awesome Articles and Resources",
+    "title": "Awesome Stuff",
     "section": "Computing and Technology",
-    "text": "Computing and Technology\n\nHackaday - RSS\nHide and Seek!\nCan ChatGPT be wrong?\nWhat is Python\narrr - Pirate module for Python\nWhere really is the Internet?\nSeating chart generator\nVortex Cannon vs Drone\nAlgorithms\n\nThe Better Boarding Method Airlines Won’t Use\nPB&J Sandwich"
+    "text": "Computing and Technology\n\nHackaday \nHide and Seek!\nCan ChatGPT be wrong?\nWhat is Python\narrr - Pirate module for Python\nWhere really is the Internet?\nSeating chart generator\nVortex Cannon vs Drone\nAlgorithms\n\nThe Better Boarding Method Airlines Won’t Use\nPB&J Sandwich"
   },
   {
     "objectID": "awesome.html#learning-and-productivity",
     "href": "awesome.html#learning-and-productivity",
-    "title": "Awesome Articles and Resources",
+    "title": "Awesome Stuff",
     "section": "Learning and Productivity",
-    "text": "Learning and Productivity\n\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten - integrated thinking method!\n\nZettelkasten Explained\n\n\nThe need for sleep\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\nAbout, Ideas, Now"
+    "text": "Learning and Productivity\n\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten  - integrated thinking method!\n\nZettelkasten Explained\n\n\nThe need for sleep\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\nAbout, Ideas, Now"
   }
 ]
