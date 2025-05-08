@@ -1,21 +1,21 @@
 ---
-title: "Awesome Articles and Resources"
+title: "Awesome Stuff"
 ---
 
 ## Cyber, Security, and Privacy
 
 ### Feeds and News
 
-- [Krebs on Security](https://krebsonsecurity.com/) - [RSS](https://krebsonsecurity.com/feed/)
-- [Bleeping Computer](https://www.bleepingcomputer.com/) - [RSS](https://www.bleepingcomputer.com/feed/security/)
-- [Bruce Schneier](https://www.schneier.com/) - [RSS](https://www.schneier.com/feed/)
-- [Troy Hunt](https://www.troyhunt.com/) - [RSS](https://www.troyhunt.com/rss/)
+- [Krebs on Security](https://krebsonsecurity.com/) [<i class="bi bi-rss"></i>](https://krebsonsecurity.com/feed/)
+- [Bleeping Computer](https://www.bleepingcomputer.com/) [<i class="bi bi-rss"></i>](https://www.bleepingcomputer.com/feed/security/)
+- [Bruce Schneier](https://www.schneier.com/) [<i class="bi bi-rss"></i>](https://www.schneier.com/feed/)
+- [Troy Hunt](https://www.troyhunt.com/) [<i class="bi bi-rss"></i>](https://www.troyhunt.com/rss/)
 - [Hacker News](https://news.ycombinator.com/) - [Quality News](https://news.social-protocols.org/)
 
 
 ### Learning Resources
 
-- [Privacy Guides](https://www.privacyguides.org/) - privacy-focused tools and recommendations
+- [Privacy Guides](https://www.privacyguides.org/) [<i class="bi bi-rss"></i>](https://www.privacyguides.org/articles/feed_rss_created.xml) - privacy-focused tools and recommendations
     - [PrivacyTools](https://www.privacytools.io/)
 - [MITRE ATT&CK](https://attack.mitre.org/)
 - [Building a home lab](https://aj-labz.gitbook.io/aj-labz)
@@ -77,7 +77,7 @@ title: "Awesome Articles and Resources"
 
 ## Computing and Technology
 
-- [Hackaday](https://hackaday.com/) - [RSS](https://hackaday.com/feed/)
+- [Hackaday](https://hackaday.com/) [<i class="bi bi-rss"></i>](https://hackaday.com/feed/)
 - [Hide and Seek!](https://www.youtube.com/embed/Lu56xVlZ40M)
 - [Can ChatGPT be wrong?](https://chatgpt.com/share/a329b032-7e1d-4568-be40-9227de866a8b)
 - [What is Python](https://www.youtube.com/embed/x7X9w_GIm1s)
@@ -103,7 +103,7 @@ title: "Awesome Articles and Resources"
 - How to take good notes?
     - [Logseq](https://logseq.com/) or [Obsidian](https://obsidian.md/) - journaling, linking, knowledge management
     - OneNote
-    - [Zettelkasten](https://zettelkasten.de/) - integrated thinking method!
+    - [Zettelkasten](https://zettelkasten.de/) [<i class="bi bi-rss"></i>](https://zettelkasten.de/feed.atom) - integrated thinking method!
         - [Zettelkasten Explained](https://www.youtube.com/embed/GpV47rUYk8I)
 - The need for sleep
     - [Your Brain On Sleep Deprivation](https://www.youtube.com/embed/lvKrDsreUgM)
