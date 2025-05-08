@@ -28,7 +28,7 @@ format:
     smooth-scroll: true
     page-layout: full
     fig-align: center
-    fontsize: 1.4em
+    fontsize: 1.2em
     respect-user-color-scheme: true
     theme:
       light:
