@@ -28,7 +28,7 @@ format:
 
 🏫 Instructor, [EECS](https://www.westpoint.edu/academics/departments/electrical-engineering-and-computer-science), [US Military Academy at West Point](https://www.westpoint.edu/)
 
-🔎 Researching [Collective Intelligence]{.btn .btn-secondary .disabled}, [Democratic Deliberation]{.btn .btn-secondary .disabled} and [AI in Education]{.btn .btn-secondary .disabled}
+🔎 Researching **Collective Intelligence**, **Democratic Deliberation**, **AI for Critical Thinking**
 
 
 ## Fall 2025
@@ -37,13 +37,6 @@ format:
 
 [<i class="bi bi-cpu"></i> CS380: Computer Systems and Organization](https://cs380.bhatia.dev/){.btn .btn-primary .disabled}
 
-
-## More
-
-[⭐ Awesome Stuff](/awesome){.btn .btn-primary}
-
-[🎓 ArgMap: MS Thesis Project](https://argmap.bhatia.dev/){.btn .btn-primary}
-
 :::
 
 <div style="margin-top: 3em;"></div>
@@ -51,7 +44,7 @@ format:
 
 ## 🧠 Ideas
 
-- How can LLMs enable us to ingest massive streams of unstructured information, incorporate diverse perspectives and distill them into actionable insights that align with public opinion? [<i class="bi bi-diagram-3"></i> ArgMap](https://argmap.bhatia.dev/){.btn .btn-primary}
+- How can LLMs enable us to ingest massive streams of unstructured information, incorporate diverse perspectives and distill them into actionable insights that align with public opinion? [<i class="bi bi-diagram-3"></i> ArgMap 🎓 MS Thesis Project](https://argmap.bhatia.dev/){.btn .btn-primary}
 
 - How do we leverage AI to best develop critical thinking skills in the classroom? How do we maintain our cognitive abilities? [🌿 Lodestone](https://maggieappleton.com/lodestone/) is a great thought experiment in this space.
 
@@ -62,22 +55,25 @@ format:
 
 ## 📜 Publications
 
-- [Moderating Democratic Discourse with LLMs](https://link.springer.com/chapter/10.1007/978-3-031-72241-7_12), [SBP-BRiMS](https://sbp-brims.org/2024/) (September 2024)
+- [Moderating Democratic Discourse with LLMs](https://link.springer.com/chapter/10.1007/978-3-031-72241-7_12), [SBP-BRiMS 2024](https://sbp-brims.org/2024/)
 
-- [Using LLMs to Structure and Visualize Policy Discourse](https://doi.org/10.1007/978-981-97-9536-9_5), [DemocrAI workshop at IJCAI 2024](https://sites.google.com/view/democrai2024) (August 2024) [🏆 Best Paper Award]{.btn .btn-success .disabled}
+- [Using LLMs to Structure and Visualize Policy Discourse](https://doi.org/10.1007/978-981-97-9536-9_5), [DemocrAI workshop at IJCAI 2024](https://sites.google.com/view/democrai2024) [🏆 Best Paper Award]{.badge .text-bg-success}
 
-- [Advancing Policy Insights: Opinion Data Analysis and Discourse Structuring Using LLMs](https://stars.library.ucf.edu/etd2023/204/). Graduate Thesis and Dissertation 2023-2024. University of Central Florida. (May 2024) [🏆 UCF Founders' Day Outstanding Master's Thesis Award]{.btn .btn-success .disabled}
+- [Advancing Policy Insights: Opinion Data Analysis and Discourse Structuring Using LLMs](https://stars.library.ucf.edu/etd2023/204/). Graduate Thesis and Dissertation 2023-2024. University of Central Florida. [🏆 UCF Founders' Day Outstanding Master's Thesis Award]{.badge .text-bg-success}
 
-- [Generally Genius: A Generals.io Agent Development and Data Collection Framework](https://ojs.aaai.org/index.php/AIIDE/article/view/27536). [AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment](http://aiide.org/) (October 2023)
+- [Generally Genius: A Generals.io Agent Development and Data Collection Framework](https://ojs.aaai.org/index.php/AIIDE/article/view/27536). [AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment 2023](http://aiide.org/)
 
 
 ## 🏗️ Projects
 
-[🤖 Generally Genius](https://corsaircoalition.github.io/){.btn .btn-primary} bot framework to develop automated agents for [generals.io](https://generals.io/), a fast-paced real-time strategy game with imperfect information within a 2D grid world [TypeScript]{.btn .btn-secondary .disabled} [Python]{.btn .btn-secondary .disabled} [<i class="bi bi-github"></i>](https://github.com/CorsairCoalition){.btn .btn-secondary}
+[⭐ Awesome Stuff](/awesome){.btn .btn-primary} curated list of awesome resources, tools, and projects related to computing, technology and life in general
 
-[<i class="bi bi-github"></i> Synthetic Data Generator](https://github.com/aadityabhatia/synthetic-dataset-generators){.btn .btn-primary} scripts to generate synthetic datasets for educational purposes [Python]{.btn .btn-secondary .disabled} [<i class="bi bi-github"></i>](https://github.com/aadityabhatia/synthetic-dataset-generators){.btn .btn-secondary}
 
-[⏳ USMA Class Timer](https://classtime.bhatia.dev/){.btn .btn-primary} generated primarily using ChatGPT [HTML]{.btn .btn-secondary .disabled} [JavaScript]{.btn .btn-secondary .disabled} [<i class="bi bi-github"></i>](https://github.com/aadityabhatia/usma-class-timer){.btn .btn-secondary}
+[🤖 Generally Genius](https://corsaircoalition.github.io/){.btn .btn-primary} bot framework to develop automated agents for [generals.io](https://generals.io/), a fast-paced real-time strategy game with imperfect information within a 2D grid world [TypeScript]{.badge .text-bg-secondary} [Python]{.badge .text-bg-secondary}
+
+[<i class="bi bi-github"></i> Synthetic Data Generator](https://github.com/aadityabhatia/synthetic-dataset-generators){.btn .btn-primary} scripts to generate synthetic datasets for educational purposes [Python]{.badge .text-bg-secondary}
+
+[⏳ USMA Class Timer](https://classtime.bhatia.dev/){.btn .btn-primary} generated primarily using ChatGPT [HTML]{.badge .text-bg-secondary} [JavaScript]{.badge .text-bg-secondary}
 
 
 ## 🏫 Past Courses
