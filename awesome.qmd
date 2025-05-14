@@ -4,13 +4,14 @@ title: "Awesome Stuff"
 
 ## Cyber, Security, and Privacy
 
-### Feeds and News
+### News Feeds
 
 - [Krebs on Security](https://krebsonsecurity.com/) [<i class="bi bi-rss"></i>](https://krebsonsecurity.com/feed/)
 - [Bleeping Computer](https://www.bleepingcomputer.com/) [<i class="bi bi-rss"></i>](https://www.bleepingcomputer.com/feed/security/)
 - [Bruce Schneier](https://www.schneier.com/) [<i class="bi bi-rss"></i>](https://www.schneier.com/feed/)
 - [Troy Hunt](https://www.troyhunt.com/) [<i class="bi bi-rss"></i>](https://www.troyhunt.com/rss/)
 - [Hacker News](https://news.ycombinator.com/) - [Quality News](https://news.social-protocols.org/)
+- [Military Times Early Bird Briefing](https://ec.militarytimes.com/ebb/)
 
 
 ### Learning Resources
@@ -21,11 +22,12 @@ title: "Awesome Stuff"
 - [Building a home lab](https://aj-labz.gitbook.io/aj-labz)
 - [USASOC Smart Cards](https://www.soc.mil/IdM/publications/IdMpubs.html)
 - [Terms of Service; Didn't Read](https://tosdr.org/)
+- [Kali](https://www.kali.org/) - Linux distribution for penetration testing and security auditing with a massive collection of tools
 
 
-###  Tracker, Ad-blockers, and Malware Protection
+###  Tracker, Ad-blockers, Malware Protection
 
-- [Cloudflare for Families](https://blog.cloudflare.com/introducing-1-1-1-1-for-families/) - DNS-based tracker and adult content blocker
+- [Cloudflare for Families](https://blog.cloudflare.com/introducing-1-1-1-1-for-families/) - DNS-based malware protection
 - [Pi-hole](https://pi-hole.net/) - network-wide DNS-based ad blocker
 - [pfSense](https://www.pfsense.org/) - open-source firewall
 - [NextDNS](https://nextdns.io/) - DNS-based tracker blocker
@@ -50,13 +52,21 @@ title: "Awesome Stuff"
 - [PGP Encryption](https://www.privacytools.io/encryption-tools/pgp/gpg/)
 
 
+### Android Tools and Resources
+
+- [F-Droid](https://f-droid.org/) - open-source Android app store for [free](https://en.wikipedia.org/wiki/Free_software) and [open-source](https://en.wikipedia.org/wiki/Free_and_open-source_software) apps
+- [LineageOS](https://lineageos.org/) - open-source Android OS that supports many devices
+- [GrapheneOS](https://grapheneos.org/) - privacy-focused Android OS for Pixel devices
+- [CalyxOS](https://calyxos.org/) - privacy-focused Android OS
+- [/e/OS](https://e.foundation/e-os/) - deGoogled Android OS
+
+
 ### News, Articles, Documentaries
 
 - [Flipper Zero (2023)](https://www.youtube.com/embed/nLIp4wd0oXs)
-    - [Meanwhile, in Canada... {2024}](https://arstechnica.com/security/2024/02/canada-vows-to-ban-flipper-zero-device-in-crackdown-on-car-theft/)
+    - [Meanwhile, in Canada... (2024)](https://arstechnica.com/security/2024/02/canada-vows-to-ban-flipper-zero-device-in-crackdown-on-car-theft/)
 - [Inside the "3 Billion People" National Public Data Breach (2024)](https://www.troyhunt.com/inside-the-3-billion-people-national-public-data-breach/)
 - [The Global Surveillance Free-for-All in Mobile Ad Data (2024)](https://krebsonsecurity.com/2024/10/the-global-surveillance-free-for-all-in-mobile-ad-data/)
-- [Why digital privacy matters](https://www.privacyguides.org/en/basics/why-privacy-matters/)
 - [The Social Dilemma (2020)](https://www.netflix.com/title/81254224) - documentary on social media
 - [The Great Hack (2019)](https://www.netflix.com/title/80117542) - documentary on Cambridge Analytica scandal
 
