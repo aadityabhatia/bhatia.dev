@@ -39,14 +39,14 @@
     "href": "index.html#publications",
     "title": "Sonny Bhatia",
     "section": "📜 Publications",
-    "text": "📜 Publications\n\nModerating Democratic Discourse with LLMs, SBP-BRiMS 2024\nUsing LLMs to Structure and Visualize Policy Discourse, DemocrAI workshop at IJCAI 2024 🏆 Best Paper Award\nAdvancing Policy Insights: Opinion Data Analysis and Discourse Structuring Using LLMs. Graduate Thesis and Dissertation 2023-2024. University of Central Florida. 🏆 UCF Founders’ Day Outstanding Master’s Thesis Award\nGenerally Genius: A Generals.io Agent Development and Data Collection Framework. AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment 2023"
+    "text": "📜 Publications\n\nModerating Democratic Discourse with LLMs, SBP-BRiMS 2024 Democratic Deliberation\nUsing LLMs to Structure and Visualize Policy Discourse, DemocrAI workshop at IJCAI 2024 🏆 Best Paper Award Democratic Deliberation\nAdvancing Policy Insights: Opinion Data Analysis and Discourse Structuring Using LLMs. Graduate Thesis and Dissertation 2023-2024. University of Central Florida. 🏆 UCF Founders’ Day 2025 Outstanding Master’s Thesis Award Collective Intelligence Democratic Deliberation\nGenerally Genius: A Generals.io Agent Development and Data Collection Framework. AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment 2023"
   },
   {
     "objectID": "index.html#projects",
     "href": "index.html#projects",
     "title": "Sonny Bhatia",
     "section": "🏗️ Projects",
-    "text": "🏗️ Projects\n⭐ Awesome Stuff curated list of awesome resources, tools, and projects related to computing, technology and life in general\n🤖 Generally Genius bot framework to develop automated agents for generals.io, a fast-paced real-time strategy game with imperfect information within a 2D grid world TypeScript Python\n Synthetic Data Generator scripts to generate synthetic datasets for educational purposes Python\n⏳ USMA Class Timer generated primarily using ChatGPT HTML JavaScript"
+    "text": "🏗️ Projects\n AutoGrader Python library to help evaluate student submissions Python\n Synthetic Data Generator scripts to generate synthetic datasets for educational purposes Python\n⏳ USMA Class Timer generated primarily using ChatGPT HTML JavaScript\n🤖 Generally Genius bot framework to develop automated agents for generals.io, a fast-paced real-time strategy game with imperfect information within a 2D grid world TypeScript Python\n⭐ Awesome Stuff curated list of awesome resources, tools, and projects related to computing, technology and life in general"
   },
   {
     "objectID": "index.html#past-courses",
