@@ -100,6 +100,52 @@ title: "Awesome Stuff"
     - [PB&J Sandwich](https://www.youtube.com/embed/FN2RM-CHkuI)
 
 
+### Programming References
+
+- [DevDocs.io](https://devdocs.io/)
+- [Programming Books for Professionals](https://goalkicker.com/)
+- [Official Python Documentation](https://docs.python.org/)
+- [Programming References on Canvas](https://westpoint.instructure.com/courses/7068/pages/programming-references)
+- [How to Python in VS Code](https://py-vscode.readthedocs.io/)
+- [Hour of Python](https://hourofpython.com/)
+- [Khan Academy: Intro to Python Fundamentals](https://www.khanacademy.org/computing/intro-to-python-fundamentals)
+
+
+### Developer Tools
+
+- [Marimo](https://marimo.app/) reactive notebook for Python
+- [Visual Studio Code](https://code.visualstudio.com/) - development environment for grown-ups
+- [CircuitPython Code Editor](https://code.circuitpython.org/) - IDE to work with microcontrollers like [Circuit Playground Bluefruit](https://www.adafruit.com/product/4333)
+- [diff Check](https://diffcheck.io/) - compare text side-by-side; great for comparing expected and actual output
+- [Pyodide](https://pyodide.org/en/stable/console.html) - in-browser REPL
+- [Python Tutor](https://pythontutor.com/python-compiler.html) - step through code execution, line-by-line
+- [Black Code Formatter](https://black.vercel.app/) - format Python code following [PEP 8 Style Guide](https://peps.python.org/pep-0008/)
+- [Thonny](https://thonny.org/) - Python development environment for beginners
+
+
+### Project Ideas and Resources
+
+- [Make It Yourself](https://makeityourself.org/) - A Beautifully Illustrated Guide to Making
+- [Hackaday](https://hackaday.com/) [<i class="bi bi-rss"></i>](https://hackaday.com/feed/)
+- [Hacker News: Show](https://news.ycombinator.com/show)
+- [Example Projects [Canvas]](https://westpoint.instructure.com/courses/7068/files/1911864/download)
+- [Text-based adventure game [zybook]](https://learn.zybooks.com/zybook/WESTPOINTCY105Fall2024/chapter/17/section/1)
+- [zork-py](https://github.com/iamjawa/zork-py) library for Python
+- [Kaggle Data Science Notebook](https://www.kaggle.com/code/ldfreeman3/a-data-science-framework-to-achieve-99-accuracy#Step-4:-Perform-Exploratory-Analysis-with-Statistics)
+- Circuit Playground Bluefruit: Puzzle Box, Escape Room, etc.
+    - [Fruit Piano](https://www.youtube.com/embed/UibfAZb1Xwo)
+- [tldraw makereal](https://makereal.tldraw.com/) - bring your application sketches to life! - [watch demo](https://www.youtube.com/embed/Ov2N2fd6Xm4)
+- Develop applications that use AI at runtime-
+    - [OpenAI API](https://platform.openai.com/) - message them for API credits as a student researcher
+    - [Anthropic API](https://console.anthropic.com/) - free limited API access
+    - [Streamlit](https://streamlit.io/) - hosting platform to turn data scripts into shareable web apps using Python
+- [Deepnote](https://deepnote.com/) - interactive web applications in Python
+- [Marimo](https://marimo.io/) - interactive web applications in Python
+- [GitHub pages](https://pages.github.com/) - host your websites and JavaScript applications for free
+- [Using Bluetooth (BLE) with Circuit Playground Bluefruit](https://github.com/adafruit/Adafruit_CircuitPython_BLE_Radio)
+- [Multi-tasking with CircuitPython](https://learn.adafruit.com/multi-tasking-with-circuitpython/overview)
+
+
 ## Learning and Productivity
 
 - [YouTube: Bloom’s Taxonomy: Structuring The Learning Journey](https://www.youtube.com/embed/ayefSTAnCR8)
