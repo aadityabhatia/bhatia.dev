@@ -166,3 +166,16 @@ title: "Awesome Stuff"
     - [What would happen if you didn’t sleep?](https://www.youtube.com/embed/dqONk48l5vY)
     - [How Sleep Affects Your Brain](https://www.youtube.com/embed/IzQ2siryQrM)
 - [About, Ideas, Now](https://aboutideasnow.com/)
+
+## Awesome Podcasts
+
+- [Inside West Point: Ideas That Impact](https://inside-west-point-ideas-that-impact.captivate.fm/) [<i class="bi bi-rss"></i>](https://feeds.captivate.fm/inside-west-point-ideas-that-impact/)
+- [Lex Fridman](https://lexfridman.com/podcast) [<i class="bi bi-rss"></i>](https://lexfridman.com/feed/podcast/)
+- [No Such Podcast](https://sites.libsyn.com/542957) [<i class="bi bi-rss"></i>](https://feeds.libsyn.com/542957/rss)
+- [Irregular Warfare Podcast](https://irregularwarfare.podbean.com/) [<i class="bi bi-rss"></i>](https://feed.podbean.com/IrregularWarfare/feed.xml)
+- [West Point Association of Graduates](https://www.westpointaog.org/news/news-room/?podcast=on&search-form-media-types-hidden-input=podcast) [<i class="bi bi-rss"></i>](https://feeds.simplecast.com/bFcXpdg_)
+- [WashingtonWise](https://www.schwab.com/learn/washingtonwise) [<i class="bi bi-rss"></i>](https://feeds.schwab.com/washingtonwise)
+- [TED Talks Daily](https://www.ted.com/talks) [<i class="bi bi-rss"></i>](https://feeds.feedburner.com/TEDTalks_audio) [<i class="bi bi-film"></i>](https://feeds.feedburner.com/TedtalksHD)
+- [NPR News Now](https://www.npr.org/podcasts/500005/npr-news-now) [<i class="bi bi-rss"></i>](https://feeds.npr.org/500005/podcast.xml)
+- [The World in Brief from The Economist](https://shows.acast.com/theeconomistmorningbriefing/) [<i class="bi bi-rss"></i>](https://feeds.acast.com/public/shows/theeconomistmorningbriefing)
+- [Up First from NPR](https://www.npr.org/podcasts/510318/up-first) [<i class="bi bi-rss"></i>](https://feeds.npr.org/510318/podcast.xml)
