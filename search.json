@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Sonny Bhatia",
     "section": "",
-    "text": "LinkedIn\n  \n  \n    \n     Github\n  \n  \n    \n     ORCID\n  \n\n  \n  \n\n\n🪖 Captain, U.S. Army\n🏫 Instructor, EECS, US Military Academy at West Point\n🔎 Researching Collective Intelligence, Democratic Deliberation, AI for Critical Thinking\n\n\n\n🖧 CY350: Computer Networks\n CS380: Computer Systems and Organization"
+    "text": "LinkedIn\n  \n  \n    \n     Github\n  \n  \n    \n     ORCID\n  \n\n  \n  \n\n\n🪖 Captain, U.S. Army\n🏫 Instructor, EECS, US Military Academy at West Point\n🔎 Researching Collective Intelligence, Democratic Deliberation, AI for Critical Thinking\n\n\n\n🖧 CY350: Computer Networks  CS380: Computer Systems and Organization\n\n\n\n⭐ Awesome Stuff  ArgMap"
   },
   {
     "objectID": "index.html#now",
@@ -18,14 +18,21 @@
     "href": "index.html#fall-2025",
     "title": "Sonny Bhatia",
     "section": "",
-    "text": "🖧 CY350: Computer Networks\n CS380: Computer Systems and Organization"
+    "text": "🖧 CY350: Computer Networks  CS380: Computer Systems and Organization"
+  },
+  {
+    "objectID": "index.html#more",
+    "href": "index.html#more",
+    "title": "Sonny Bhatia",
+    "section": "",
+    "text": "⭐ Awesome Stuff  ArgMap"
   },
   {
     "objectID": "index.html#ideas",
     "href": "index.html#ideas",
     "title": "Sonny Bhatia",
     "section": "🧠 Ideas",
-    "text": "🧠 Ideas\n\nHow can LLMs enable us to ingest massive streams of unstructured information, incorporate diverse perspectives and distill them into actionable insights that align with public opinion?  ArgMap 🎓 MS Thesis Project\nHow do we leverage AI to best develop critical thinking skills in the classroom? How do we maintain our cognitive abilities? 🌿 Lodestone is a great thought experiment in this space.\nHow can LLMs assess student homework and provide meaningful feedback?  AutoGrader\nWhat design patterns can enable us to collaborate with other humans and AI agents to collectively solve wicked problems? How do we leverage machines to act as complementary cognitive artifacts that augment our human capabilities?"
+    "text": "🧠 Ideas\n\nHow can LLMs enable us to ingest massive streams of unstructured information, incorporate diverse perspectives and distill them into actionable insights that align with public opinion? Democratic Deliberation 🎓 MS Thesis  ArgMap\nHow do we leverage AI to best develop critical thinking skills in the classroom? How do we maintain our cognitive abilities? 🌿 Lodestone is a great thought experiment in this space. AI for Critical Thinking\nHow can LLMs assess student homework and provide meaningful feedback? AI for Critical Thinking  AutoGrader\nWhat design patterns can enable us to collaborate with other humans and AI agents to collectively solve wicked problems? How do we leverage machines to act as complementary cognitive artifacts that augment our human capabilities? Collective Intelligence"
   },
   {
     "objectID": "index.html#publications",
@@ -67,7 +74,7 @@
     "href": "awesome.html#computing-and-technology",
     "title": "Awesome Stuff",
     "section": "Computing and Technology",
-    "text": "Computing and Technology\n\nHackaday \nHide and Seek!\nCan ChatGPT be wrong?\nWhat is Python\narrr - Pirate module for Python\nWhere really is the Internet?\nSeating chart generator\nVortex Cannon vs Drone\nAlgorithms\n\nThe Better Boarding Method Airlines Won’t Use\nPB&J Sandwich"
+    "text": "Computing and Technology\n\nHackaday \nHide and Seek!\nCan ChatGPT be wrong?\nWhat is Python\narrr - Pirate module for Python\nWhere really is the Internet?\nSeating chart generator\nVortex Cannon vs Drone\nAlgorithms\n\nThe Better Boarding Method Airlines Won’t Use\nPB&J Sandwich\n\n\n\nProgramming References\n\nDevDocs.io\nProgramming Books for Professionals\nOfficial Python Documentation\nProgramming References on Canvas\nHow to Python in VS Code\nHour of Python\nKhan Academy: Intro to Python Fundamentals\n\n\n\nDeveloper Tools\n\nMarimo reactive notebook for Python\nVisual Studio Code - development environment for grown-ups\nCircuitPython Code Editor - IDE to work with microcontrollers like Circuit Playground Bluefruit\ndiff Check - compare text side-by-side; great for comparing expected and actual output\nPyodide - in-browser REPL\nPython Tutor - step through code execution, line-by-line\nBlack Code Formatter - format Python code following PEP 8 Style Guide\nThonny - Python development environment for beginners\n\n\n\nProject Ideas and Resources\n\nMake It Yourself - A Beautifully Illustrated Guide to Making\nHackaday \nHacker News: Show\nExample Projects [Canvas]\nText-based adventure game [zybook]\nzork-py library for Python\nKaggle Data Science Notebook\nCircuit Playground Bluefruit: Puzzle Box, Escape Room, etc.\n\nFruit Piano\n\ntldraw makereal - bring your application sketches to life! - watch demo\nDevelop applications that use AI at runtime-\n\nOpenAI API - message them for API credits as a student researcher\nAnthropic API - free limited API access\nStreamlit - hosting platform to turn data scripts into shareable web apps using Python\n\nDeepnote - interactive web applications in Python\nMarimo - interactive web applications in Python\nGitHub pages - host your websites and JavaScript applications for free\nUsing Bluetooth (BLE) with Circuit Playground Bluefruit\nMulti-tasking with CircuitPython"
   },
   {
     "objectID": "awesome.html#learning-and-productivity",
@@ -75,5 +82,12 @@
     "title": "Awesome Stuff",
     "section": "Learning and Productivity",
     "text": "Learning and Productivity\n\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten  - integrated thinking method!\n\nZettelkasten Explained\n\n\nThe need for sleep\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\nAbout, Ideas, Now"
+  },
+  {
+    "objectID": "awesome.html#awesome-podcasts",
+    "href": "awesome.html#awesome-podcasts",
+    "title": "Awesome Stuff",
+    "section": "Awesome Podcasts",
+    "text": "Awesome Podcasts\n\nInside West Point: Ideas That Impact \nLex Fridman \nNo Such Podcast \nIrregular Warfare Podcast \nWest Point Association of Graduates \nWashingtonWise \nTED Talks Daily  \nNPR News Now \nThe World in Brief from The Economist \nUp First from NPR"
   }
 ]
