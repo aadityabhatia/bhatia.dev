@@ -35,9 +35,11 @@ format:
 
 [🖧 CY350: Computer Networks](https://cy350.bhatia.dev/){.btn .btn-primary .disabled} [<i class="bi bi-cpu"></i> CS380: Computer Systems and Organization](https://cs380.bhatia.dev/){.btn .btn-primary .disabled}
 
+
 ## More
 
-[⭐ Awesome Stuff](/awesome "curated list of awesome resources, tools, and projects related to computing, technology and life in general"){.btn .btn-primary} [<i class="bi bi-diagram-3"></i> ArgMap](https://argmap.bhatia.dev/ "🎓 MS Thesis Project"){.btn .btn-primary}
+[⭐ Awesome Stuff](/awesome "curated list of awesome resources, tools, and projects related to computing, technology and life in general"){.btn .btn-primary}
+[🗓️ Book an Appointment](https://outlook.office.com/bookwithme/user/eb7d00eba18d43f0a98c54dee80af31d@westpoint.edu "Use this link if you are a cadet and need an appointment 🧑‍💻"){.btn .btn-primary}
 
 :::
 
@@ -46,41 +48,78 @@ format:
 
 ## 🧠 Ideas
 
-- How can LLMs enable us to ingest massive streams of unstructured information, incorporate diverse perspectives and distill them into actionable insights that align with public opinion? [Democratic Deliberation]{.badge .text-bg-secondary} [🎓 MS Thesis]{.badge .text-bg-secondary} [<i class="bi bi-diagram-3"></i> ArgMap](https://argmap.bhatia.dev/){.btn .btn-primary}
+- How can LLMs enable us to ingest massive streams of unstructured information, incorporate diverse perspectives and distill them into actionable insights that align with public opinion?
+[Democratic Deliberation]{.badge .text-bg-secondary}
+[🎓 MS Thesis]{.badge .text-bg-light}
+[<i class="bi bi-diagram-3"></i> ArgMap](https://argmap.bhatia.dev/ "Argument Mapping to Guide Policy Decisions"){.btn .btn-primary}
 
-- How do we leverage AI to best develop critical thinking skills in the classroom? How do we maintain our cognitive abilities? [🌿 Lodestone](https://maggieappleton.com/lodestone/) is a great thought experiment in this space. [AI for Critical Thinking]{.badge .text-bg-secondary}
+- How do we leverage AI to best develop critical thinking skills in the classroom? How do we maintain our cognitive abilities?
+[🌿 Lodestone](https://maggieappleton.com/lodestone/) is a great thought experiment in this space. [AI for Critical Thinking]{.badge .text-bg-secondary}
 
-- How can LLMs assess student homework and provide meaningful feedback? [AI for Critical Thinking]{.badge .text-bg-secondary} [<i class="bi bi-github"></i> AutoGrader](https://github.com/aadityabhatia/autograder "Python library to help evaluate student submissions"){.btn .btn-primary}
+- How can LLMs assess student homework and provide meaningful feedback?
+[AI for Critical Thinking]{.badge .text-bg-secondary}
+[<i class="bi bi-github"></i> AutoGrader](https://github.com/aadityabhatia/autograder "Python library to help evaluate student submissions"){.btn .btn-primary}
 
-- What design patterns can enable us to collaborate with other humans and AI agents to collectively solve [wicked problems](https://en.m.wikipedia.org/wiki/Wicked_problem)? How do we leverage machines to act as [complementary](https://nautil.us/will-ai-harm-us-better-to-ask-how-well-reckon-with-our-hybrid-nature-236098/) [cognitive artifacts](https://doi.org/10.1007/BF02032391) that augment our human capabilities? [Collective Intelligence]{.badge .text-bg-secondary}
+- What design patterns can enable us to collaborate with other humans and AI agents to collectively solve [wicked problems](https://en.m.wikipedia.org/wiki/Wicked_problem)?
+How do we leverage machines to act as [complementary](https://nautil.us/will-ai-harm-us-better-to-ask-how-well-reckon-with-our-hybrid-nature-236098/)
+[cognitive artifacts](https://doi.org/10.1007/BF02032391) that augment our human capabilities?
+[Collective Intelligence]{.badge .text-bg-secondary}
 
 
 ## 📜 Publications
 
-- [Moderating Democratic Discourse with LLMs](https://link.springer.com/chapter/10.1007/978-3-031-72241-7_12), [SBP-BRiMS 2024](https://sbp-brims.org/2024/) [Democratic Deliberation]{.badge .text-bg-secondary}
+- [Moderating Democratic Discourse with LLMs](https://link.springer.com/chapter/10.1007/978-3-031-72241-7_12), [SBP-BRiMS 2024](https://sbp-brims.org/2024/)
+[Democratic Deliberation]{.badge .text-bg-secondary}
 
-- [Using LLMs to Structure and Visualize Policy Discourse](https://doi.org/10.1007/978-981-97-9536-9_5), [DemocrAI workshop at IJCAI 2024](https://sites.google.com/view/democrai2024) [🏆 Best Paper Award]{.badge .text-bg-success} [Democratic Deliberation]{.badge .text-bg-secondary}
+- [Using LLMs to Structure and Visualize Policy Discourse](https://doi.org/10.1007/978-981-97-9536-9_5), [DemocrAI workshop at IJCAI 2024](https://sites.google.com/view/democrai2024)
+[🏆 Best Paper Award]{.badge .text-bg-success}
+[Democratic Deliberation]{.badge .text-bg-secondary}
 
-- [Advancing Policy Insights: Opinion Data Analysis and Discourse Structuring Using LLMs](https://stars.library.ucf.edu/etd2023/204/). Graduate Thesis and Dissertation 2023-2024. University of Central Florida. [🏆 UCF Founders' Day 2025 Outstanding Master's Thesis Award]{.badge .text-bg-success} [Collective Intelligence]{.badge .text-bg-secondary} [Democratic Deliberation]{.badge .text-bg-secondary}
+- [Advancing Policy Insights: Opinion Data Analysis and Discourse Structuring Using LLMs](https://stars.library.ucf.edu/etd2023/204/). Graduate Thesis and Dissertation 2023-2024. University of Central Florida.
+[🏆 UCF Founders' Day 2025 Outstanding Master's Thesis Award]{.badge .text-bg-success}
+[Collective Intelligence]{.badge .text-bg-secondary}
+[Democratic Deliberation]{.badge .text-bg-secondary}
+[🎓 MS Thesis]{.badge .text-bg-secondary}
 
 - [Generally Genius: A Generals.io Agent Development and Data Collection Framework](https://ojs.aaai.org/index.php/AIIDE/article/view/27536). [AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment 2023](http://aiide.org/)
 
 
 ## 🏗️ Projects
 
-[<i class="bi bi-github"></i> AutoGrader](https://github.com/aadityabhatia/autograder){.btn .btn-primary} Python library to help evaluate student submissions [Python]{.badge .text-bg-secondary}
+[<i class="bi bi-diagram-3"></i> ArgMap](https://argmap.bhatia.dev/){.btn .btn-primary}
+Argument Mapping to Guide Policy Decisions
+[🎓 MS Thesis]{.badge .text-bg-secondary}
+[Python]{.badge .text-bg-secondary}
 
-[<i class="bi bi-github"></i> Synthetic Data Generator](https://github.com/aadityabhatia/synthetic-dataset-generators){.btn .btn-primary} scripts to generate synthetic datasets for educational purposes [Python]{.badge .text-bg-secondary}
+[<i class="bi bi-github"></i> AutoGrader](https://github.com/aadityabhatia/autograder){.btn .btn-primary}
+Python library to help evaluate student submissions
+[Python]{.badge .text-bg-secondary}
 
-[⏳ USMA Class Timer](https://classtime.bhatia.dev/){.btn .btn-primary} generated primarily using ChatGPT [HTML]{.badge .text-bg-secondary} [JavaScript]{.badge .text-bg-secondary}
+[<i class="bi bi-github"></i> Synthetic Data Generator](https://github.com/aadityabhatia/synthetic-dataset-generators){.btn .btn-primary}
+scripts to generate synthetic datasets for educational purposes
+[Python]{.badge .text-bg-secondary}
 
-[🤖 Generally Genius](https://corsaircoalition.github.io/){.btn .btn-primary} bot framework to develop automated agents for [generals.io](https://generals.io/), a fast-paced real-time strategy game with imperfect information within a 2D grid world [TypeScript]{.badge .text-bg-secondary} [Python]{.badge .text-bg-secondary}
+[⏳ USMA Class Timer](https://classtime.bhatia.dev/){.btn .btn-primary}
+generated primarily using ChatGPT
+[HTML]{.badge .text-bg-secondary}
+[JavaScript]{.badge .text-bg-secondary}
 
-[⭐ Awesome Stuff](/awesome){.btn .btn-primary} curated list of awesome resources, tools, and projects related to computing, technology and life in general
+[🤖 Generally Genius](https://corsaircoalition.github.io/){.btn .btn-primary}
+bot framework to develop automated agents for [generals.io](https://generals.io/), a fast-paced real-time strategy game with imperfect information within a 2D grid world
+[TypeScript]{.badge .text-bg-secondary}
+[Python]{.badge .text-bg-secondary}
+
+[⭐ Awesome Stuff](/awesome){.btn .btn-primary}
+curated list of awesome resources, tools, and projects related to computing, technology and life in general
 
 
 ## 🏫 Past Courses
 
-### 🗓️ Spring 2025 [🗃️ CY305: Cyber Foundations]{.btn .btn-primary .disabled}
+### 🗓️ Spring 2025
 
-### 🗓️ Fall 2024 [🖥️ CY105: Computing Fundamentals](https://cy105.bhatia.dev/){.btn .btn-primary}
+[🗃️ CY305: Cyber Foundations]{.btn .btn-primary .disabled}
+
+
+### 🗓️ Fall 2024
+
+[🖥️ CY105: Computing Fundamentals](https://cy105.bhatia.dev/){.btn .btn-primary}
