@@ -2,6 +2,21 @@
 title: "Awesome Stuff"
 ---
 
+## Military Resources
+
+- [Army Publishing Directorate](https://armypubs.army.mil/) - official Army publications, regulations, manuals
+- [Center for Army Lessons Learned](https://www.army.mil/CALL) - excellent publications; many open to the public
+- [DoD MWR Libraries](https://dod.overdrive.com/dod-armymwr/) - countless eBooks, audiobooks, professional reading list
+- [Cyber Defense Review](https://cyberdefensereview.army.mil/) - professional journal on cyber operations
+- [DoD Cyber Exchange](https://public.cyber.mil/) - DoD cybersecurity resources and tools
+- [Army University Press](https://www.armyupress.army.mil/) - [CSA Recommended Articles](https://www.armyupress.army.mil/resources/csa-recommended-articles/), [Podcasts](https://www.armyupress.army.mil/Podcasts/)
+- [Line of Departure](https://www.lineofdeparture.army.mil/) - professional journal on military affairs
+- [Modern War Institute - West Point](https://mwi.westpoint.edu/) - podcasts and research articles
+- [Army Career Tracker](https://actnow.army.mil/) - career management and branch-specific resources
+- [AIM 2](https://aim.hrc.army.mil/) - assignment management and branch-related updates
+- [Teach at West Point](https://teach.westpoint.edu/) - application portal for officers
+
+
 ## Cyber, Security, and Privacy
 
 ### News Feeds
