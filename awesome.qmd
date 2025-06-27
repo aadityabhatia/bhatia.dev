@@ -5,8 +5,11 @@ title: "Awesome Stuff"
 ## Military Resources
 
 - [Army Publishing Directorate](https://armypubs.army.mil/) - official Army publications, regulations, manuals
+- [DA PAM 600-3](https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN36110-PAM_600-3-000-WEB-1.pdf) - Officer Professional Development and Career Management
+    - find branch-specific document at [Army G-1](https://www.army.mil/G-1) > G-1 Resources
+    - [DA PAM 600-3 Cyber FY25](https://api.army.mil/e2/c/downloads/2025/02/19/9304a0aa/da-pam-600-3-cyber-branch-fy25.pdf), [Cyber Career Maps](https://api.army.mil/e2/c/downloads/2025/02/19/54e3b05d/cyber-career-maps-fy25.pptx)
 - [Center for Army Lessons Learned](https://www.army.mil/CALL) - excellent publications; many open to the public
-- [DoD MWR Libraries](https://dod.overdrive.com/dod-armymwr/) - countless eBooks, audiobooks, professional reading list
+- [DoD MWR Libraries](https://dod.overdrive.com/) - eBooks, audiobooks, professional reading lists
 - [Cyber Defense Review](https://cyberdefensereview.army.mil/) - professional journal on cyber operations
 - [DoD Cyber Exchange](https://public.cyber.mil/) - DoD cybersecurity resources and tools
 - [Army University Press](https://www.armyupress.army.mil/) - [CSA Recommended Articles](https://www.armyupress.army.mil/resources/csa-recommended-articles/), [Podcasts](https://www.armyupress.army.mil/Podcasts/)
