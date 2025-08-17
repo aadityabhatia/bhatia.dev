@@ -33,7 +33,7 @@ format:
 
 ## 🗓️ Fall 2025
 
-[🖧 CY350: Computer Networks](https://cy350.bhatia.dev/){.btn .btn-primary .disabled} [<i class="bi bi-cpu"></i> CS380: Computer Systems and Organization](https://cs380.bhatia.dev/){.btn .btn-primary .disabled}
+[🖧 CY350: Computer Networks](https://cy350.bhatia.dev/){.btn .btn-primary} [<i class="bi bi-cpu"></i> CS380: Computer Systems and Organization](https://cs380.bhatia.dev/){.btn .btn-primary}
 
 
 ## More
