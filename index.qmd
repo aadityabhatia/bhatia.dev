@@ -31,9 +31,9 @@ format:
 🔎 Researching [**Collective Intelligence**]{.badge .text-bg-secondary}, [**Democratic Deliberation**]{.badge .text-bg-secondary}, [**AI for Critical Thinking**]{.badge .text-bg-secondary}
 
 
-## 🗓️ Fall 2025
+## 🗓️ Spring 2026
 
-[🖧 CY350: Computer Networks](https://cy350.bhatia.dev/){.btn .btn-primary} [<i class="bi bi-cpu"></i> CS380: Computer Systems and Organization](https://cs380.bhatia.dev/){.btn .btn-primary}
+[🖧 CY350: Computer Networks](https://cy350.bhatia.dev/){.btn .btn-primary}
 
 
 ## More
@@ -111,12 +111,19 @@ bot framework to develop automated agents for [generals.io](https://generals.io/
 curated list of awesome resources, tools, and projects related to computing, technology and life in general
 
 
-## 🏫 Past Courses
+## 🏫 Courses
+
+### 🗓️ Spring 2026
+
+[🖧 CY350: Computer Networks](https://cy350.bhatia.dev/){.btn .btn-primary}
+
+### 🗓️ Fall 2025
+
+[🖧 CY350: Computer Networks](https://cy350.bhatia.dev/){.btn .btn-primary} [<i class="bi bi-cpu"></i> CS380: Computer Systems and Organization](https://cs380.bhatia.dev/){.btn .btn-primary}
 
 ### 🗓️ Spring 2025
 
 [🗃️ CY305: Cyber Foundations]{.btn .btn-primary .disabled}
-
 
 ### 🗓️ Fall 2024
 
