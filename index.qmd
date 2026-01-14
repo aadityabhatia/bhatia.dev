@@ -39,8 +39,6 @@ format:
 ## More
 
 [⭐ Awesome Stuff](/awesome "curated list of awesome resources, tools, and projects related to computing, technology and life in general"){.btn .btn-primary}
-[🗓️ Book an Appointment](https://outlook.office.com/bookwithme/user/eb7d00eba18d43f0a98c54dee80af31d@westpoint.edu "Use this link if you are a cadet and need an appointment 🧑‍💻"){.btn .btn-primary}
-
 :::
 
 <div style="margin-top: 3em;"></div>
