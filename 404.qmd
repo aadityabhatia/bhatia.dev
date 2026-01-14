@@ -1,7 +1,28 @@
 ---
-title: "Not Found"
+title: "HTTP 404: Not Found"
 ---
 
-This page has gone to that great server in the sky. Try refreshing your life choices.
+<div id="random-404">Definitely not here.</div>
+
+<script>
+  const messages = [
+    "This page went out for coffee and never came back.",
+    "You’ve reached the edge of the internet. Please turn around.",
+    "The link you followed is on a break. Indefinitely.",
+    "The page exists in another timeline.",
+    "We looked everywhere - under the cache, behind the cookies - no luck.",
+    "This URL was abducted by rogue semicolons.",
+    "Congrats, you found nothing. It’s surprisingly hard.",
+    "The content you seek has been optimized out.",
+    "The server insists it was here a minute ago.",
+    "That route is not in the router’s routing table."
+  ];
+
+  const el = document.getElementById("random-404");
+  const msg = messages[Math.floor(Math.random() * messages.length)];
+  el.innerHTML = `<p>${msg}</p>`;
+</script>
+
+<p><em>Try the button below to return to safety.</em></p>
 
 [back_to_home();](/){.btn .btn-danger}
