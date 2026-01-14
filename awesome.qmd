@@ -38,6 +38,7 @@ title: "Awesome Stuff"
     - [PrivacyTools](https://www.privacytools.io/)
 - [MITRE ATT&CK](https://attack.mitre.org/)
 - [Building a home lab](https://aj-labz.gitbook.io/aj-labz)
+    - [CLI agents make self-hosting on a home server easier and fun](https://fulghum.io/self-hosting)
 - [USASOC Smart Cards](https://www.soc.mil/IdM/publications/IdMpubs.html)
 - [Terms of Service; Didn't Read](https://tosdr.org/)
 - [Kali](https://www.kali.org/) - Linux distribution for penetration testing and security auditing with a massive collection of tools
