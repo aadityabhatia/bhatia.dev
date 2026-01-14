@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Not Found – Sonny Bhatia</title>
+<title>HTTP 404: Not Found – Sonny Bhatia</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,18 +32,19 @@ ul.task-list li input[type="checkbox"] {
 <link href="/./favicon.svg" rel="icon" type="image/svg+xml">
 <script src="/site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="/site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="/site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="/site_libs/quarto-html/popper.min.js"></script>
 <script src="/site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="/site_libs/quarto-html/anchor.min.js"></script>
 <link href="/site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="/site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="/site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="/site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="/site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="/site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="/site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="/site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="/site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="/site_libs/bootstrap/bootstrap-479ef1901ceb9a4686477479ee01ef15.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="/site_libs/bootstrap/bootstrap-dark-e661e3c988a46b281f2376d8c19f075b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="/site_libs/bootstrap/bootstrap-479ef1901ceb9a4686477479ee01ef15.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="/site_libs/bootstrap/bootstrap-0a6b668a90da31ce352e1483818bd449.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="/site_libs/bootstrap/bootstrap-dark-02be1a610b6dae489fcf3add8139b924.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="/site_libs/bootstrap/bootstrap-0a6b668a90da31ce352e1483818bd449.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -74,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
 <style>html{ scroll-behavior: smooth; }</style>
 
 
-<meta property="og:title" content="Not Found – Sonny Bhatia">
+<meta property="og:title" content="HTTP 404: Not Found – Sonny Bhatia">
 <meta property="og:description" content="Army Officer | Researcher | Software Architect">
 <meta property="og:image" content="https://gravatar.com/avatar/d3a9cc1b103d1d983c1cf41bad7b6587e5efd5a2525866b9fce14dcb5f949fcf?size=360">
 <meta property="og:site_name" content="Sonny Bhatia">
@@ -267,7 +268,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Not Found</h1>
+<h1 class="title">HTTP 404: Not Found</h1>
 </div>
 
 
@@ -284,7 +285,30 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This page has gone to that great server in the sky. Try refreshing your life choices.</p>
+<div id="random-404">
+Definitely not here.
+</div>
+<script>
+  const messages = [
+    "This page went out for coffee and never came back.",
+    "You’ve reached the edge of the internet. Please turn around.",
+    "The link you followed is on a break. Indefinitely.",
+    "The page exists in another timeline.",
+    "We looked everywhere - under the cache, behind the cookies - no luck.",
+    "This URL was abducted by rogue semicolons.",
+    "Congrats, you found nothing. It’s surprisingly hard.",
+    "The content you seek has been optimized out.",
+    "The server insists it was here a minute ago.",
+    "That route is not in the router’s routing table."
+  ];
+
+  const el = document.getElementById("random-404");
+  const msg = messages[Math.floor(Math.random() * messages.length)];
+  el.innerHTML = `<p>${msg}</p>`;
+</script>
+<p>
+<em>Try the button below to return to safety.</em>
+</p>
 <p><a href="/." class="btn btn-danger">back_to_home();</a></p>
 
 
@@ -354,13 +378,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -709,7 +734,7 @@ ul.task-list li input[type="checkbox"] {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>© 2025 Aaditya Bhatia</p>
+<p>© 2026 Aaditya Bhatia</p>
 </div>
     <div class="nav-footer-right">
       &nbsp;

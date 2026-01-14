@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Sonny Bhatia",
     "section": "",
-    "text": "LinkedIn\n  \n  \n    \n     Github\n  \n  \n    \n     ORCID\n  \n\n  \n  \n\n\n🪖 Captain, U.S. Army\n🏫 Instructor, EECS, US Military Academy at West Point\n🔎 Researching Collective Intelligence, Democratic Deliberation, AI for Critical Thinking\n\n\n\n🖧 CY350: Computer Networks  CS380: Computer Systems and Organization\n\n\n\n⭐ Awesome Stuff 🗓️ Book an Appointment"
+    "text": "LinkedIn\n  \n  \n    \n     Github\n  \n  \n    \n     ORCID\n  \n\n  \n  \n\n\n🪖 Captain, U.S. Army\n🏫 Instructor, EECS, US Military Academy at West Point\n🔎 Researching Collective Intelligence, Democratic Deliberation, AI for Critical Thinking\n\n\n\n🖧 CY350: Computer Networks\n\n\n\n⭐ Awesome Stuff"
   },
   {
     "objectID": "index.html#now",
@@ -14,18 +14,18 @@
     "text": "🪖 Captain, U.S. Army\n🏫 Instructor, EECS, US Military Academy at West Point\n🔎 Researching Collective Intelligence, Democratic Deliberation, AI for Critical Thinking"
   },
   {
-    "objectID": "index.html#fall-2025",
-    "href": "index.html#fall-2025",
+    "objectID": "index.html#spring-2026",
+    "href": "index.html#spring-2026",
     "title": "Sonny Bhatia",
     "section": "",
-    "text": "🖧 CY350: Computer Networks  CS380: Computer Systems and Organization"
+    "text": "🖧 CY350: Computer Networks"
   },
   {
     "objectID": "index.html#more",
     "href": "index.html#more",
     "title": "Sonny Bhatia",
     "section": "",
-    "text": "⭐ Awesome Stuff 🗓️ Book an Appointment"
+    "text": "⭐ Awesome Stuff"
   },
   {
     "objectID": "index.html#ideas",
@@ -49,11 +49,11 @@
     "text": "🏗️ Projects\n ArgMap Argument Mapping to Guide Policy Decisions 🎓 MS Thesis Python\n AutoGrader Python library to help evaluate student submissions Python\n Synthetic Data Generator scripts to generate synthetic datasets for educational purposes Python\n⏳ USMA Class Timer generated primarily using ChatGPT HTML JavaScript\n🤖 Generally Genius bot framework to develop automated agents for generals.io, a fast-paced real-time strategy game with imperfect information within a 2D grid world TypeScript Python\n⭐ Awesome Stuff curated list of awesome resources, tools, and projects related to computing, technology and life in general"
   },
   {
-    "objectID": "index.html#past-courses",
-    "href": "index.html#past-courses",
+    "objectID": "index.html#courses",
+    "href": "index.html#courses",
     "title": "Sonny Bhatia",
-    "section": "🏫 Past Courses",
-    "text": "🏫 Past Courses\n\n🗓️ Spring 2025\n🗃️ CY305: Cyber Foundations\n\n\n🗓️ Fall 2024\n🖥️ CY105: Computing Fundamentals"
+    "section": "🏫 Courses",
+    "text": "🏫 Courses\n\n🗓️ Spring 2026\n🖧 CY350: Computer Networks\n\n\n🗓️ Fall 2025\n🖧 CY350: Computer Networks  CS380: Computer Systems and Organization\n\n\n🗓️ Spring 2025\n🗃️ CY305: Cyber Foundations\n\n\n🗓️ Fall 2024\n🖥️ CY105: Computing Fundamentals"
   },
   {
     "objectID": "awesome.html",
@@ -74,7 +74,7 @@
     "href": "awesome.html#cyber-security-and-privacy",
     "title": "Awesome Stuff",
     "section": "Cyber, Security, and Privacy",
-    "text": "Cyber, Security, and Privacy\n\nNews Feeds\n\nKrebs on Security \nBleeping Computer \nBruce Schneier \nTroy Hunt \nHacker News - Quality News\nMilitary Times Early Bird Briefing\n\n\n\nLearning Resources\n\nPrivacy Guides  - privacy-focused tools and recommendations\n\nPrivacyTools\n\nMITRE ATT&CK\nBuilding a home lab\nUSASOC Smart Cards\nTerms of Service; Didn’t Read\nKali - Linux distribution for penetration testing and security auditing with a massive collection of tools\n\n\n\nTracker, Ad-blockers, Malware Protection\n\nCloudflare for Families - DNS-based malware protection\nPi-hole - network-wide DNS-based ad blocker\npfSense - open-source firewall\nNextDNS - DNS-based tracker blocker\n\n\n\nSelf-hosted services, tools, networks\n\nTailscale - mesh networking (personal VPN) for your devices\nSyncthing - file synchronization across devices\nNextcloud - self-hosted cloud storage, calendar, contacts, RSS feed reader\nGitea - self-hosted Git service, replacement for GitHub\nBitwarden - self-hosted password manager\nJitsi - self-hosted video conferencing\nMattermost - self-hosted Slack alternative\n\n\n\nMessaging, Email, Communication\n\nSignal Messenger - non-profit, encrypted messaging, voice, and video calls\nProtonMail - encrypted email\nElement - encrypted chat, video, and voice calls based on Matrix protocol; can run your own server\nPGP Encryption\n\n\n\nAndroid Tools and Resources\n\nF-Droid - open-source Android app store for free and open-source apps\nLineageOS - open-source Android OS that supports many devices\nGrapheneOS - privacy-focused Android OS for Pixel devices\nCalyxOS - privacy-focused Android OS\n/e/OS - deGoogled Android OS\n\n\n\nNews, Articles, Documentaries\n\nFlipper Zero (2023)\n\nMeanwhile, in Canada… (2024)\n\nInside the “3 Billion People” National Public Data Breach (2024)\nThe Global Surveillance Free-for-All in Mobile Ad Data (2024)\nThe Social Dilemma (2020) - documentary on social media\nThe Great Hack (2019) - documentary on Cambridge Analytica scandal\n\n\n\nWhat can you do?\n\nhaveibeenpwned.com - subscribe to breach notifications\nMozilla Monitor - find and fix data exposures\nFirefox - privacy-focused browser\nDuckDuckGo - privacy-focused search engine\nCover Your Tracks - browser fingerprinting test\nNextDNS - DNS-based tracker blocker\n\nor self-host Pi-hole\n\nConsumer Reports: Privacy and Security\nSurveillance Self-Defense\nData Removal Guide: inteltechniques.com"
+    "text": "Cyber, Security, and Privacy\n\nNews Feeds\n\nKrebs on Security \nBleeping Computer \nBruce Schneier \nTroy Hunt \nHacker News - Quality News\nMilitary Times Early Bird Briefing\n\n\n\nLearning Resources\n\nPrivacy Guides  - privacy-focused tools and recommendations\n\nPrivacyTools\n\nMITRE ATT&CK\nBuilding a home lab\n\nCLI agents make self-hosting on a home server easier and fun\n\nUSASOC Smart Cards\nTerms of Service; Didn’t Read\nKali - Linux distribution for penetration testing and security auditing with a massive collection of tools\n\n\n\nTracker, Ad-blockers, Malware Protection\n\nCloudflare for Families - DNS-based malware protection\nPi-hole - network-wide DNS-based ad blocker\npfSense - open-source firewall\nNextDNS - DNS-based tracker blocker\n\n\n\nSelf-hosted services, tools, networks\n\nTailscale - mesh networking (personal VPN) for your devices\nSyncthing - file synchronization across devices\nNextcloud - self-hosted cloud storage, calendar, contacts, RSS feed reader\nGitea - self-hosted Git service, replacement for GitHub\nBitwarden - self-hosted password manager\nJitsi - self-hosted video conferencing\nMattermost - self-hosted Slack alternative\n\n\n\nMessaging, Email, Communication\n\nSignal Messenger - non-profit, encrypted messaging, voice, and video calls\nProtonMail - encrypted email\nElement - encrypted chat, video, and voice calls based on Matrix protocol; can run your own server\nPGP Encryption\n\n\n\nAndroid Tools and Resources\n\nF-Droid - open-source Android app store for free and open-source apps\nLineageOS - open-source Android OS that supports many devices\nGrapheneOS - privacy-focused Android OS for Pixel devices\nCalyxOS - privacy-focused Android OS\n/e/OS - deGoogled Android OS\n\n\n\nNews, Articles, Documentaries\n\nFlipper Zero (2023)\n\nMeanwhile, in Canada… (2024)\n\nInside the “3 Billion People” National Public Data Breach (2024)\nThe Global Surveillance Free-for-All in Mobile Ad Data (2024)\nThe Social Dilemma (2020) - documentary on social media\nThe Great Hack (2019) - documentary on Cambridge Analytica scandal\n\n\n\nWhat can you do?\n\nhaveibeenpwned.com - subscribe to breach notifications\nMozilla Monitor - find and fix data exposures\nFirefox - privacy-focused browser\nDuckDuckGo - privacy-focused search engine\nCover Your Tracks - browser fingerprinting test\nNextDNS - DNS-based tracker blocker\n\nor self-host Pi-hole\n\nConsumer Reports: Privacy and Security\nSurveillance Self-Defense\nData Removal Guide: inteltechniques.com"
   },
   {
     "objectID": "awesome.html#computing-and-technology",
