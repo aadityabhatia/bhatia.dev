@@ -31,7 +31,7 @@ format:
 🔎 Researching [**Collective Intelligence**]{.badge .text-bg-secondary}, [**Democratic Deliberation**]{.badge .text-bg-secondary}, [**AI for Critical Thinking**]{.badge .text-bg-secondary}
 
 
-## 🗓️ Spring 2026
+## 🗓️ Fall 2026
 
 [🖧 CY350: Computer Networks](https://cy350.bhatia.dev/){.btn .btn-primary}
 
