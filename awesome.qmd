@@ -22,6 +22,15 @@ title: "Awesome Stuff"
 
 ## Cyber, Security, and Privacy
 
+### Linux
+
+- [Project Bluefin](https://projectbluefin.io/) - A lightweight, atomic, image-based Linux distribution designed for reliability, performance, and security with minimal effort
+    - based on [Fedora](https://fedoraproject.org/)
+    - relies on [Flatpak](https://flathub.org/) for applications and [Homebrew](https://brew.sh/) for command-line tools
+- [Fedora IoT](https://fedoraproject.org/iot/) - Container-based host that is great for single-board computers and IoT devices like Raspberry Pi
+- [Fish Shell](https://fishshell.com/) - user-friendly command-line shell with syntax highlighting, autosuggestions, and powerful tab completions
+- [Linux Notes for Professionals](https://goalkicker.com/LinuxBook/LinuxNotesForProfessionals.pdf) - comprehensive Linux reference book
+
 ### News Feeds
 
 - [Krebs on Security](https://krebsonsecurity.com/) [<i class="bi bi-rss"></i>](https://krebsonsecurity.com/feed/)
