@@ -66,6 +66,10 @@ How do we leverage machines to act as [complementary](https://nautil.us/will-ai-
 
 ## 📜 Publications
 
+- [Guided Sensemaking: Agents in Collaborative Deliberation](https://arxiv.org/abs/2606.02260),  [Tools for Thought (TfT) workshop at CHI 2026](https://ai-tools-for-thought.github.io/workshop/)
+[Collective Intelligence]{.badge .text-bg-secondary}
+[AI for Critical Thinking]{.badge .text-bg-secondary}
+
 - [Moderating Democratic Discourse with LLMs](https://link.springer.com/chapter/10.1007/978-3-031-72241-7_12), [SBP-BRiMS 2024](https://sbp-brims.org/2024/)
 [Democratic Deliberation]{.badge .text-bg-secondary}
 
