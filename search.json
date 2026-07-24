@@ -1,10 +1,17 @@
 [
   {
+    "objectID": "talks/index.html",
+    "href": "talks/index.html",
+    "title": "Talks & Presentations",
+    "section": "",
+    "text": "Software Engineering with Agentic AI\n\n\nBuild software without drowning in prompts!\n\n\nHow do we transition from unstructured prompting to agentic systems engineering?\n\n\n\n\n\nJul 23, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Sonny Bhatia",
     "section": "",
-    "text": "LinkedIn\n  \n  \n    \n     Github\n  \n  \n    \n     ORCID\n  \n\n  \n  \n\n\n🪖 Major, U.S. Army\n🏫 Instructor, EECS, US Military Academy at West Point\n🔎 Researching Collective Intelligence, Democratic Deliberation, AI for Critical Thinking\n\n\n\n🖧 CY350: Computer Networks  CS380: Computer Systems and Organization\n\n\n\n⭐ Awesome Stuff"
+    "text": "LinkedIn\n  \n  \n    \n     Github\n  \n  \n    \n     ORCID\n  \n\n  \n  \n\n\n🪖 Major, U.S. Army\n🏫 Instructor, EECS, US Military Academy at West Point\n🔎 Researching Collective Intelligence, Democratic Deliberation, AI for Critical Thinking\n\n\n\n🖧 CY350: Computer Networks  CS380: Computer Systems and Organization\n\n\n\n🎤 Talks ⭐ Awesome Stuff"
   },
   {
     "objectID": "index.html#now",
@@ -25,7 +32,7 @@
     "href": "index.html#more",
     "title": "Sonny Bhatia",
     "section": "",
-    "text": "⭐ Awesome Stuff"
+    "text": "🎤 Talks ⭐ Awesome Stuff"
   },
   {
     "objectID": "index.html#ideas",
@@ -96,5 +103,82 @@
     "title": "Awesome Stuff",
     "section": "Awesome Podcasts",
     "text": "Awesome Podcasts\n\nInside West Point: Ideas That Impact \nLex Fridman \nNo Such Podcast \nIrregular Warfare Podcast \nWest Point Association of Graduates \nWashingtonWise \nTED Talks Daily  \nNPR News Now \nThe World in Brief from The Economist \nUp First from NPR"
+  },
+  {
+    "objectID": "talks/agentic-software-engg.html#the-problem",
+    "href": "talks/agentic-software-engg.html#the-problem",
+    "title": "Software Engineering with Agentic AI",
+    "section": "The Problem",
+    "text": "The Problem\n\nSyntax is now a commodity\n\nAI produces content instantly\n\nThe “Black Box” Trap\n\nUnstructured prompting (“vibe coding”) bypasses systems thinking and domain expertise\nStudents lack architectural understanding\n\nBrittle Outcomes\n\nTrial-and-error prompting does not scale to complex, reliable software\n\n\nHow do we transition from unstructured prompting to disciplined, agentic systems engineering?"
+  },
+  {
+    "objectID": "talks/agentic-software-engg.html#core-concepts",
+    "href": "talks/agentic-software-engg.html#core-concepts",
+    "title": "Software Engineering with Agentic AI",
+    "section": "Core Concepts",
+    "text": "Core Concepts\n\n\nHarness\n\nFrameworks that manage the control flow and context for agents\nA step beyond basic prompting and chatting\nMakes your AI agents agentic!\n\n\nAGENTS.md\n\nREADME for agents\nContext provided to every agent operating in the directory\nNest AGENTS.md files for precise context\n\n\n\n\nTools\n\nFunctions for agents to call\nAllow agents to interact with systems and APIs\nTypically provided by the harness\n\n\nSkills\n\nReusable instructions for AI agents\nAgents can load skills as needed\nTypically add 5k-20k tokens of context\nAdds new capabilities; bloats context window"
+  },
+  {
+    "objectID": "talks/agentic-software-engg.html#the-big-idea",
+    "href": "talks/agentic-software-engg.html#the-big-idea",
+    "title": "Software Engineering with Agentic AI",
+    "section": "The Big Idea",
+    "text": "The Big Idea\n\n\n\n\n\n\n\n\n\n\n\nArchitect\n\n\n\n\n\n\n\nAnalyst\n\n\n\n\n\n\n\nArchitect\n\n\n\n\n\n\n\nPlanner\n\n\n\n\n\n\n\nPlanner\n\n\n\n\n\n\n\nProposal\n\n\n\n\n\n\n\nDesign\n\n\n\n\n\n\n\nSpecifications\n\n\n\n\n\n\n\nTasks\n\n\n\n\n\n\n\n\n\n\n\nDevelop a proposal. Produce specifications.\nWrite the design / architecture document.\nReview and refine the plan. Implement it.\nTest the implementation. Develop a plan to fix bugs. Implement it."
+  },
+  {
+    "objectID": "talks/agentic-software-engg.html#measure-of-performance",
+    "href": "talks/agentic-software-engg.html#measure-of-performance",
+    "title": "Software Engineering with Agentic AI",
+    "section": "Measure of Performance",
+    "text": "Measure of Performance\n\nToken maxxing!!\n\nThrowing tokens at problems until they go away.\nBrute forcing was rewarded by tech companies; employees spending below threshold were penalized\nTokenmaxxing: great for AI vendors\n\nValue maxxing: Maximizing output quality per token\nModel maxxing: Efficient Model Routing\n\nFrontier models develop plans and work with ambiguous requirements.\nSmaller, faster models perform simpler, well-defined tasks.\n\nWhat is a good measure of effectiveness?"
+  },
+  {
+    "objectID": "talks/agentic-software-engg.html#guiding-principles",
+    "href": "talks/agentic-software-engg.html#guiding-principles",
+    "title": "Software Engineering with Agentic AI",
+    "section": "Guiding Principles",
+    "text": "Guiding Principles\n\nMarkdown everywhere.\nOwn your prompts.\nContext window.\nControl flow: deterministic process to manage agent interactions.\nAgents: small, simple, and focused. Each agent does one thing well.\n\n12 Factor Agents: Principles for building reliable LLM applications"
+  },
+  {
+    "objectID": "talks/agentic-software-engg.html#markdown-the-lingua-franca",
+    "href": "talks/agentic-software-engg.html#markdown-the-lingua-franca",
+    "title": "Software Engineering with Agentic AI",
+    "section": "Markdown: The Lingua Franca",
+    "text": "Markdown: The Lingua Franca\n\n\n\nBeautiful, simple, and human-readable.\n\n# and ## for headings.\n- for lists.\n…everything else is nice to know.\n\nHuman-readable + machine-parsable = ✨\nMarkdown Syntax Cheatsheet\nText-based Diagrams\n\nMermaid\nGraphviz\n…and many more\n\n\n\n## Markdown: The Lingua Franca\n\n- Beautiful, simple, and human-readable.\n    - `#` and `##` for headings.\n    - `-` for lists.\n    - `1.` and `1.` and `1.` for numbered lists.\n    - bold and _italic_ for emphasis.\n    - single backtick for inline code and three backticks for code blocks\n    - `&gt;` for blockquotes.\n    - `---` for horizontal rules.\n    - [Link](https://example.com) for hyperlinks.\n    - ![description](image.png) for images.\n\n- Human-readable + machine-parsable = ✨\n\n- [Markdown Syntax Cheatsheet](https://www.markdownguide.org/cheat-sheet/)\n\n- Text-based Diagrams\n    - [Mermaid](https://mermaid.js.org/intro/)\n    - [Graphviz](https://graphviz.org/gallery/)\n    - [...and many more](https://kroki.io/)"
+  },
+  {
+    "objectID": "talks/agentic-software-engg.html#control-flow",
+    "href": "talks/agentic-software-engg.html#control-flow",
+    "title": "Software Engineering with Agentic AI",
+    "section": "Control Flow",
+    "text": "Control Flow\n\n\n\n\n\n\n\n\n\n\n\nArchitect\n\n\n\n\n\n\n\nAnalyst\n\n\n\n\n\n\n\nArchitect\n\n\n\n\n\n\n\nPlanner\n\n\n\n\n\n\n\nPlanner\n\n\n\n\n\n\n\nProposal\n\n\n\n\n\n\n\nDesign\n\n\n\n\n\n\n\nSpecifications\n\n\n\n\n\n\n\nTasks\n\n\n\n\n\n\n\n\n\n\n\nIdeally, deterministic, predictable, and testable.\nRealistically, a more capable agent manages the control flow and tasks simpler sub-agents.\nUse intermediate artifacts to pause execution, allow human review, and ensure reliable outcomes.\nLLM-as-a-judge: Use LLMs to review and approve artifacts.\nOpen-ended prompting is used to refine the plan.\nImplementation is driven by artifacts, not prompts."
+  },
+  {
+    "objectID": "talks/agentic-software-engg.html#context-window",
+    "href": "talks/agentic-software-engg.html#context-window",
+    "title": "Software Engineering with Agentic AI",
+    "section": "Context Window",
+    "text": "Context Window\n\nContext is precious; don’t dump the entire repository!\nThe “Need to Know” Basis: Feed agents only the specific files or functions they need.\nShorter context = faster responses, cheaper calls, and fewer hallucinations.\nSkills often bloat context windows. Use them judiciously.\n\nInstead, use custom agents that will do one thing well."
+  },
+  {
+    "objectID": "talks/agentic-software-engg.html#prompts",
+    "href": "talks/agentic-software-engg.html#prompts",
+    "title": "Software Engineering with Agentic AI",
+    "section": "Prompts",
+    "text": "Prompts\n\nTreat prompts as Code.\nVersion control your system instructions (Git is your friend).\nSeparate instructions from data using clear templating.\nModularity: Keep prompts scoped to a single, testable objective."
+  },
+  {
+    "objectID": "talks/agentic-software-engg.html#simple-focused-agents",
+    "href": "talks/agentic-software-engg.html#simple-focused-agents",
+    "title": "Software Engineering with Agentic AI",
+    "section": "Simple, Focused Agents",
+    "text": "Simple, Focused Agents\n\n\n\n\n\n\n\n\n\n\n\nImplementation Plan\n\n\n\n\n\n\n\nCode Changes\n\n\n\n\n\n\n\nBugs Found\n\n\n\n\n\n\n\nApproved\n\n\n\n\n\n\n\n🧠 Planner Agent\n\n\n\n\n\n\n\n💻 Coder Agent\n\n\n\n\n\n\n\n🕵️ Reviewer Agent\n\n\n\n\n\n\n\n✅ Merge\n\n\n\n\n\n\n\n\n\n\n\nThe Unix Philosophy for AI: Do one thing and do it well.\nBreak large tasks into specialized, easily debuggable roles:\n\n🧠 Planner Agent: Drafts the implementation steps.\n💻 Coder Agent: Writes the targeted code.\n🕵️ Reviewer Agent: Checks for bugs and anti-patterns.\n\nModular agents let you use smaller, faster models for simpler tasks (Model maxxing!)."
+  },
+  {
+    "objectID": "talks/agentic-software-engg.html#demo",
+    "href": "talks/agentic-software-engg.html#demo",
+    "title": "Software Engineering with Agentic AI",
+    "section": "Demo",
+    "text": "Demo\n\nHarnesses\n\nOpenCode\nPi.dev\nMistral Vibe\n\nModels\n\nMistral Small 4 / Medium 3.5\nPoolside Laguna XS 2.1\nGoogle Gemma 4\n\n\nAgentic Development Demo"
   }
 ]
