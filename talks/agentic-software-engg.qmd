@@ -1,0 +1,214 @@
+---
+format: revealjs
+title: Software Engineering with Agentic AI
+subtitle: Build software without drowning in prompts!
+description: How do we transition from unstructured prompting to agentic systems engineering?
+date: last-modified
+image: /images/agentic-software-engg.jpg
+title-slide-attributes:
+    data-background-image: /images/agentic-software-engg.jpg
+    data-background-opacity: "0.3"
+---
+
+## The Problem
+
+- Syntax is now a commodity
+    - AI produces content instantly
+- The "Black Box" Trap
+    - Unstructured prompting ("vibe coding") bypasses systems thinking and domain expertise
+    - Students lack architectural understanding
+- Brittle Outcomes
+    - Trial-and-error prompting does not scale to complex, reliable software
+
+### How do we transition from unstructured prompting to disciplined, agentic systems engineering?
+
+## Core Concepts
+
+:::: {.columns}
+::: {.column}
+### Harness
+
+- Frameworks that manage the control flow and context for agents
+- A step beyond basic prompting and chatting
+- Makes your AI agents ***agentic***!
+:::
+::: {.column}
+### [AGENTS.md](https://agents.md/)
+
+- README for agents
+- Context provided to every agent operating in the directory
+- Nest AGENTS.md files for precise context
+:::
+::::
+
+:::: {.columns}
+::: {.column}
+### Tools
+
+- Functions for agents to call
+- Allow agents to interact with systems and APIs
+- Typically provided by the harness
+:::
+::: {.column}
+### [Skills](https://www.skills.sh/)
+
+- Reusable instructions for AI agents
+- Agents can load skills as needed
+- Typically add 5k-20k tokens of context
+- Adds new capabilities; bloats context window
+:::
+::::
+
+## The Big Idea
+
+```{mermaid}
+%%| fig-height: 2
+flowchart LR
+    Proposal --Architect --> Design
+    Proposal --Analyst --> Specifications
+    Specifications --Architect --> Design
+    Specifications --Planner --> Tasks
+    Design --Planner --> Tasks
+```
+
+- Develop a proposal. Produce specifications.
+- Write the design / architecture document.
+- Review and refine the plan. Implement it.
+- Test the implementation. Develop a plan to fix bugs. Implement it.
+
+## Measure of Performance
+
+-  Token maxxing!!
+    - Throwing tokens at problems until they go away.
+    - [Brute forcing was rewarded by tech companies; employees spending below threshold were penalized](https://www.forbes.com/sites/timkeary/2026/04/13/is-the-cult-of-tokenmaxxingjust-another-fad-or-the-new-normal/)
+    - [Tokenmaxxing: great for AI vendors](https://blog.pragmaticengineer.com/the-pulse-tokenmaxxing-as-a-weird-new-trend/)
+
+- Value maxxing: Maximizing output quality per token
+
+- [Model maxxing: Efficient Model Routing](https://www.businessinsider.com/ai-model-routing-modelmaxxing-efficient-token-use-2026-7?mrfcid=202607106a516ea52b04f96db8f61776)
+    - Frontier models develop plans and work with ambiguous requirements.
+    - Smaller, faster models perform simpler, well-defined tasks.
+
+- What is a good measure of effectiveness?
+
+## Guiding Principles
+
+1. Markdown everywhere.
+1. Own your prompts.
+1. Context window.
+1. Control flow: deterministic process to manage agent interactions.
+1. Agents: small, simple, and focused. [Each agent does one thing well.](https://en.wikipedia.org/wiki/Mr._Meeseeks)
+
+[12 Factor Agents: Principles for building reliable LLM applications](https://github.com/humanlayer/12-factor-agents)
+
+## Markdown: The Lingua Franca
+
+:::: {.columns}
+::: {.column}
+- Beautiful, simple, and human-readable.
+    - `#` and `##` for headings.
+    - `-` for lists.
+    - ...everything else is nice to know.
+
+- Human-readable + machine-parsable = ✨
+
+- [Markdown Syntax Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+
+- Text-based Diagrams
+    - [Mermaid](https://mermaid.js.org/intro/)
+    - [Graphviz](https://graphviz.org/gallery/)
+    - [...and many more](https://kroki.io/)
+:::
+::: {.column}
+```md
+## Markdown: The Lingua Franca
+
+- Beautiful, simple, and human-readable.
+    - `#` and `##` for headings.
+    - `-` for lists.
+    - `1.` and `1.` and `1.` for numbered lists.
+    - bold and _italic_ for emphasis.
+    - single backtick for inline code and three backticks for code blocks
+    - `>` for blockquotes.
+    - `---` for horizontal rules.
+    - [Link](https://example.com) for hyperlinks.
+    - ![description](image.png) for images.
+
+- Human-readable + machine-parsable = ✨
+
+- [Markdown Syntax Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+
+- Text-based Diagrams
+    - [Mermaid](https://mermaid.js.org/intro/)
+    - [Graphviz](https://graphviz.org/gallery/)
+    - [...and many more](https://kroki.io/)
+```
+:::
+::::
+
+
+## Control Flow
+
+```{mermaid}
+%%| fig-height: 2
+flowchart LR
+    Proposal --Architect --> Design
+    Proposal --Analyst --> Specifications
+    Specifications --Architect --> Design
+    Specifications --Planner --> Tasks
+    Design --Planner --> Tasks
+```
+
+- Ideally, deterministic, predictable, and testable.
+- Realistically, a more capable agent manages the control flow and tasks simpler sub-agents.
+- Use intermediate artifacts to pause execution, allow human review, and ensure reliable outcomes.
+- LLM-as-a-judge: Use LLMs to review and approve artifacts.
+- Open-ended prompting is used to refine the plan.
+- Implementation is driven by artifacts, not prompts.
+
+## Context Window
+
+- Context is precious; don't dump the entire repository!
+- The "Need to Know" Basis: Feed agents only the specific files or functions they need.
+- Shorter context = faster responses, cheaper calls, and fewer hallucinations.
+- Skills often bloat context windows. Use them judiciously.
+    - Instead, use custom agents that will [do one thing well](https://en.wikipedia.org/wiki/Mr._Meeseeks).
+
+## Prompts
+
+- Treat prompts as Code.
+- Version control your system instructions (Git is your friend).
+- Separate instructions from data using clear templating.
+- Modularity: Keep prompts scoped to a single, testable objective.
+
+## Simple, Focused Agents
+
+```{mermaid}
+%%| fig-height: 2
+graph LR
+    A[🧠 Planner Agent] -- Implementation Plan --> B[💻 Coder Agent]
+    B -- Code Changes --> C[🕵️ Reviewer Agent]
+    C -. "Bugs Found" .-> B
+    C -- Approved --> D[✅ Merge]
+```
+
+- The Unix Philosophy for AI: *Do one thing and do it well.*
+- Break large tasks into specialized, easily debuggable roles:
+    - 🧠 Planner Agent: Drafts the implementation steps.
+    - 💻 Coder Agent: Writes the targeted code.
+    - 🕵️ Reviewer Agent: Checks for bugs and anti-patterns.
+- Modular agents let you use smaller, faster models for simpler tasks (Model maxxing!).
+
+## Demo
+
+- Harnesses
+    - [OpenCode](https://opencode.ai/)
+    - [Pi.dev](https://pi.dev/)
+    - [Mistral Vibe](https://github.com/mistralai/mistral-vibe)
+
+- Models
+    - [Mistral Small 4 / Medium 3.5](https://docs.mistral.ai/models/overview)
+    - [Poolside Laguna XS 2.1](https://poolside.ai/blog/introducing-laguna-xs-2-1)
+    - [Google Gemma 4](https://huggingface.co/google/gemma-4-26B-A4B-it-qat-q4_0-unquantized)
+
+### [Agentic Development Demo](https://github.com/usma-eecs/agentic-development-demo)
