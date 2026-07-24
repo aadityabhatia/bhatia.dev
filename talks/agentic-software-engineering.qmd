@@ -1,0 +1,238 @@
+---
+format: revealjs
+title: Software Engineering with Agentic AI
+subtitle: Build software without drowning in prompts!
+description: How do we transition from unstructured prompting to agentic systems engineering?
+date: last-modified
+image: /images/agentic-software-engineering.jpg
+title-slide-attributes:
+    data-background-image: /images/agentic-software-engineering.jpg
+    data-background-opacity: "0.3"
+---
+
+## The Problem
+
+- Syntax is now a commodity
+    - AI can write and analyze and explain programs
+    - _Software Architecture_ requires deliberate thought
+- The "Black Box" Trap
+    - Unstructured prompting ("_vibe coding_") bypasses systems thinking and domain expertise
+    - Students lack architectural understanding
+- Brittle Outcomes
+    - Trial-and-error prompting does not scale to complex, reliable software
+
+### How do we transition from unstructured prompting to disciplined, agentic systems engineering?
+
+## Measure of Performance
+
+-  Token maxxing!!
+    - Throwing tokens at problems until they go away.
+    - [Brute forcing was rewarded by tech companies; employees spending below threshold were penalized](https://www.forbes.com/sites/timkeary/2026/04/13/is-the-cult-of-tokenmaxxingjust-another-fad-or-the-new-normal/)
+    - [Tokenmaxxing: great for AI vendors](https://blog.pragmaticengineer.com/the-pulse-tokenmaxxing-as-a-weird-new-trend/)
+
+- Value maxxing: Maximizing output quality per token
+
+- [Model maxxing: Efficient Model Routing](https://www.businessinsider.com/ai-model-routing-modelmaxxing-efficient-token-use-2026-7?mrfcid=202607106a516ea52b04f96db8f61776)
+    - Frontier models develop plans and work with ambiguous requirements.
+    - Smaller, faster models perform simpler, well-defined tasks.
+
+- What is a good measure of effectiveness?
+
+## Measure of Effectiveness
+
+- Resource Requirements
+    - GPU
+    - Electricity
+    - Time
+- Token cost per unit of productivity
+- Model availability - frontier vs open weights
+- Understanding of the product
+- ...?
+
+## The Big Idea: Agentic AI
+
+```{mermaid}
+%%| fig-width: 16
+flowchart LR
+    Proposal --Architect --> Design
+    Proposal --Analyst --> Specifications
+    Specifications --Architect --> Design
+    Specifications --Planner --> Tasks
+    Design --Planner --> Tasks
+    Tasks --Tech Lead--> Developer
+    Tasks --Tech Lead--> Tester
+    Tasks --Tech Lead--> Reviewer
+```
+
+- Agent = specific role with a focused set of instructions
+- Artifacts = agent output at each step
+- Humans validate intermediate artifacts
+- Example above was inspired by [OpenSpec](https://openspec.dev/)
+
+## Core Concepts
+
+:::: {.columns}
+::: {.column}
+### Harness
+
+- Frameworks that manage the control flow and context for agents
+- Expose tools to language models
+- A step beyond prompting and chatting
+- Makes your AI agents ***agentic***!
+:::
+::: {.column}
+### Tools
+
+- Functions for agents to call (~API)
+- Allow agents to interact with systems
+- Typically provided by the harness
+- [MCP allows servers to expose tools](https://modelcontextprotocol.io/)
+:::
+::::
+
+:::: {.columns}
+::: {.column}
+### [AGENTS.md](https://agents.md/)
+
+- README for agents
+- Context provided to _every_ agent operating in the directory
+- Nest AGENTS.md files for precise context
+:::
+::: {.column}
+### [Skills](https://www.skills.sh/)
+
+- Reusable instructions for AI agents
+- Agents can load skills as needed
+- Typically add 5k-20k tokens of context
+- Adds new capabilities; bloats context window
+:::
+::::
+
+## Guiding Principles
+
+1. Markdown everywhere.
+1. Own your prompts.
+1. Context window: keep it compact.
+1. Control flow
+1. Agents: small, simple, and focused. [Each agent does one thing well.](https://en.wikipedia.org/wiki/Mr._Meeseeks)
+
+Inspiration: [12 Factor Agents: Principles for building reliable LLM applications](https://github.com/humanlayer/12-factor-agents)
+
+## Markdown: The Lingua Franca
+
+:::: {.columns}
+::: {.column}
+- Beautiful, simple, and human-readable.
+    - `#` and `##` for headings.
+    - `-` for lists.
+    - ...everything else is nice to know.
+
+- Human-readable + machine-parsable = ✨
+
+- [Markdown Syntax Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+
+- Text-based Diagrams
+    - [Mermaid](https://mermaid.js.org/intro/)
+    - [Graphviz](https://graphviz.org/gallery/)
+    - [...and many more](https://kroki.io/)
+:::
+::: {.column}
+```md
+## Markdown: The Lingua Franca
+
+- Beautiful, simple, and human-readable.
+    - `#` and `##` for headings.
+    - `-` for lists.
+    - `1.` and `1.` and `1.` for numbered lists.
+    - bold and _italic_ for emphasis.
+    - single backtick for inline code and three backticks for code blocks
+    - `>` for blockquotes.
+    - `---` for horizontal rules.
+    - [Link](https://example.com) for hyperlinks.
+    - ![description](image.png) for images.
+
+- Human-readable + machine-parsable = ✨
+
+- [Markdown Syntax Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+
+- Text-based Diagrams
+    - [Mermaid](https://mermaid.js.org/intro/)
+    - [Graphviz](https://graphviz.org/gallery/)
+    - [...and many more](https://kroki.io/)
+```
+:::
+::::
+
+## Own Your Prompts
+
+- Instructions; no data or product artifacts
+- Modular: Keep prompts scoped to a single, focused objective
+- Chain various agents to orchestrate a complex process
+- Treat prompts as code; use version control
+
+## Context Window
+
+- Context is precious; don't dump extensive amounts of texts into it.
+- Models (and people) perform better on focused tasks with smaller contexts.
+    - Shorter context = faster responses, cheaper calls, and fewer hallucinations.
+- Start new conversations often!
+    - Artifacts provide continuity.
+- Skills often bloat context windows. Use them judiciously.
+    - Pulled on-demand by agents probablistically; cost a lot of tokens.
+- Use custom agents that will [do one thing well](https://en.wikipedia.org/wiki/Mr._Meeseeks).
+    - The "Need to Know" Basis: Feed agents only the specific files or functions they need.
+    - OpenCode subagents start with fresh context and a small set of instructions.
+
+## Control Flow
+
+- Ideally: deterministic processes manage agent interactions.
+- Realistically: a more powerful model manages the long-running goal-driven task.
+    - Tasks sub-agents sequentially or in parallel as needed.
+    - Frontier models excel at this.
+- Use intermediate artifacts to pause execution, allow human review, and ensure reliable outcomes.
+- Open-ended prompting enables discussion around artifacts.
+    - Start new conversations often!
+- LLM-as-a-judge: Use models to review and approve artifacts
+- Implementation is driven by artifacts, not prompts
+
+
+## Agents: Simple, Focused {.smaller}
+
+```{mermaid}
+%%| fig-height: 3
+flowchart LR
+    Proposal --Architect --> Design
+    Proposal --Analyst --> Specifications
+    Specifications --Architect --> Design
+    Specifications --Planner --> Tasks
+    Design --Planner --> Tasks
+    Tasks --Tech Lead--> Developer
+    Tasks --Tech Lead--> Tester
+    Tasks --Tech Lead--> Reviewer
+```
+
+- Analyst: Develop a proposal. Produce specifications.
+- Architect: Write the design / architecture document.
+- Planner: Develop and refine the plan. Identify dependencies and opportunities to parallelize tasks.
+- Tech Lead: Review and execute the plan. Delegate extensively.
+    - Developer: Implement the plan.
+    - Tester: Test the implementation. Write unit tests.
+    - Reviewer: Ensure each task is complete to standard.
+
+Source: [github.com/aadityabhatia/agents-opencode](https://github.com/aadityabhatia/agents-opencode), inspired by [OpenSpec](https://openspec.dev/)
+
+
+## Demo
+
+- Harnesses
+    - [OpenCode](https://opencode.ai/)
+    - [Pi.dev](https://pi.dev/)
+    - [Mistral Vibe](https://github.com/mistralai/mistral-vibe)
+
+- Models
+    - [Mistral Medium 3.5](https://docs.mistral.ai/models/overview) - long-running goal-oriented tasks
+    - [Poolside Laguna XS 2.1](https://poolside.ai/blog/introducing-laguna-xs-2-1) - excellent developer
+    - [Mistral Small 4](https://docs.mistral.ai/models/overview) - reviewer, tester
+    - [Google Gemma 4](https://huggingface.co/google/gemma-4-26B-A4B-it-qat-q4_0-unquantized) - reviewer, tester
+
+### [Agentic Development Demo](https://github.com/usma-eecs/agentic-development-demo)
