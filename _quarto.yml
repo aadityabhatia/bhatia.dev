@@ -2,8 +2,10 @@ project:
   type: website
   render:
     - "*.qmd"
+    - "talks/*.qmd"
   resources:
-    - CNAME
+    - slides.css
+    - images/
   preview:
     port: 7827
     browser: false
@@ -39,3 +41,25 @@ format:
       theme: neutral
     grid:
       body-width: 1800px
+  revealjs:
+    author: Sonny Bhatia
+    center: true
+    date-format: full
+    width: 1600
+    height: 900
+    transition: slide
+    background-transition: fade
+    default-timing: 60
+    preview-links: false
+    link-external-newwindow: true
+    link-external-icon: true
+    code-block-height: 800px
+    code-annotations: select
+    tbl-cap-location: bottom
+    slide-number: true
+    pdf-separate-fragments: false
+    theme: dark
+    css: '/slides.css'
+    mermaid-format: svg
+    mermaid:
+      theme: dark

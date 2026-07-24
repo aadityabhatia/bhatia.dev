@@ -1,4 +1,5 @@
 ---
+format: html
 title: "HTTP 404: Not Found"
 ---
 

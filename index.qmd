@@ -38,6 +38,7 @@ format:
 
 ## More
 
+[🎤 Talks](/talks/){.btn .btn-primary}
 [⭐ Awesome Stuff](/awesome "curated list of awesome resources, tools, and projects related to computing, technology and life in general"){.btn .btn-primary}
 :::
 
