@@ -112,18 +112,11 @@
     "text": "The Problem\n\nSyntax is now a commodity\n\nAI can write and analyze and explain programs\nSoftware Architecture requires deliberate thought\n\nThe “Black Box” Trap\n\nUnstructured prompting (“vibe coding”) bypasses systems thinking and domain expertise\nStudents lack architectural understanding\n\nBrittle Outcomes\n\nTrial-and-error prompting does not scale to complex, reliable software\n\n\nHow do we transition from unstructured prompting to disciplined, agentic systems engineering?"
   },
   {
-    "objectID": "talks/agentic-software-engineering.html#measure-of-performance",
-    "href": "talks/agentic-software-engineering.html#measure-of-performance",
+    "objectID": "talks/agentic-software-engineering.html#defining-success",
+    "href": "talks/agentic-software-engineering.html#defining-success",
     "title": "Software Engineering with Agentic AI",
-    "section": "Measure of Performance",
-    "text": "Measure of Performance\n\nToken maxxing!!\n\nThrowing tokens at problems until they go away.\nBrute forcing was rewarded by tech companies; employees spending below threshold were penalized\nTokenmaxxing: great for AI vendors\n\nValue maxxing: Maximizing output quality per token\nModel maxxing: Efficient Model Routing\n\nFrontier models develop plans and work with ambiguous requirements.\nSmaller, faster models perform simpler, well-defined tasks.\n\nWhat is a good measure of effectiveness?"
-  },
-  {
-    "objectID": "talks/agentic-software-engineering.html#measure-of-effectiveness",
-    "href": "talks/agentic-software-engineering.html#measure-of-effectiveness",
-    "title": "Software Engineering with Agentic AI",
-    "section": "Measure of Effectiveness",
-    "text": "Measure of Effectiveness\n\nScrum team velocity per dollar spent?\nToken cost per line of code?\nResource Requirements\n\nGPU\nElectricity\nTime\n\nModel availability - frontier vs open weights\nUnderstanding of your work…?"
+    "section": "Defining Success",
+    "text": "Defining Success\n\n\nMeasure of Performance\n\nToken maxxing!!\n\nThrowing tokens at problems until they go away.\n\nBrute forcing was rewarded by tech companies; employees spending below threshold were penalized\nTokenmaxxing: great for AI vendors\n\nClaude Code\nOpenAI Codex\n\n\n\nMeasure of Effectiveness\n\nResources spent\n\nGPU\nElectricity\nTime\n\nModel availability - frontier vs open weights\nScrum team velocity per dollar spent?\nToken cost per line of code?\nUnderstanding of your work…?\nModel maxxing: Efficient Model Routing"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#the-big-idea-agentic-ai",
@@ -179,13 +172,20 @@
     "href": "talks/agentic-software-engineering.html#agents-small-simple-and-focused",
     "title": "Software Engineering with Agentic AI",
     "section": "Agents: Small, Simple, and Focused",
-    "text": "Agents: Small, Simple, and Focused\n\n\n\n\n\n\n\n\n\n\n\nArchitect\n\n\n\n\n\n\n\nAnalyst\n\n\n\n\n\n\n\nArchitect\n\n\n\n\n\n\n\nPlanner\n\n\n\n\n\n\n\nPlanner\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nProposal\n\n\n\n\n\n\n\nDesign\n\n\n\n\n\n\n\nSpecifications\n\n\n\n\n\n\n\nTasks\n\n\n\n\n\n\n\nDeveloper\n\n\n\n\n\n\n\nTester\n\n\n\n\n\n\n\nReviewer\n\n\n\n\n\n\n\n\n\n\n\nAnalyst: Develop a proposal. Produce specifications.\nArchitect: Write the design / architecture document.\nPlanner: Develop and refine the plan. Identify dependencies and opportunities to parallelize tasks.\nTech Lead: Review and execute the plan. Delegate extensively.\n\nDeveloper: Implement the plan.\nTester: Test the implementation. Write unit tests.\nReviewer: Ensure each task is complete to standard.\n\n\nSource: github.com/aadityabhatia/agents-opencode, inspired by OpenSpec"
+    "text": "Agents: Small, Simple, and Focused\n\n\n\n\n\n\n\n\n\n\n\nArchitect\n\n\n\n\n\n\n\nAnalyst\n\n\n\n\n\n\n\nArchitect\n\n\n\n\n\n\n\nPlanner\n\n\n\n\n\n\n\nPlanner\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nProposal\n\n\n\n\n\n\n\nDesign\n\n\n\n\n\n\n\nSpecifications\n\n\n\n\n\n\n\nTasks\n\n\n\n\n\n\n\nDeveloper\n\n\n\n\n\n\n\nTester\n\n\n\n\n\n\n\nReviewer\n\n\n\n\n\n\n\n\n\n\n\nAnalyst: Develop a proposal. Produce specifications.\nArchitect: Write the design / architecture document.\nPlanner: Develop and refine the plan. Identify dependencies and opportunities to parallelize tasks.\nTech Lead: Review and execute the plan. Delegate extensively.\n\nDeveloper: Implement the plan.\nTester: Test the implementation. Write unit tests.\nReviewer: Ensure each task is complete to standard.\n\n\nAgents task sub-agents as needed."
   },
   {
     "objectID": "talks/agentic-software-engineering.html#where-to-start",
     "href": "talks/agentic-software-engineering.html#where-to-start",
     "title": "Software Engineering with Agentic AI",
     "section": "Where to Start?",
-    "text": "Where to Start?\n\nOpen Source Harnesses\n\nOpenCode\nPi.dev\nMistral Vibe\n\nOpen Weight Models\n\nMistral Medium 3.5 - long-running goal-oriented tasks\nPoolside Laguna XS 2.1 - excellent developer\nMistral Small 4 - reviewer, tester\nGoogle Gemma 4 - reviewer, tester\n\n\nAgentic Development Workshop"
+    "text": "Where to Start?\n\n\nOpen Source Harnesses\n\nOpenCode\nOpenHands\nPi.dev\nMistral Vibe\n\n\nOpen Weight Models\n\nMistral Medium 3.5 - long-running tasks\n\nMistral Small 4 - smaller and lighter\n\nPoolside Laguna XS 2.1 - developer\nGoogle Gemma 4 - reviewer, tester\n\n\n\n\nUse your local GPU\n\nDo this if you have a GPU with 24GB+ VRAM\nLM Studio - easiest setup\nOllama - easy setup, models just work\nvLLM - complex, high performance\n\n\nHosted Models\n\nFree and paid models with privacy tradeoffs\nMistral - ~50M tokens free per month\nOpenRouter - many free and paid models\nmodels.dev - model details\nHugging Face - discover and download models"
+  },
+  {
+    "objectID": "talks/agentic-software-engineering.html#opencode-agentic-development-workshop",
+    "href": "talks/agentic-software-engineering.html#opencode-agentic-development-workshop",
+    "title": "Software Engineering with Agentic AI",
+    "section": "OpenCode Agentic Development Workshop",
+    "text": "OpenCode Agentic Development Workshop\n\nInstall Docker, Git, WSL\nClone this repo\nInspect the files and artifacts\nRun docker compose up to start the harness\nOpen http://localhost:4096 in your browser\nConfigure OpenCode\nAdd project /workspace and start a new session.\nStart interacting with the agents!\n\nSee detailed instructions and code at github.com/aadityabhatia/opencode-docker"
   }
 ]
