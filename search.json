@@ -4,7 +4,7 @@
     "href": "talks/index.html",
     "title": "Talks & Presentations",
     "section": "",
-    "text": "Software Engineering with Agentic AI\n\n\nBuild software without drowning in prompts!\n\n\nHow do we transition from unstructured prompting to agentic systems engineering?\n\n\n\n\n\nJul 24, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Software Engineering with Agentic AI\n\n\nBuild software without drowning in prompts!\n\n\nHow do we transition from unstructured prompting to agentic systems engineering?\n\n\n\n\n\nJul 26, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -123,7 +123,7 @@
     "href": "talks/agentic-software-engineering.html#measure-of-effectiveness",
     "title": "Software Engineering with Agentic AI",
     "section": "Measure of Effectiveness",
-    "text": "Measure of Effectiveness\n\nResource Requirements\n\nGPU\nElectricity\nTime\n\nToken cost per unit of productivity\nModel availability - frontier vs open weights\nUnderstanding of the product\n…?"
+    "text": "Measure of Effectiveness\n\nScrum team velocity per dollar spent?\nToken cost per line of code?\nResource Requirements\n\nGPU\nElectricity\nTime\n\nModel availability - frontier vs open weights\nUnderstanding of your work…?"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#the-big-idea-agentic-ai",
@@ -137,28 +137,28 @@
     "href": "talks/agentic-software-engineering.html#core-concepts",
     "title": "Software Engineering with Agentic AI",
     "section": "Core Concepts",
-    "text": "Core Concepts\n\n\nHarness\n\nFrameworks that manage the control flow and context for agents\nExpose tools to language models\nA step beyond prompting and chatting\nMakes your AI agents agentic!\n\n\nTools\n\nFunctions for agents to call (~API)\nAllow agents to interact with systems\nTypically provided by the harness\nMCP allows servers to expose tools\n\n\n\n\nAGENTS.md\n\nREADME for agents\nContext provided to every agent operating in the directory\nNest AGENTS.md files for precise context\n\n\nSkills\n\nReusable instructions for AI agents\nAgents can load skills as needed\nTypically add 5k-20k tokens of context\nAdds new capabilities; bloats context window"
+    "text": "Core Concepts\n\n\nHarness\n\nFramework that manages the control flow and context for agents\nExposes tools to language models\nMakes your AI agents agentic!\n\n\nTools\n\nFunctions for agents to call (~API)\nTypically provided by the harness\nAllow agents to interact with systems\nMCP servers provide tools for all harnesses\n\n\n\n\nAGENTS.md\n\nREADME.md for agents\nPer-directory context; grab the closest\nGiven to every agent, always!\nKeep it really short and focused\n\n\nSkills\n\nReusable instructions for AI agents\nAgents can load skills as needed\nTypically add 5k-20k tokens of context\nAdds new capabilities; bloats context window"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#guiding-principles",
     "href": "talks/agentic-software-engineering.html#guiding-principles",
     "title": "Software Engineering with Agentic AI",
     "section": "Guiding Principles",
-    "text": "Guiding Principles\n\nMarkdown everywhere.\nOwn your prompts.\nContext window: keep it compact.\nControl flow\nAgents: small, simple, and focused. Each agent does one thing well.\n\nInspiration: 12 Factor Agents: Principles for building reliable LLM applications"
+    "text": "Guiding Principles\n\nMarkdown everywhere.\nOwn your prompts.\nContext window: keep it compact.\nControl flow: manage agent interactions and artifacts.\nAgents: small, simple, and focused. Each agent does one thing well.\n\nInspiration: 12 Factor Agents: Principles for building reliable LLM applications"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#markdown-the-lingua-franca",
     "href": "talks/agentic-software-engineering.html#markdown-the-lingua-franca",
     "title": "Software Engineering with Agentic AI",
     "section": "Markdown: The Lingua Franca",
-    "text": "Markdown: The Lingua Franca\n\n\n\nBeautiful, simple, and human-readable.\n\n# and ## for headings.\n- for lists.\n…everything else is nice to know.\n\nHuman-readable + machine-parsable = ✨\nMarkdown Syntax Cheatsheet\nText-based Diagrams\n\nMermaid\nGraphviz\n…and many more\n\n\n\n## Markdown: The Lingua Franca\n\n- Beautiful, simple, and human-readable.\n    - `#` and `##` for headings.\n    - `-` for lists.\n    - `1.` and `1.` and `1.` for numbered lists.\n    - bold and _italic_ for emphasis.\n    - single backtick for inline code and three backticks for code blocks\n    - `&gt;` for blockquotes.\n    - `---` for horizontal rules.\n    - [Link](https://example.com) for hyperlinks.\n    - ![description](image.png) for images.\n\n- Human-readable + machine-parsable = ✨\n\n- [Markdown Syntax Cheatsheet](https://www.markdownguide.org/cheat-sheet/)\n\n- Text-based Diagrams\n    - [Mermaid](https://mermaid.js.org/intro/)\n    - [Graphviz](https://graphviz.org/gallery/)\n    - [...and many more](https://kroki.io/)"
+    "text": "Markdown: The Lingua Franca\n\n\n\nBeautiful, simple, and human-readable.\n\n# and ## for headings.\n- for lists.\n…everything else is nice to know.\n\nHuman-readable + machine-parsable = ✨\nMarkdown Syntax Cheatsheet\nText-based Diagrams\n\nMermaid\nGraphviz\n…and many more\n\n\n\n## Markdown: The Lingua Franca\n\n- Beautiful, simple, and human-readable.\n    - `#` and `##` for headings.\n    - `-` for lists.\n    - `1.` and `1.` and `1.` for numbered lists.\n    - __bold__ and _italic_ for emphasis.\n    - single backtick for inline code and three backticks for code blocks\n    - `&gt;` for blockquotes.\n    - `---` for horizontal rules.\n    - [Link](https://example.com) for hyperlinks.\n    - ![description](image.png) for images.\n\n- Human-readable + machine-parsable = ✨\n\n- [Markdown Syntax Cheatsheet](https://www.markdownguide.org/cheat-sheet/)\n\n- Text-based Diagrams\n    - [Mermaid](https://mermaid.js.org/intro/)\n    - [Graphviz](https://graphviz.org/gallery/)\n    - [...and many more](https://kroki.io/)"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#own-your-prompts",
     "href": "talks/agentic-software-engineering.html#own-your-prompts",
     "title": "Software Engineering with Agentic AI",
     "section": "Own Your Prompts",
-    "text": "Own Your Prompts\n\nInstructions; no data or product artifacts\nModular: Keep prompts scoped to a single, focused objective\nChain various agents to orchestrate a complex process\nTreat prompts as code; use version control"
+    "text": "Own Your Prompts\n\nAgent prompts define roles, processes, and expectations\nFocused instructions; no data or product artifacts\nModular: Keep prompts scoped to a single, focused objective\nChain various agents to orchestrate a complex process\nTreat prompts as code; use version control"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#context-window",
@@ -175,17 +175,17 @@
     "text": "Control Flow\n\nIdeally: deterministic processes manage agent interactions.\nRealistically: a more powerful model manages the long-running goal-driven task.\n\nTasks sub-agents sequentially or in parallel as needed.\nFrontier models excel at this.\n\nUse intermediate artifacts to pause execution, allow human review, and ensure reliable outcomes.\nOpen-ended prompting enables discussion around artifacts.\n\nStart new conversations often!\n\nLLM-as-a-judge: Use models to review and approve artifacts\nImplementation is driven by artifacts, not prompts"
   },
   {
-    "objectID": "talks/agentic-software-engineering.html#agents-simple-focused",
-    "href": "talks/agentic-software-engineering.html#agents-simple-focused",
+    "objectID": "talks/agentic-software-engineering.html#agents-small-simple-and-focused",
+    "href": "talks/agentic-software-engineering.html#agents-small-simple-and-focused",
     "title": "Software Engineering with Agentic AI",
-    "section": "Agents: Simple, Focused",
-    "text": "Agents: Simple, Focused\n\n\n\n\n\n\n\n\n\n\n\nArchitect\n\n\n\n\n\n\n\nAnalyst\n\n\n\n\n\n\n\nArchitect\n\n\n\n\n\n\n\nPlanner\n\n\n\n\n\n\n\nPlanner\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nProposal\n\n\n\n\n\n\n\nDesign\n\n\n\n\n\n\n\nSpecifications\n\n\n\n\n\n\n\nTasks\n\n\n\n\n\n\n\nDeveloper\n\n\n\n\n\n\n\nTester\n\n\n\n\n\n\n\nReviewer\n\n\n\n\n\n\n\n\n\n\n\nAnalyst: Develop a proposal. Produce specifications.\nArchitect: Write the design / architecture document.\nPlanner: Develop and refine the plan. Identify dependencies and opportunities to parallelize tasks.\nTech Lead: Review and execute the plan. Delegate extensively.\n\nDeveloper: Implement the plan.\nTester: Test the implementation. Write unit tests.\nReviewer: Ensure each task is complete to standard.\n\n\nSource: github.com/aadityabhatia/agents-opencode, inspired by OpenSpec"
+    "section": "Agents: Small, Simple, and Focused",
+    "text": "Agents: Small, Simple, and Focused\n\n\n\n\n\n\n\n\n\n\n\nArchitect\n\n\n\n\n\n\n\nAnalyst\n\n\n\n\n\n\n\nArchitect\n\n\n\n\n\n\n\nPlanner\n\n\n\n\n\n\n\nPlanner\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nProposal\n\n\n\n\n\n\n\nDesign\n\n\n\n\n\n\n\nSpecifications\n\n\n\n\n\n\n\nTasks\n\n\n\n\n\n\n\nDeveloper\n\n\n\n\n\n\n\nTester\n\n\n\n\n\n\n\nReviewer\n\n\n\n\n\n\n\n\n\n\n\nAnalyst: Develop a proposal. Produce specifications.\nArchitect: Write the design / architecture document.\nPlanner: Develop and refine the plan. Identify dependencies and opportunities to parallelize tasks.\nTech Lead: Review and execute the plan. Delegate extensively.\n\nDeveloper: Implement the plan.\nTester: Test the implementation. Write unit tests.\nReviewer: Ensure each task is complete to standard.\n\n\nSource: github.com/aadityabhatia/agents-opencode, inspired by OpenSpec"
   },
   {
-    "objectID": "talks/agentic-software-engineering.html#demo",
-    "href": "talks/agentic-software-engineering.html#demo",
+    "objectID": "talks/agentic-software-engineering.html#where-to-start",
+    "href": "talks/agentic-software-engineering.html#where-to-start",
     "title": "Software Engineering with Agentic AI",
-    "section": "Demo",
-    "text": "Demo\n\nHarnesses\n\nOpenCode\nPi.dev\nMistral Vibe\n\nModels\n\nMistral Medium 3.5 - long-running goal-oriented tasks\nPoolside Laguna XS 2.1 - excellent developer\nMistral Small 4 - reviewer, tester\nGoogle Gemma 4 - reviewer, tester\n\n\nAgentic Development Demo"
+    "section": "Where to Start?",
+    "text": "Where to Start?\n\nOpen Source Harnesses\n\nOpenCode\nPi.dev\nMistral Vibe\n\nOpen Weight Models\n\nMistral Medium 3.5 - long-running goal-oriented tasks\nPoolside Laguna XS 2.1 - excellent developer\nMistral Small 4 - reviewer, tester\nGoogle Gemma 4 - reviewer, tester\n\n\nAgentic Development Workshop"
   }
 ]
