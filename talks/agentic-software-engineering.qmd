@@ -23,31 +23,32 @@ title-slide-attributes:
 
 ### How do we transition from unstructured prompting to disciplined, agentic systems engineering?
 
-## Measure of Performance
+## Defining Success
 
+:::: {.columns}
+::: {.column}
+### Measure of Performance
 -  Token maxxing!!
     - Throwing tokens at problems until they go away.
-    - [Brute forcing was rewarded by tech companies; employees spending below threshold were penalized](https://www.forbes.com/sites/timkeary/2026/04/13/is-the-cult-of-tokenmaxxingjust-another-fad-or-the-new-normal/)
-    - [Tokenmaxxing: great for AI vendors](https://blog.pragmaticengineer.com/the-pulse-tokenmaxxing-as-a-weird-new-trend/)
+- [Brute forcing was rewarded by tech companies; employees spending below threshold were penalized](https://www.forbes.com/sites/timkeary/2026/04/13/is-the-cult-of-tokenmaxxingjust-another-fad-or-the-new-normal/)
+- [Tokenmaxxing: great for AI vendors](https://blog.pragmaticengineer.com/the-pulse-tokenmaxxing-as-a-weird-new-trend/)
+    - Claude Code
+    - OpenAI Codex
+:::
+::: {.column}
+### Measure of Effectiveness
 
-- Value maxxing: Maximizing output quality per token
-
-- [Model maxxing: Efficient Model Routing](https://www.businessinsider.com/ai-model-routing-modelmaxxing-efficient-token-use-2026-7?mrfcid=202607106a516ea52b04f96db8f61776)
-    - Frontier models develop plans and work with ambiguous requirements.
-    - Smaller, faster models perform simpler, well-defined tasks.
-
-- What is a good measure of effectiveness?
-
-## Measure of Effectiveness
-
-- Scrum team velocity per dollar spent?
-- Token cost per line of code?
-- Resource Requirements
+- Resources spent
     - GPU
     - Electricity
     - Time
 - Model availability - frontier vs open weights
+- Scrum team velocity per dollar spent?
+- Token cost per line of code?
 - Understanding of your work...?
+- [Model maxxing: Efficient Model Routing](https://www.businessinsider.com/ai-model-routing-modelmaxxing-efficient-token-use-2026-7?mrfcid=202607106a516ea52b04f96db8f61776)
+:::
+::::
 
 ## The Big Idea: Agentic AI
 
@@ -219,19 +220,54 @@ flowchart LR
     - Tester: Test the implementation. Write unit tests.
     - Reviewer: Ensure each task is complete to standard.
 
-Source: [github.com/aadityabhatia/agents-opencode](https://github.com/aadityabhatia/agents-opencode), inspired by [OpenSpec](https://openspec.dev/)
+### Agents task sub-agents as needed.
 
-## Where to Start?
+## Where to Start? {.smaller}
 
-- Open Source Harnesses
-    - [OpenCode](https://opencode.ai/)
-    - [Pi.dev](https://pi.dev/)
-    - [Mistral Vibe](https://github.com/mistralai/mistral-vibe)
+:::: {.columns}
+::: {.column}
+### Open Source Harnesses
+- [OpenCode](https://opencode.ai/)
+- [OpenHands](https://www.openhands.dev/)
+- [Pi.dev](https://pi.dev/)
+- [Mistral Vibe](https://github.com/mistralai/mistral-vibe)
+:::
+::: {.column}
+### Open Weight Models
+- [Mistral Medium 3.5](https://docs.mistral.ai/models/overview) - long-running tasks
+    - [Mistral Small 4](https://docs.mistral.ai/models/overview) - smaller and lighter
+- [Poolside Laguna XS 2.1](https://poolside.ai/blog/introducing-laguna-xs-2-1) - developer
+- [Google Gemma 4](https://huggingface.co/google/gemma-4-26B-A4B-it-qat-q4_0-unquantized) - reviewer, tester
+:::
+::::
 
-- Open Weight Models
-    - [Mistral Medium 3.5](https://docs.mistral.ai/models/overview) - long-running goal-oriented tasks
-    - [Poolside Laguna XS 2.1](https://poolside.ai/blog/introducing-laguna-xs-2-1) - excellent developer
-    - [Mistral Small 4](https://docs.mistral.ai/models/overview) - reviewer, tester
-    - [Google Gemma 4](https://huggingface.co/google/gemma-4-26B-A4B-it-qat-q4_0-unquantized) - reviewer, tester
+:::: {.columns}
+::: {.column}
+### Use your local GPU
+- Do this if you have a GPU with 24GB+ VRAM
+- [LM Studio](https://lmstudio.ai/) - easiest setup
+- [Ollama](https://ollama.com/) - easy setup, models just work
+- [vLLM](https://vllm.ai/) - complex, high performance
+:::
+::: {.column}
+### Hosted Models
+- Free and paid models with privacy tradeoffs
+- [Mistral](https://console.mistral.ai/) - ~50M tokens free per month
+- [OpenRouter](https://openrouter.ai/) - many free and paid models
+- [models.dev](https://models.dev/) - model details
+- [Hugging Face](https://huggingface.co/) - discover and download models
+:::
+::::
 
-### [Agentic Development Workshop](https://github.com/usma-eecs/agentic-development-demo)
+## OpenCode Agentic Development Workshop
+
+1. Install Docker, Git, WSL
+2. Clone this repo
+3. Inspect the files and artifacts
+4. Run `docker compose up` to start the harness
+5. Open `http://localhost:4096` in your browser
+6. Configure OpenCode
+7. Add project `/workspace` and start a new session.
+8. Start interacting with the agents!
+
+See detailed instructions and code at [github.com/aadityabhatia/opencode-docker](https://github.com/aadityabhatia/opencode-docker)
