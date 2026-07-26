@@ -14,11 +14,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v7
 
-      - name: restore timestamps
+      - name: Restore timestamps from git logs
         uses: chetan/git-restore-mtime-action@v2
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Install Chrome
+        run: quarto install chrome-headless-shell
+
+      - name: Quarto check
+        run: quarto check
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
