@@ -86,7 +86,7 @@ flowchart LR
 - Functions for agents to call (~API)
 - Typically provided by the harness
 - Allow agents to interact with systems
-- [MCP servers](https://modelcontextprotocol.io/) provide tools for all harnesses
+- [MCP servers](https://modelcontextprotocol.io/) provide remote tools
 :::
 ::::
 
@@ -94,7 +94,7 @@ flowchart LR
 ::: {.column}
 ### [AGENTS.md](https://agents.md/)
 
-- README.md for agents
+- README file for agents
 - Per-directory context; grab the closest
 - Given to every agent, always!
 - Keep it really short and focused
@@ -105,14 +105,25 @@ flowchart LR
 - Reusable instructions for AI agents
 - Agents can load skills as needed
 - Typically add 5k-20k tokens of context
-- Adds new capabilities; bloats context window
+- Adds new capabilities; bloats context
 :::
 ::::
+
+## Challenges with current systems
+
+- Proprietary harnesses are black boxes
+    - [System prompts are huge](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools); user has no control
+- Context grows quickly
+    - Difficulty reasoning and following instructions
+    - Performance degrades
+- Agent orchestrated manually
+- Models, configuration, and pricing can change without notice
+    - [Surprises await...](https://www.makeuseof.com/someone-left-claude-code-running-overnight-and-it-cost-6000/)
 
 ## Guiding Principles
 
 1. Markdown everywhere.
-1. Own your prompts.
+1. Own your agent roles / system prompts.
 1. Context window: keep it compact.
 1. Control flow: manage agent interactions and artifacts.
 1. Agents: small, simple, and focused. [Each agent does one thing well.](https://en.wikipedia.org/wiki/Mr._Meeseeks)
@@ -123,24 +134,7 @@ Inspiration: [12 Factor Agents: Principles for building reliable LLM application
 
 :::: {.columns}
 ::: {.column}
-- Beautiful, simple, and human-readable.
-    - `#` and `##` for headings.
-    - `-` for lists.
-    - ...everything else is nice to know.
-
-- Human-readable + machine-parsable = ✨
-
-- [Markdown Syntax Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
-
-- Text-based Diagrams
-    - [Mermaid](https://mermaid.js.org/intro/)
-    - [Graphviz](https://graphviz.org/gallery/)
-    - [...and many more](https://kroki.io/)
-:::
-::: {.column}
 ```md
-## Markdown: The Lingua Franca
-
 - Beautiful, simple, and human-readable.
     - `#` and `##` for headings.
     - `-` for lists.
@@ -162,9 +156,24 @@ Inspiration: [12 Factor Agents: Principles for building reliable LLM application
     - [...and many more](https://kroki.io/)
 ```
 :::
+::: {.column}
+- Beautiful, simple, and human-readable.
+    - `#` and `##` for headings.
+    - `-` for lists.
+    - ...everything else is nice to know.
+
+- Human-readable + machine-parsable = ✨
+
+- [Markdown Syntax Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+
+- Text-based Diagrams
+    - [Mermaid](https://mermaid.js.org/intro/)
+    - [Graphviz](https://graphviz.org/gallery/)
+    - [...and many more](https://kroki.io/)
+:::
 ::::
 
-## Own Your Prompts
+## Own Your Agent Roles / System Prompts
 
 - Agent prompts define roles, processes, and expectations
 - Focused instructions; no data or product artifacts
