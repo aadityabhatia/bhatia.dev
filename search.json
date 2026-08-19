@@ -4,7 +4,7 @@
     "href": "talks/index.html",
     "title": "Talks & Presentations",
     "section": "",
-    "text": "Software Engineering with Agentic AI\n\n\nBuild software without drowning in prompts!\n\n\nHow do we transition from unstructured prompting to agentic systems engineering?\n\n\n\n\n\nJul 26, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Software Engineering with Agentic AI\n\n\nBuild software without drowning in prompts!\n\n\nHow do we transition from unstructured prompting to agentic systems engineering?\n\n\n\n\n\nAug 19, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -130,28 +130,35 @@
     "href": "talks/agentic-software-engineering.html#core-concepts",
     "title": "Software Engineering with Agentic AI",
     "section": "Core Concepts",
-    "text": "Core Concepts\n\n\nHarness\n\nFramework that manages the control flow and context for agents\nExposes tools to language models\nMakes your AI agents agentic!\n\n\nTools\n\nFunctions for agents to call (~API)\nTypically provided by the harness\nAllow agents to interact with systems\nMCP servers provide tools for all harnesses\n\n\n\n\nAGENTS.md\n\nREADME.md for agents\nPer-directory context; grab the closest\nGiven to every agent, always!\nKeep it really short and focused\n\n\nSkills\n\nReusable instructions for AI agents\nAgents can load skills as needed\nTypically add 5k-20k tokens of context\nAdds new capabilities; bloats context window"
+    "text": "Core Concepts\n\n\nHarness\n\nFramework that manages the control flow and context for agents\nExposes tools to language models\nMakes your AI agents agentic!\n\n\nTools\n\nFunctions for agents to call (~API)\nTypically provided by the harness\nAllow agents to interact with systems\nMCP servers provide remote tools\n\n\n\n\nAGENTS.md\n\nREADME file for agents\nPer-directory context; grab the closest\nGiven to every agent, always!\nKeep it really short and focused\n\n\nSkills\n\nReusable instructions for AI agents\nAgents can load skills as needed\nTypically add 5k-20k tokens of context\nAdds new capabilities; bloats context"
+  },
+  {
+    "objectID": "talks/agentic-software-engineering.html#challenges-with-current-systems",
+    "href": "talks/agentic-software-engineering.html#challenges-with-current-systems",
+    "title": "Software Engineering with Agentic AI",
+    "section": "Challenges with current systems",
+    "text": "Challenges with current systems\n\nProprietary harnesses are black boxes\n\nSystem prompts are huge; user has no control\n\nContext grows quickly\n\nDifficulty reasoning and following instructions\nPerformance degrades\n\nAgent orchestrated manually\nModels, configuration, and pricing can change without notice\n\nSurprises await…"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#guiding-principles",
     "href": "talks/agentic-software-engineering.html#guiding-principles",
     "title": "Software Engineering with Agentic AI",
     "section": "Guiding Principles",
-    "text": "Guiding Principles\n\nMarkdown everywhere.\nOwn your prompts.\nContext window: keep it compact.\nControl flow: manage agent interactions and artifacts.\nAgents: small, simple, and focused. Each agent does one thing well.\n\nInspiration: 12 Factor Agents: Principles for building reliable LLM applications"
+    "text": "Guiding Principles\n\nMarkdown everywhere.\nOwn your agent roles / system prompts.\nContext window: keep it compact.\nControl flow: manage agent interactions and artifacts.\nAgents: small, simple, and focused. Each agent does one thing well.\n\nInspiration: 12 Factor Agents: Principles for building reliable LLM applications"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#markdown-the-lingua-franca",
     "href": "talks/agentic-software-engineering.html#markdown-the-lingua-franca",
     "title": "Software Engineering with Agentic AI",
     "section": "Markdown: The Lingua Franca",
-    "text": "Markdown: The Lingua Franca\n\n\n\nBeautiful, simple, and human-readable.\n\n# and ## for headings.\n- for lists.\n…everything else is nice to know.\n\nHuman-readable + machine-parsable = ✨\nMarkdown Syntax Cheatsheet\nText-based Diagrams\n\nMermaid\nGraphviz\n…and many more\n\n\n\n## Markdown: The Lingua Franca\n\n- Beautiful, simple, and human-readable.\n    - `#` and `##` for headings.\n    - `-` for lists.\n    - `1.` and `1.` and `1.` for numbered lists.\n    - __bold__ and _italic_ for emphasis.\n    - single backtick for inline code and three backticks for code blocks\n    - `&gt;` for blockquotes.\n    - `---` for horizontal rules.\n    - [Link](https://example.com) for hyperlinks.\n    - ![description](image.png) for images.\n\n- Human-readable + machine-parsable = ✨\n\n- [Markdown Syntax Cheatsheet](https://www.markdownguide.org/cheat-sheet/)\n\n- Text-based Diagrams\n    - [Mermaid](https://mermaid.js.org/intro/)\n    - [Graphviz](https://graphviz.org/gallery/)\n    - [...and many more](https://kroki.io/)"
+    "text": "Markdown: The Lingua Franca\n\n\n- Beautiful, simple, and human-readable.\n    - `#` and `##` for headings.\n    - `-` for lists.\n    - `1.` and `1.` and `1.` for numbered lists.\n    - __bold__ and _italic_ for emphasis.\n    - single backtick for inline code and three backticks for code blocks\n    - `&gt;` for blockquotes.\n    - `---` for horizontal rules.\n    - [Link](https://example.com) for hyperlinks.\n    - ![description](image.png) for images.\n\n- Human-readable + machine-parsable = ✨\n\n- [Markdown Syntax Cheatsheet](https://www.markdownguide.org/cheat-sheet/)\n\n- Text-based Diagrams\n    - [Mermaid](https://mermaid.js.org/intro/)\n    - [Graphviz](https://graphviz.org/gallery/)\n    - [...and many more](https://kroki.io/)\n\n\nBeautiful, simple, and human-readable.\n\n# and ## for headings.\n- for lists.\n…everything else is nice to know.\n\nHuman-readable + machine-parsable = ✨\nMarkdown Syntax Cheatsheet\nText-based Diagrams\n\nMermaid\nGraphviz\n…and many more"
   },
   {
-    "objectID": "talks/agentic-software-engineering.html#own-your-prompts",
-    "href": "talks/agentic-software-engineering.html#own-your-prompts",
+    "objectID": "talks/agentic-software-engineering.html#own-your-agent-roles-system-prompts",
+    "href": "talks/agentic-software-engineering.html#own-your-agent-roles-system-prompts",
     "title": "Software Engineering with Agentic AI",
-    "section": "Own Your Prompts",
-    "text": "Own Your Prompts\n\nAgent prompts define roles, processes, and expectations\nFocused instructions; no data or product artifacts\nModular: Keep prompts scoped to a single, focused objective\nChain various agents to orchestrate a complex process\nTreat prompts as code; use version control"
+    "section": "Own Your Agent Roles / System Prompts",
+    "text": "Own Your Agent Roles / System Prompts\n\nAgent prompts define roles, processes, and expectations\nFocused instructions; no data or product artifacts\nModular: Keep prompts scoped to a single, focused objective\nChain various agents to orchestrate a complex process\nTreat prompts as code; use version control"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#context-window",
