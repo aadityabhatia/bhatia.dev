@@ -4,7 +4,7 @@
     "href": "talks/index.html",
     "title": "Talks & Presentations",
     "section": "",
-    "text": "Software Engineering with Agentic AI\n\n\nBuild software without drowning in prompts!\n\n\nHow do we transition from unstructured prompting to agentic systems engineering?\n\n\n\n\n\nAug 19, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Software Engineering with Agentic AI\n\n\nBuild software without drowning in prompts!\n\n\nHow do we transition from unstructured prompting to agentic systems engineering?\n\n\n\n\n\nAug 23, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -112,67 +112,67 @@
     "text": "The Problem\n\nSyntax is now a commodity\n\nAI can write and analyze and explain programs\nSoftware Architecture requires deliberate thought\n\nThe “Black Box” Trap\n\nUnstructured prompting (“vibe coding”) bypasses systems thinking and domain expertise\nStudents lack architectural understanding\n\nBrittle Outcomes\n\nTrial-and-error prompting does not scale to complex, reliable software\n\n\nHow do we transition from unstructured prompting to disciplined, agentic systems engineering?"
   },
   {
-    "objectID": "talks/agentic-software-engineering.html#defining-success",
-    "href": "talks/agentic-software-engineering.html#defining-success",
+    "objectID": "talks/agentic-software-engineering.html#what-is-success",
+    "href": "talks/agentic-software-engineering.html#what-is-success",
     "title": "Software Engineering with Agentic AI",
-    "section": "Defining Success",
-    "text": "Defining Success\n\n\nMeasure of Performance\n\nToken maxxing!!\n\nThrowing tokens at problems until they go away.\n\nBrute forcing was rewarded by tech companies; employees spending below threshold were penalized\nTokenmaxxing: great for AI vendors\n\nClaude Code\nOpenAI Codex\n\n\n\nMeasure of Effectiveness\n\nResources spent\n\nGPU\nElectricity\nTime\n\nModel availability - frontier vs open weights\nScrum team velocity per dollar spent?\nToken cost per line of code?\nUnderstanding of your work…?\nModel maxxing: Efficient Model Routing"
+    "section": "What is Success?",
+    "text": "What is Success?\n\n\nMeasure of Performance\n\nToken maxxing!!\n\nThrowing tokens at problems until they go away\n\nBrute forcing was rewarded by tech companies; employees spending below threshold were penalized\nTokenmaxxing: great for AI vendors\n\nClaude Code\nOpenAI Codex\n\n\n\nMeasure of Effectiveness\n\nResources spent\n\nGPU\nElectricity\nTime\n\nModel availability - frontier vs open weights\nScrum team velocity per dollar spent?\nToken cost per line of code?\nUnderstanding of your work…?\nModel maxxing: Efficient Model Routing"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#the-big-idea-agentic-ai",
     "href": "talks/agentic-software-engineering.html#the-big-idea-agentic-ai",
     "title": "Software Engineering with Agentic AI",
     "section": "The Big Idea: Agentic AI",
-    "text": "The Big Idea: Agentic AI\n\n\n\n\n\n\n\n\n\n\n\nArchitect\n\n\n\n\n\n\n\nAnalyst\n\n\n\n\n\n\n\nArchitect\n\n\n\n\n\n\n\nPlanner\n\n\n\n\n\n\n\nPlanner\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nProposal\n\n\n\n\n\n\n\nDesign\n\n\n\n\n\n\n\nSpecifications\n\n\n\n\n\n\n\nTasks\n\n\n\n\n\n\n\nDeveloper\n\n\n\n\n\n\n\nTester\n\n\n\n\n\n\n\nReviewer\n\n\n\n\n\n\n\n\n\n\n\nAgent = specific role with a focused set of instructions\nArtifacts = agent output at each step\nHumans validate intermediate artifacts\nExample above was inspired by OpenSpec"
+    "text": "The Big Idea: Agentic AI\n\nAgent = specific role with a focused set of instructions\nArtifacts = agent output at each step\nHumans validate intermediate artifacts\n\n\n\n\n\n\n\n\n\n\n\n\nArchitect\n\n\n\n\n\n\n\nAnalyst\n\n\n\n\n\n\n\nArchitect\n\n\n\n\n\n\n\nPlanner\n\n\n\n\n\n\n\nPlanner\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nProposal\n\n\n\n\n\n\n\nDesign\n\n\n\n\n\n\n\nSpecifications\n\n\n\n\n\n\n\nTasks\n\n\n\n\n\n\n\nDeveloper\n\n\n\n\n\n\n\nTester\n\n\n\n\n\n\n\nReviewer\n\n\n\n\n\n\n\n\n\n\nSimple software engineering pipeline inspired by OpenSpec"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#core-concepts",
     "href": "talks/agentic-software-engineering.html#core-concepts",
     "title": "Software Engineering with Agentic AI",
     "section": "Core Concepts",
-    "text": "Core Concepts\n\n\nHarness\n\nFramework that manages the control flow and context for agents\nExposes tools to language models\nMakes your AI agents agentic!\n\n\nTools\n\nFunctions for agents to call (~API)\nTypically provided by the harness\nAllow agents to interact with systems\nMCP servers provide remote tools\n\n\n\n\nAGENTS.md\n\nREADME file for agents\nPer-directory context; grab the closest\nGiven to every agent, always!\nKeep it really short and focused\n\n\nSkills\n\nReusable instructions for AI agents\nAgents can load skills as needed\nTypically add 5k-20k tokens of context\nAdds new capabilities; bloats context"
+    "text": "Core Concepts\n\n\nHarness\n\nSoftware that orchestrates agents\nManages the control flow and context\nExposes tools to language models\nMakes your AI agents agentic\ne.g. Claude Code, Codex, OpenCode, pi.dev\n\n\nTools\n\nDeterministic functions for agents (~API)\nInteract with local or remote systems\nHarnesses provide local tools\n\ne.g. read_file, run_command, fetch_url\n\nMCP servers provide remote tools\n\n\n\n\nAGENTS.md\n\nREADME file for agents\nPer-directory context; grab the closest\nGiven to every agent, always!\nKeep it really short and focused\n\n\nSkills\n\nAgents load skills as needed\n\nUnlock new capabilities!\n\nReusable instructions loaded into context\nLoads ~5k-20k tokens \\(\\rightarrow\\) bloats context"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#challenges-with-current-systems",
     "href": "talks/agentic-software-engineering.html#challenges-with-current-systems",
     "title": "Software Engineering with Agentic AI",
     "section": "Challenges with current systems",
-    "text": "Challenges with current systems\n\nProprietary harnesses are black boxes\n\nSystem prompts are huge; user has no control\n\nContext grows quickly\n\nDifficulty reasoning and following instructions\nPerformance degrades\n\nAgent orchestrated manually\nModels, configuration, and pricing can change without notice\n\nSurprises await…"
+    "text": "Challenges with current systems\n\nProprietary harnesses are black boxes\n\nSystem prompts are often huge; user has no control\n\nContext grows quickly\n\nDifficulty reasoning and following instructions\nPerformance degrades on smaller models\nLarger context = higher costs; who profits?\n\nAgents often orchestrated manually\n\nLimited control over spawning sub-agents\nDifficult to scale processes and parallelize tasks\n\nModels, configuration, and pricing can change without notice\n\nSurprises await…"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#guiding-principles",
     "href": "talks/agentic-software-engineering.html#guiding-principles",
     "title": "Software Engineering with Agentic AI",
     "section": "Guiding Principles",
-    "text": "Guiding Principles\n\nMarkdown everywhere.\nOwn your agent roles / system prompts.\nContext window: keep it compact.\nControl flow: manage agent interactions and artifacts.\nAgents: small, simple, and focused. Each agent does one thing well.\n\nInspiration: 12 Factor Agents: Principles for building reliable LLM applications"
+    "text": "Guiding Principles\n\nMarkdown everywhere\nOwn your agent roles / system prompts\nContext window: keep it compact\nControl flow: manage agent interactions and artifacts\nAgents: small, simple, and focused\n\nEach agent does one thing well\n\n\nInspiration: 12 Factor Agents: Principles for building reliable LLM applications"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#markdown-the-lingua-franca",
     "href": "talks/agentic-software-engineering.html#markdown-the-lingua-franca",
     "title": "Software Engineering with Agentic AI",
     "section": "Markdown: The Lingua Franca",
-    "text": "Markdown: The Lingua Franca\n\n\n- Beautiful, simple, and human-readable.\n    - `#` and `##` for headings.\n    - `-` for lists.\n    - `1.` and `1.` and `1.` for numbered lists.\n    - __bold__ and _italic_ for emphasis.\n    - single backtick for inline code and three backticks for code blocks\n    - `&gt;` for blockquotes.\n    - `---` for horizontal rules.\n    - [Link](https://example.com) for hyperlinks.\n    - ![description](image.png) for images.\n\n- Human-readable + machine-parsable = ✨\n\n- [Markdown Syntax Cheatsheet](https://www.markdownguide.org/cheat-sheet/)\n\n- Text-based Diagrams\n    - [Mermaid](https://mermaid.js.org/intro/)\n    - [Graphviz](https://graphviz.org/gallery/)\n    - [...and many more](https://kroki.io/)\n\n\nBeautiful, simple, and human-readable.\n\n# and ## for headings.\n- for lists.\n…everything else is nice to know.\n\nHuman-readable + machine-parsable = ✨\nMarkdown Syntax Cheatsheet\nText-based Diagrams\n\nMermaid\nGraphviz\n…and many more"
+    "text": "Markdown: The Lingua Franca\n\n\n- Beautiful, simple, and human-readable\n    - `#` and `##` for headings\n    - `-` for lists\n    - `1.` and `1.` and `1.` for numbered lists\n    - __bold__ and _italic_ for emphasis\n    - single backtick for inline code and three backticks for code block\n    - `&gt;` for blockquotes\n    - `---` for horizontal rules\n    - [Link](https://example.com) for hyperlinks\n    - ![description](image.png) for images\n\n- Human-readable + machine-parsable = ✨\n\n- [Markdown Syntax Cheatsheet](https://www.markdownguide.org/cheat-sheet/)\n\n- Text-based Diagrams\n    - [Mermaid](https://mermaid.js.org/intro/)\n    - [Graphviz](https://graphviz.org/gallery/)\n    - [...and many more](https://kroki.io/)\n\n\nBeautiful, simple, and human-readable\n\n# and ## for headings\n- for lists\n…everything else is nice to know\n\nHuman-readable + machine-parsable = ✨\nMarkdown Syntax Cheatsheet\nText-based Diagrams\n\nMermaid\nGraphviz\n…and many more"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#own-your-agent-roles-system-prompts",
     "href": "talks/agentic-software-engineering.html#own-your-agent-roles-system-prompts",
     "title": "Software Engineering with Agentic AI",
     "section": "Own Your Agent Roles / System Prompts",
-    "text": "Own Your Agent Roles / System Prompts\n\nAgent prompts define roles, processes, and expectations\nFocused instructions; no data or product artifacts\nModular: Keep prompts scoped to a single, focused objective\nChain various agents to orchestrate a complex process\nTreat prompts as code; use version control"
+    "text": "Own Your Agent Roles / System Prompts\n\nAgent prompts define roles, processes, and expectations\nFocused instructions; no data or product artifacts\nModular: Keep prompts scoped to a single, focused objective\nChain various agents to orchestrate a complex process\n\nAgents can spawn sub-agents!\nCalling agent checks sub-agent’s output and continues the thread as needed\n\nTreat prompts as code; use version control\nInstead of loading skills, develop simple agents!!"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#context-window",
     "href": "talks/agentic-software-engineering.html#context-window",
     "title": "Software Engineering with Agentic AI",
     "section": "Context Window",
-    "text": "Context Window\n\nContext is precious; don’t dump extensive amounts of texts into it.\nModels (and people) perform better on focused tasks with smaller contexts.\n\nShorter context = faster responses, cheaper calls, and fewer hallucinations.\n\nStart new conversations often!\n\nArtifacts provide continuity.\n\nSkills often bloat context windows. Use them judiciously.\n\nPulled on-demand by agents probablistically; cost a lot of tokens.\n\nUse custom agents that will do one thing well.\n\nThe “Need to Know” Basis: Feed agents only the specific files or functions they need.\nOpenCode subagents start with fresh context and a small set of instructions."
+    "text": "Context Window\n\nContext is precious; don’t dump extensive amounts of texts into it\nModels (and people) perform better on focused tasks with smaller contexts\n\nShorter context = faster responses, cheaper calls, and fewer hallucinations\n\nStart new conversations often!\n\nArtifacts provide continuity\n\nSkills often bloat context windows; use them judiciously\n\nPulled on-demand by agents probablistically; cost a lot of tokens\n\nUse custom agents that will do one thing well\n\nThe “Need to Know” Basis: Feed agents only the specific files or functions they need\nSub-agents start with fresh context and a small set of instructions"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#control-flow",
     "href": "talks/agentic-software-engineering.html#control-flow",
     "title": "Software Engineering with Agentic AI",
     "section": "Control Flow",
-    "text": "Control Flow\n\nIdeally: deterministic processes manage agent interactions.\nRealistically: a more powerful model manages the long-running goal-driven task.\n\nTasks sub-agents sequentially or in parallel as needed.\nFrontier models excel at this.\n\nUse intermediate artifacts to pause execution, allow human review, and ensure reliable outcomes.\nOpen-ended prompting enables discussion around artifacts.\n\nStart new conversations often!\n\nLLM-as-a-judge: Use models to review and approve artifacts\nImplementation is driven by artifacts, not prompts"
+    "text": "Control Flow\n\nIdeally: deterministic processes manage agent interactions\nRealistically: a more powerful model manages the long-running goal-driven task\n\nTasks sub-agents sequentially or in parallel as needed\nFrontier models excel at this\n\nUse intermediate artifacts\n\npause execution, allow human review, ensure reliable outcomes\n\nOpen-ended prompting enables discussion around artifacts\n\nStart new conversations often!\n\nLLM-as-a-judge: Use models to review and approve artifacts\nImplementation is driven by artifacts, not prompts"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#agents-small-simple-and-focused",
@@ -182,17 +182,31 @@
     "text": "Agents: Small, Simple, and Focused\n\n\n\n\n\n\n\n\n\n\n\nArchitect\n\n\n\n\n\n\n\nAnalyst\n\n\n\n\n\n\n\nArchitect\n\n\n\n\n\n\n\nPlanner\n\n\n\n\n\n\n\nPlanner\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nProposal\n\n\n\n\n\n\n\nDesign\n\n\n\n\n\n\n\nSpecifications\n\n\n\n\n\n\n\nTasks\n\n\n\n\n\n\n\nDeveloper\n\n\n\n\n\n\n\nTester\n\n\n\n\n\n\n\nReviewer\n\n\n\n\n\n\n\n\n\n\n\nAnalyst: Develop a proposal. Produce specifications.\nArchitect: Write the design / architecture document.\nPlanner: Develop and refine the plan. Identify dependencies and opportunities to parallelize tasks.\nTech Lead: Review and execute the plan. Delegate extensively.\n\nDeveloper: Implement the plan.\nTester: Test the implementation. Write unit tests.\nReviewer: Ensure each task is complete to standard.\n\n\nAgents task sub-agents as needed."
   },
   {
-    "objectID": "talks/agentic-software-engineering.html#where-to-start",
-    "href": "talks/agentic-software-engineering.html#where-to-start",
+    "objectID": "talks/agentic-software-engineering.html#why-opencode",
+    "href": "talks/agentic-software-engineering.html#why-opencode",
     "title": "Software Engineering with Agentic AI",
-    "section": "Where to Start?",
-    "text": "Where to Start?\n\n\nOpen Source Harnesses\n\nOpenCode\nOpenHands\nPi.dev\nMistral Vibe\n\n\nOpen Weight Models\n\nMistral Medium 3.5 - long-running tasks\n\nMistral Small 4 - smaller and lighter\n\nPoolside Laguna XS 2.1 - developer\nGoogle Gemma 4 - reviewer, tester\n\n\n\n\nUse your local GPU\n\nDo this if you have a GPU with 24GB+ VRAM\nLM Studio - easiest setup\nOllama - easy setup, models just work\nvLLM - complex, high performance\n\n\nHosted Models\n\nFree and paid models with privacy tradeoffs\nMistral - ~50M tokens free per month\nOpenRouter - many free and paid models\nmodels.dev - model details\nHugging Face - discover and download models"
+    "section": "Why OpenCode?",
+    "text": "Why OpenCode?\n\nHarness of choice: good balance between features and configurability\nOverall loop remains non-deterministic - driven by a model capable of long-horizon reasoning\n\nFor complex tasks, expect this loop to run for hours at a time without human interaction\n\nRun in terminal or web browser; supports multiple projects and sessions\n\n\n\nPros\n\nOpen source; no vendor lock-in\n\nUse any provider, model, skills\n\nHighly customizable\n\nFully control your system prompts / agent roles\n\nPowerful permission model; containerize for added security\nAgents can spawn multiple sub-agents\n\nn-level recursion and parallelization\n\nMulti-modal inputs: text, code, images!\n\n\nCons\n\nNon-deterministic loop\n\nControlling model might not always make the best decisions\n\nConfiguration: must edit opencode.json for certain features\nMany features still in development\n\ne.g. grabbing model list from your provider\n\nDefining specific agent roles takes additional effort\n\nResult of wanting to control your own agent roles\nCan be automated with proper tooling"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#opencode-agentic-development-workshop",
     "href": "talks/agentic-software-engineering.html#opencode-agentic-development-workshop",
     "title": "Software Engineering with Agentic AI",
     "section": "OpenCode Agentic Development Workshop",
-    "text": "OpenCode Agentic Development Workshop\n\nInstall Docker, Git, WSL\nClone this repo\nInspect the files and artifacts\nRun docker compose up to start the harness\nOpen http://localhost:4096 in your browser\nConfigure OpenCode\nAdd project /workspace and start a new session.\nStart interacting with the agents!\n\nSee detailed instructions and code at github.com/aadityabhatia/opencode-docker"
+    "text": "OpenCode Agentic Development Workshop\n\nInstall Git, WSL, Docker; on Linux or MacOS, just ensure you have docker compose\nGrab the code: git clone https://github.com/aadityabhatia/opencode-docker\n\nInspect contents: opencode.jsonc, agents/, workspace/\nworkspace is the shared folder accessible from both the host and the container\n\nRun docker compose up to start OpenCode web service; docker compose run for CLI\nOpen http://localhost:4096 in your browser\nConfigure OpenCode\n\nAdd your model providers and API keys\n\nAdd project /workspace and start a new session\n\nREADME.md and spec/proposal.md contain a sample project description\n\nStart interacting with the agents!\n\nAnalyst: “write the specifications”\nArchitect: “create the design document”\nPlanner: “generate a detailed plan and identify opportunities for concurrent execution”\nTech Lead: “execute the plan”\n\n\nSee detailed instructions and code here"
+  },
+  {
+    "objectID": "talks/agentic-software-engineering.html#future-work",
+    "href": "talks/agentic-software-engineering.html#future-work",
+    "title": "Software Engineering with Agentic AI",
+    "section": "Future Work",
+    "text": "Future Work\n\nDeterministic harness, e.g. OpenHands\n\nPredictable control flow; agents orchestrated by a state machine\nPrecise control over intermediate artifacts: human-in-the-loop, agents-as-a-judge\n\nVisualize agents and artifacts with a unified dashboard\nAgent composition\n\nDynamically define agent roles and permissions\nOrganize agents into a hierarchy for any given task\nGeneralize beyond software engineering!"
+  },
+  {
+    "objectID": "talks/agentic-software-engineering.html#resources",
+    "href": "talks/agentic-software-engineering.html#resources",
+    "title": "Software Engineering with Agentic AI",
+    "section": "Resources",
+    "text": "Resources\n\n\nOpen Source Harnesses\n\nOpenCode\nOpenHands\nPi.dev\nMistral Vibe\n\n\nOpen Weight Models\n\nMistral Medium 3.5 - long-running tasks\nMuse Glimmer 30B - reasoning, planning\nPoolside - capable developer\nGoogle Gemma 4 - reviewer, tester\n\n\n\n\nUse your local GPU\n\nDo this if you have a GPU with 24GB+ VRAM\nLM Studio - easiest setup\nOllama - easy setup, models just work\nvLLM - complex, high performance\n\n\nHosted Models\n\nFree and paid models with privacy tradeoffs\nMistral - ~50M tokens free per month\nOpenRouter - many free and paid models\nmodels.dev - model details\nHugging Face - discover and download models"
   }
 ]
