@@ -47,7 +47,7 @@ format:
     date-format: full
     width: 1600
     height: 900
-    transition: slide
+    transition: fade
     background-transition: fade
     default-timing: 60
     preview-links: false
