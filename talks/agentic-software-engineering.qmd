@@ -23,13 +23,13 @@ title-slide-attributes:
 
 ### How do we transition from unstructured prompting to disciplined, agentic systems engineering?
 
-## Defining Success
+## What is Success?
 
 :::: {.columns}
 ::: {.column}
 ### Measure of Performance
 -  Token maxxing!!
-    - Throwing tokens at problems until they go away.
+    - Throwing tokens at problems until they go away
 - [Brute forcing was rewarded by tech companies; employees spending below threshold were penalized](https://www.forbes.com/sites/timkeary/2026/04/13/is-the-cult-of-tokenmaxxingjust-another-fad-or-the-new-normal/)
 - [Tokenmaxxing: great for AI vendors](https://blog.pragmaticengineer.com/the-pulse-tokenmaxxing-as-a-weird-new-trend/)
     - Claude Code
@@ -52,23 +52,25 @@ title-slide-attributes:
 
 ## The Big Idea: Agentic AI
 
+- Agent = specific role with a focused set of instructions
+- Artifacts = agent output at each step
+- Humans validate intermediate artifacts
+
 ```{mermaid}
 %%| fig-width: 16
+%%| fig-height: 4
 flowchart LR
     Proposal --Architect --> Design
     Proposal --Analyst --> Specifications
     Specifications --Architect --> Design
     Specifications --Planner --> Tasks
     Design --Planner --> Tasks
-    Tasks --Tech Lead--> Developer
-    Tasks --Tech Lead--> Tester
-    Tasks --Tech Lead--> Reviewer
+    Tasks --Tech Lead--> Developer([Developer])
+    Tasks --Tech Lead--> Tester([Tester])
+    Tasks --Tech Lead--> Reviewer([Reviewer])
 ```
 
-- Agent = specific role with a focused set of instructions
-- Artifacts = agent output at each step
-- Humans validate intermediate artifacts
-- Example above was inspired by [OpenSpec](https://openspec.dev/)
+Simple software engineering pipeline inspired by [OpenSpec](https://openspec.dev/)
 
 ## Core Concepts
 
@@ -76,16 +78,19 @@ flowchart LR
 ::: {.column}
 ### Harness
 
-- Framework that manages the control flow and context for agents
+- Software that orchestrates agents
+- Manages the control flow and context
 - Exposes tools to language models
-- Makes your AI agents ***agentic***!
+- Makes your AI agents [agentic](https://arxiv.org/abs/2505.10468)
+- e.g. Claude Code, Codex, OpenCode, pi.dev
 :::
 ::: {.column}
-### Tools
+### [Tools](https://vercel.com/kb/guide/what-is-an-llm-tool)
 
-- Functions for agents to call (~API)
-- Typically provided by the harness
-- Allow agents to interact with systems
+- Deterministic [functions](https://developers.openai.com/api/docs/guides/function-calling) for agents (~API)
+- Interact with local or remote systems
+- Harnesses provide local tools
+    - e.g. `read_file`, `run_command`, `fetch_url`
 - [MCP servers](https://modelcontextprotocol.io/) provide remote tools
 :::
 ::::
@@ -102,31 +107,35 @@ flowchart LR
 ::: {.column}
 ### [Skills](https://www.skills.sh/)
 
-- Reusable instructions for AI agents
-- Agents can load skills as needed
-- Typically add 5k-20k tokens of context
-- Adds new capabilities; bloats context
+- Agents load skills as needed
+    - Unlock new capabilities!
+- Reusable instructions loaded into context
+- Loads ~5k-20k tokens $\rightarrow$ __bloats context__
 :::
 ::::
 
 ## Challenges with current systems
 
 - Proprietary harnesses are black boxes
-    - [System prompts are huge](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools); user has no control
+    - [System prompts are often huge](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools); user has no control
 - Context grows quickly
     - Difficulty reasoning and following instructions
-    - Performance degrades
-- Agent orchestrated manually
+    - Performance degrades on smaller models
+    - Larger context = higher costs; who profits?
+- Agents often orchestrated manually
+    - Limited control over spawning sub-agents
+    - Difficult to scale processes and parallelize tasks
 - Models, configuration, and pricing can change without notice
     - [Surprises await...](https://www.makeuseof.com/someone-left-claude-code-running-overnight-and-it-cost-6000/)
 
 ## Guiding Principles
 
-1. Markdown everywhere.
-1. Own your agent roles / system prompts.
-1. Context window: keep it compact.
-1. Control flow: manage agent interactions and artifacts.
-1. Agents: small, simple, and focused. [Each agent does one thing well.](https://en.wikipedia.org/wiki/Mr._Meeseeks)
+1. Markdown everywhere
+1. Own your agent roles / system prompts
+1. Context window: keep it compact
+1. Control flow: manage agent interactions and artifacts
+1. Agents: small, simple, and focused
+    - [Each agent does one thing well](https://en.wikipedia.org/wiki/Mr._Meeseeks)
 
 Inspiration: [12 Factor Agents: Principles for building reliable LLM applications](https://github.com/humanlayer/12-factor-agents)
 
@@ -135,16 +144,16 @@ Inspiration: [12 Factor Agents: Principles for building reliable LLM application
 :::: {.columns}
 ::: {.column}
 ```md
-- Beautiful, simple, and human-readable.
-    - `#` and `##` for headings.
-    - `-` for lists.
-    - `1.` and `1.` and `1.` for numbered lists.
-    - __bold__ and _italic_ for emphasis.
-    - single backtick for inline code and three backticks for code blocks
-    - `>` for blockquotes.
-    - `---` for horizontal rules.
-    - [Link](https://example.com) for hyperlinks.
-    - ![description](image.png) for images.
+- Beautiful, simple, and human-readable
+    - `#` and `##` for headings
+    - `-` for lists
+    - `1.` and `1.` and `1.` for numbered lists
+    - __bold__ and _italic_ for emphasis
+    - single backtick for inline code and three backticks for code block
+    - `>` for blockquotes
+    - `---` for horizontal rules
+    - [Link](https://example.com) for hyperlinks
+    - ![description](image.png) for images
 
 - Human-readable + machine-parsable = ✨
 
@@ -157,10 +166,10 @@ Inspiration: [12 Factor Agents: Principles for building reliable LLM application
 ```
 :::
 ::: {.column}
-- Beautiful, simple, and human-readable.
-    - `#` and `##` for headings.
-    - `-` for lists.
-    - ...everything else is nice to know.
+- Beautiful, simple, and human-readable
+    - `#` and `##` for headings
+    - `-` for lists
+    - ...everything else is nice to know
 
 - Human-readable + machine-parsable = ✨
 
@@ -179,29 +188,33 @@ Inspiration: [12 Factor Agents: Principles for building reliable LLM application
 - Focused instructions; no data or product artifacts
 - Modular: Keep prompts scoped to a single, focused objective
 - Chain various agents to orchestrate a complex process
+    - Agents can spawn sub-agents!
+    - Calling agent checks sub-agent's output and continues the thread as needed
 - Treat prompts as code; use version control
+- Instead of loading _skills_, develop simple agents!!
 
 ## Context Window
 
-- Context is precious; don't dump extensive amounts of texts into it.
-- Models (and people) perform better on focused tasks with smaller contexts.
-    - Shorter context = faster responses, cheaper calls, and fewer hallucinations.
+- Context is precious; don't dump extensive amounts of texts into it
+- Models (and people) perform better on focused tasks with smaller contexts
+    - Shorter context = faster responses, cheaper calls, and fewer hallucinations
 - Start new conversations often!
-    - Artifacts provide continuity.
-- Skills often bloat context windows. _Use them judiciously_.
-    - Pulled on-demand by agents probablistically; cost a lot of tokens.
-- _Use custom agents_ that will [do one thing well](https://en.wikipedia.org/wiki/Mr._Meeseeks).
-    - The "Need to Know" Basis: Feed agents only the specific files or functions they need.
-    - OpenCode subagents start with fresh context and a small set of instructions.
+    - Artifacts provide continuity
+- Skills often bloat context windows; _use them judiciously_
+    - Pulled on-demand by agents probablistically; cost a lot of tokens
+- _Use custom agents_ that will [do one thing well](https://en.wikipedia.org/wiki/Mr._Meeseeks)
+    - The "Need to Know" Basis: Feed agents only the specific files or functions they need
+    - Sub-agents start with fresh context and a small set of instructions
 
 ## Control Flow
 
-- Ideally: deterministic processes manage agent interactions.
-- Realistically: a more powerful model manages the long-running goal-driven task.
-    - Tasks sub-agents sequentially or in parallel as needed.
-    - Frontier models excel at this.
-- Use intermediate artifacts to pause execution, allow human review, and ensure reliable outcomes.
-- Open-ended prompting enables discussion around artifacts.
+- Ideally: deterministic processes manage agent interactions
+- Realistically: a more powerful model manages the long-running goal-driven task
+    - Tasks sub-agents sequentially or in parallel as needed
+    - Frontier models excel at this
+- Use intermediate artifacts
+    - pause execution, allow human review, ensure reliable outcomes
+- Open-ended prompting enables discussion around artifacts
     - Start new conversations often!
 - LLM-as-a-judge: Use models to review and approve artifacts
 - Implementation is driven by artifacts, not prompts
@@ -216,9 +229,9 @@ flowchart LR
     Specifications --Architect --> Design
     Specifications --Planner --> Tasks
     Design --Planner --> Tasks
-    Tasks --Tech Lead--> Developer
-    Tasks --Tech Lead--> Tester
-    Tasks --Tech Lead--> Reviewer
+    Tasks --Tech Lead--> Developer([Developer])
+    Tasks --Tech Lead--> Tester([Tester])
+    Tasks --Tech Lead--> Reviewer([Reviewer])
 ```
 
 - Analyst: Develop a proposal. Produce specifications.
@@ -231,7 +244,72 @@ flowchart LR
 
 ### Agents task sub-agents as needed.
 
-## Where to Start? {.smaller}
+## Why OpenCode? {.smaller}
+
+- Harness of choice: good balance between features and configurability
+- Overall loop remains non-deterministic - driven by a model capable of long-horizon reasoning
+    - For complex tasks, expect this loop to run for hours at a time without human interaction
+- Run in terminal or web browser; supports multiple projects and sessions
+
+:::: {.columns}
+::: {.column}
+### Pros
+
+- Open source; no vendor lock-in
+    - Use any provider, model, skills
+- Highly customizable
+    - Fully control your system prompts / agent roles
+- Powerful permission model; containerize for added security
+- Agents can spawn multiple sub-agents
+    - n-level recursion and parallelization
+- Multi-modal inputs: text, code, images!
+:::
+::: {.column}
+### Cons
+
+- Non-deterministic loop
+    - Controlling model might not always make the best decisions
+- Configuration: must edit `opencode.json` for certain features
+- Many features still in development
+    - e.g. [grabbing model list from your provider](https://github.com/anomalyco/opencode/pull/42660)
+- Defining specific agent roles takes additional effort
+    - Result of wanting to control your own agent roles
+    - Can be automated with proper tooling
+:::
+::::
+
+## OpenCode Agentic Development Workshop {.smaller}
+
+1. Install Git, WSL, Docker; on Linux or MacOS, just ensure you have `docker compose`
+1. Grab the code: `git clone https://github.com/aadityabhatia/opencode-docker`
+    - Inspect contents: `opencode.jsonc`, `agents/`, `workspace/`
+    - `workspace` is the shared folder accessible from both the host and the container
+1. Run `docker compose up` to start OpenCode web service; `docker compose run` for CLI
+1. Open `http://localhost:4096` in your browser
+1. Configure OpenCode
+    - Add your model providers and API keys
+1. Add project `/workspace` and start a new session
+    - `README.md` and `spec/proposal.md` contain a sample project description
+1. Start interacting with the agents!
+    - Analyst: "_write the specifications_"
+    - Architect: "_create the design document_"
+    - Planner: "_generate a detailed plan and identify opportunities for concurrent execution_"
+    - Tech Lead: "_execute the plan_"
+
+### See [detailed instructions and code here](https://github.com/aadityabhatia/opencode-docker)
+
+## Future Work
+
+- Deterministic harness, e.g. [OpenHands](https://www.openhands.dev/)
+    - Predictable control flow; agents orchestrated by a state machine
+    - Precise control over intermediate artifacts: human-in-the-loop, agents-as-a-judge
+- Visualize agents and artifacts with a unified dashboard
+- Agent composition
+    - Dynamically define agent roles and permissions
+    - Organize agents into a hierarchy for any given task
+    - Generalize beyond software engineering!
+
+## Resources {.smaller}
 
 :::: {.columns}
 ::: {.column}
@@ -244,8 +322,8 @@ flowchart LR
 ::: {.column}
 ### Open Weight Models
 - [Mistral Medium 3.5](https://docs.mistral.ai/models/overview) - long-running tasks
-    - [Mistral Small 4](https://docs.mistral.ai/models/overview) - smaller and lighter
-- [Poolside Laguna XS 2.1](https://poolside.ai/blog/introducing-laguna-xs-2-1) - developer
+- [Muse Glimmer 30B](https://huggingface.co/meta-models/Muse-Glimmer-30B) - reasoning, planning
+- [Poolside](https://poolside.ai/) - capable developer
 - [Google Gemma 4](https://huggingface.co/google/gemma-4-26B-A4B-it-qat-q4_0-unquantized) - reviewer, tester
 :::
 ::::
@@ -267,16 +345,3 @@ flowchart LR
 - [Hugging Face](https://huggingface.co/) - discover and download models
 :::
 ::::
-
-## OpenCode Agentic Development Workshop
-
-1. Install Docker, Git, WSL
-2. Clone this repo
-3. Inspect the files and artifacts
-4. Run `docker compose up` to start the harness
-5. Open `http://localhost:4096` in your browser
-6. Configure OpenCode
-7. Add project `/workspace` and start a new session.
-8. Start interacting with the agents!
-
-See detailed instructions and code at [github.com/aadityabhatia/opencode-docker](https://github.com/aadityabhatia/opencode-docker)
