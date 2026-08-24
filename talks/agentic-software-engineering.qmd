@@ -284,11 +284,11 @@ flowchart LR
 1. Grab the code: `git clone https://github.com/aadityabhatia/opencode-docker`
     - Inspect contents: `opencode.jsonc`, `agents/`, `workspace/`
     - `workspace` is the shared folder accessible from both the host and the container
-1. Run `docker compose up` to start OpenCode web service; `docker compose run` for CLI
+1. Run `docker compose up` to start OpenCode web service
 1. Open `http://localhost:4096` in your browser
 1. Configure OpenCode
     - Add your model providers and API keys
-1. Add project `/workspace` and start a new session
+1. Add project `~/workspace` and start a new session
     - `README.md` and `spec/proposal.md` contain a sample project description
 1. Start interacting with the agents!
     - Analyst: "_write the specifications_"
