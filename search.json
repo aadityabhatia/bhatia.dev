@@ -4,7 +4,7 @@
     "href": "talks/index.html",
     "title": "Talks & Presentations",
     "section": "",
-    "text": "Software Engineering with Agentic AI\n\n\nBuild software without drowning in prompts!\n\n\nHow do we transition from unstructured prompting to agentic systems engineering?\n\n\n\n\n\nAug 23, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Software Engineering with Agentic AI\n\n\nBuild software without drowning in prompts!\n\n\nHow do we transition from unstructured prompting to agentic systems engineering?\n\n\n\n\n\nAug 24, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -193,7 +193,7 @@
     "href": "talks/agentic-software-engineering.html#opencode-agentic-development-workshop",
     "title": "Software Engineering with Agentic AI",
     "section": "OpenCode Agentic Development Workshop",
-    "text": "OpenCode Agentic Development Workshop\n\nInstall Git, WSL, Docker; on Linux or MacOS, just ensure you have docker compose\nGrab the code: git clone https://github.com/aadityabhatia/opencode-docker\n\nInspect contents: opencode.jsonc, agents/, workspace/\nworkspace is the shared folder accessible from both the host and the container\n\nRun docker compose up to start OpenCode web service; docker compose run for CLI\nOpen http://localhost:4096 in your browser\nConfigure OpenCode\n\nAdd your model providers and API keys\n\nAdd project /workspace and start a new session\n\nREADME.md and spec/proposal.md contain a sample project description\n\nStart interacting with the agents!\n\nAnalyst: “write the specifications”\nArchitect: “create the design document”\nPlanner: “generate a detailed plan and identify opportunities for concurrent execution”\nTech Lead: “execute the plan”\n\n\nSee detailed instructions and code here"
+    "text": "OpenCode Agentic Development Workshop\n\nInstall Git, WSL, Docker; on Linux or MacOS, just ensure you have docker compose\nGrab the code: git clone https://github.com/aadityabhatia/opencode-docker\n\nInspect contents: opencode.jsonc, agents/, workspace/\nworkspace is the shared folder accessible from both the host and the container\n\nRun docker compose up to start OpenCode web service\nOpen http://localhost:4096 in your browser\nConfigure OpenCode\n\nAdd your model providers and API keys\n\nAdd project ~/workspace and start a new session\n\nREADME.md and spec/proposal.md contain a sample project description\n\nStart interacting with the agents!\n\nAnalyst: “write the specifications”\nArchitect: “create the design document”\nPlanner: “generate a detailed plan and identify opportunities for concurrent execution”\nTech Lead: “execute the plan”\n\n\nSee detailed instructions and code here"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#future-work",
