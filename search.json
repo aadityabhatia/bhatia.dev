@@ -4,7 +4,7 @@
     "href": "talks/index.html",
     "title": "Talks & Presentations",
     "section": "",
-    "text": "Software Engineering with Agentic AI\n\n\nBuild software without drowning in prompts!\n\n\nHow do we transition from unstructured prompting to agentic systems engineering?\n\n\n\n\n\nAug 24, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Software Engineering with Agentic AI\n\n\nBuild software without drowning in prompts!\n\n\nHow do we transition from unstructured prompting to agentic systems engineering?\n\n\n\n\n\nSep 3, 2026\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -109,7 +109,7 @@
     "href": "talks/agentic-software-engineering.html#the-problem",
     "title": "Software Engineering with Agentic AI",
     "section": "The Problem",
-    "text": "The Problem\n\nSyntax is now a commodity\n\nAI can write and analyze and explain programs\nSoftware Architecture requires deliberate thought\n\nThe “Black Box” Trap\n\nUnstructured prompting (“vibe coding”) bypasses systems thinking and domain expertise\nStudents lack architectural understanding\n\nBrittle Outcomes\n\nTrial-and-error prompting does not scale to complex, reliable software\n\n\nHow do we transition from unstructured prompting to disciplined, agentic systems engineering?"
+    "text": "The Problem\n\nSyntax is now a commodity\n\nAI can write and analyze and explain programs\nSoftware Architecture requires deliberate thought\n\nThe “Black Box” Trap\n\nUnstructured prompting (“vibe coding”) bypasses systems thinking and domain expertise\nStudents lack architectural understanding\n\nBrittle Outcomes\n\nTechnical debt; no maintainability\nTrial-and-error prompting does not scale to complex, reliable software\n\n\nHow do we transition from unstructured prompting to disciplined, agentic systems engineering?"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#what-is-success",
@@ -144,14 +144,14 @@
     "href": "talks/agentic-software-engineering.html#guiding-principles",
     "title": "Software Engineering with Agentic AI",
     "section": "Guiding Principles",
-    "text": "Guiding Principles\n\nMarkdown everywhere\nOwn your agent roles / system prompts\nContext window: keep it compact\nControl flow: manage agent interactions and artifacts\nAgents: small, simple, and focused\n\nEach agent does one thing well\n\n\nInspiration: 12 Factor Agents: Principles for building reliable LLM applications"
+    "text": "Guiding Principles\n\nMarkdown everywhere\nOwn your agent roles / system prompts\nContext window: keep it compact\nControl flow: manage agent interactions and artifacts\nAgents: small, simple, and focused\n\nEach agent does one thing well\n\nSecurity\nGovernance\n\nInspiration: 12 Factor Agents: Principles for building reliable LLM applications"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#markdown-the-lingua-franca",
     "href": "talks/agentic-software-engineering.html#markdown-the-lingua-franca",
     "title": "Software Engineering with Agentic AI",
     "section": "Markdown: The Lingua Franca",
-    "text": "Markdown: The Lingua Franca\n\n\n- Beautiful, simple, and human-readable\n    - `#` and `##` for headings\n    - `-` for lists\n    - `1.` and `1.` and `1.` for numbered lists\n    - __bold__ and _italic_ for emphasis\n    - single backtick for inline code and three backticks for code block\n    - `&gt;` for blockquotes\n    - `---` for horizontal rules\n    - [Link](https://example.com) for hyperlinks\n    - ![description](image.png) for images\n\n- Human-readable + machine-parsable = ✨\n\n- [Markdown Syntax Cheatsheet](https://www.markdownguide.org/cheat-sheet/)\n\n- Text-based Diagrams\n    - [Mermaid](https://mermaid.js.org/intro/)\n    - [Graphviz](https://graphviz.org/gallery/)\n    - [...and many more](https://kroki.io/)\n\n\nBeautiful, simple, and human-readable\n\n# and ## for headings\n- for lists\n…everything else is nice to know\n\nHuman-readable + machine-parsable = ✨\nMarkdown Syntax Cheatsheet\nText-based Diagrams\n\nMermaid\nGraphviz\n…and many more"
+    "text": "Markdown: The Lingua Franca\n\nBeautiful, simple, and human-readable\n\n# and ## for headings\n- for lists\n…everything else is nice to know\n\nHuman-readable + machine-parsable = ✨\n\nStandard: specifications, designs, code, and documentation all in same format\nHighly token-efficient format for LLMs\n\nMarkdown Syntax Cheatsheet\nText-based Diagrams\n\nMermaid\nGraphviz\n…and many more"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#own-your-agent-roles-system-prompts",
@@ -182,18 +182,32 @@
     "text": "Agents: Small, Simple, and Focused\n\n\n\n\n\n\n\n\n\n\n\nArchitect\n\n\n\n\n\n\n\nAnalyst\n\n\n\n\n\n\n\nArchitect\n\n\n\n\n\n\n\nPlanner\n\n\n\n\n\n\n\nPlanner\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nTech Lead\n\n\n\n\n\n\n\nProposal\n\n\n\n\n\n\n\nDesign\n\n\n\n\n\n\n\nSpecifications\n\n\n\n\n\n\n\nTasks\n\n\n\n\n\n\n\nDeveloper\n\n\n\n\n\n\n\nTester\n\n\n\n\n\n\n\nReviewer\n\n\n\n\n\n\n\n\n\n\n\nAnalyst: Develop a proposal. Produce specifications.\nArchitect: Write the design / architecture document.\nPlanner: Develop and refine the plan. Identify dependencies and opportunities to parallelize tasks.\nTech Lead: Review and execute the plan. Delegate extensively.\n\nDeveloper: Implement the plan.\nTester: Test the implementation. Write unit tests.\nReviewer: Ensure each task is complete to standard.\n\n\nAgents task sub-agents as needed."
   },
   {
+    "objectID": "talks/agentic-software-engineering.html#security",
+    "href": "talks/agentic-software-engineering.html#security",
+    "title": "Software Engineering with Agentic AI",
+    "section": "Security",
+    "text": "Security\n\nSandboxing & Isolation\n\nRun agent execution environments in ephemeral, restricted containers\n\nLocal & Open-Weight Models\n\nKeep classified data and research entirely in-house\n\nDeterministic Controls & Checkpoints\n\nManage control flow and require approvals at key steps\n\n\nRisks: runaway costs, spillage, or destructive actions\n\n\nSandboxing & Isolation\n\nAn agent generating and testing code operates in an isolated Docker container with zero access to the host file system or network\n\nLocal Models - can be deployed on an isolated enclave\nDeterministic Controls & Checkpoints\n\nAgent asks for permission before running git push, giving developer tight control over what gets added to the repository"
+  },
+  {
+    "objectID": "talks/agentic-software-engineering.html#governance",
+    "href": "talks/agentic-software-engineering.html#governance",
+    "title": "Software Engineering with Agentic AI",
+    "section": "Governance",
+    "text": "Governance\nAgent Privileges and Standardization\n\nAgent RBAC (Role-Based Access Control): Apply the Principle of Least Privilege.\n\ne.g. Analyst agent cannot execute code; the Tester agent cannot update specs\n\nPolicy as Prompt: Centralize agent roles in version control to enforce organizational coding standards, security checks, and compliance globally\n\nArtifact-Driven Auditing\n\nExplicit artifacts (Specs, Designs, Architecture Document) guarantee traceability\nAuditing: Traces artifacts back to the LLM inference\nPedagogy: Faculty can grade intermediate artifacts to assess a student’s systems thinking, not just the final compiled code"
+  },
+  {
+    "objectID": "talks/agentic-software-engineering.html#harness-selection-criteria",
+    "href": "talks/agentic-software-engineering.html#harness-selection-criteria",
+    "title": "Software Engineering with Agentic AI",
+    "section": "Harness Selection Criteria",
+    "text": "Harness Selection Criteria\n\nAgnostic: Must work with any LLM provider, locally hosted or frontier\nObservable: Clear trail of agent communication + intermediate artifacts\nExtensible: Allow custom agent roles\nSecure: Sandboxing and tool permissions\nDeterministic: precise control over generated artifacts and state transitions\n\n\n\n\nHarness is the orchestration layer that enforces our guardrails, governance, and multi-agent workflows."
+  },
+  {
     "objectID": "talks/agentic-software-engineering.html#why-opencode",
     "href": "talks/agentic-software-engineering.html#why-opencode",
     "title": "Software Engineering with Agentic AI",
     "section": "Why OpenCode?",
-    "text": "Why OpenCode?\n\nHarness of choice: good balance between features and configurability\nOverall loop remains non-deterministic - driven by a model capable of long-horizon reasoning\n\nFor complex tasks, expect this loop to run for hours at a time without human interaction\n\nRun in terminal or web browser; supports multiple projects and sessions\n\n\n\nPros\n\nOpen source; no vendor lock-in\n\nUse any provider, model, skills\n\nHighly customizable\n\nFully control your system prompts / agent roles\n\nPowerful permission model; containerize for added security\nAgents can spawn multiple sub-agents\n\nn-level recursion and parallelization\n\nMulti-modal inputs: text, code, images!\n\n\nCons\n\nNon-deterministic loop\n\nControlling model might not always make the best decisions\n\nConfiguration: must edit opencode.json for certain features\nMany features still in development\n\ne.g. grabbing model list from your provider\n\nDefining specific agent roles takes additional effort\n\nResult of wanting to control your own agent roles\nCan be automated with proper tooling"
-  },
-  {
-    "objectID": "talks/agentic-software-engineering.html#opencode-agentic-development-workshop",
-    "href": "talks/agentic-software-engineering.html#opencode-agentic-development-workshop",
-    "title": "Software Engineering with Agentic AI",
-    "section": "OpenCode Agentic Development Workshop",
-    "text": "OpenCode Agentic Development Workshop\n\nInstall Git, WSL, Docker; on Linux or MacOS, just ensure you have docker compose\nGrab the code: git clone https://github.com/aadityabhatia/opencode-docker\n\nInspect contents: opencode.jsonc, agents/, workspace/\nworkspace is the shared folder accessible from both the host and the container\n\nRun docker compose up to start OpenCode web service\nOpen http://localhost:4096 in your browser\nConfigure OpenCode\n\nAdd your model providers and API keys\n\nAdd project ~/workspace and start a new session\n\nREADME.md and spec/proposal.md contain a sample project description\n\nStart interacting with the agents!\n\nAnalyst: “write the specifications”\nArchitect: “create the design document”\nPlanner: “generate a detailed plan and identify opportunities for concurrent execution”\nTech Lead: “execute the plan”\n\n\nSee detailed instructions and code here"
+    "text": "Why OpenCode?\n\nHarness of choice: good balance between features and configurability\nOverall loop remains non-deterministic - driven by a model capable of long-horizon reasoning\n\nFor complex tasks, expect this loop to run for hours at a time without human interaction\n\nRun in terminal or web browser; supports multiple projects and sessions\n\n\n\nPros\n\nOpen source; no vendor lock-in\n\nUse any provider, model, skills\n\nHighly customizable\n\nFully control your system prompts / agent roles\n\nPowerful permission model; containerize for added security\nAgents can spawn multiple sub-agents\n\nn-level recursion and parallelization\n\nMulti-modal inputs: text, code, images!\n\n\nCons\n\nNon-deterministic loop\n\nControlling model decides task accomplishment, states, transitions\n\nConfiguration: must edit opencode.json for certain settings\nMany features still in development\nDefining specific agent roles takes additional effort\n\nResult of wanting to control your own agent roles\nCan be automated with proper tooling\n\n\n\nAgentic Software Engineering Workshop with OpenCode"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#future-work",
