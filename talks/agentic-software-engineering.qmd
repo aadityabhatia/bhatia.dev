@@ -19,6 +19,7 @@ title-slide-attributes:
     - Unstructured prompting ("_vibe coding_") bypasses systems thinking and domain expertise
     - Students lack architectural understanding
 - Brittle Outcomes
+    - Technical debt; no maintainability
     - Trial-and-error prompting does not scale to complex, reliable software
 
 ### How do we transition from unstructured prompting to disciplined, agentic systems engineering?
@@ -136,42 +137,21 @@ Simple software engineering pipeline inspired by [OpenSpec](https://openspec.dev
 1. Control flow: manage agent interactions and artifacts
 1. Agents: small, simple, and focused
     - [Each agent does one thing well](https://en.wikipedia.org/wiki/Mr._Meeseeks)
+1. Security
+1. Governance
 
 Inspiration: [12 Factor Agents: Principles for building reliable LLM applications](https://github.com/humanlayer/12-factor-agents)
 
 ## Markdown: The Lingua Franca
 
-:::: {.columns}
-::: {.column}
-```md
-- Beautiful, simple, and human-readable
-    - `#` and `##` for headings
-    - `-` for lists
-    - `1.` and `1.` and `1.` for numbered lists
-    - __bold__ and _italic_ for emphasis
-    - single backtick for inline code and three backticks for code block
-    - `>` for blockquotes
-    - `---` for horizontal rules
-    - [Link](https://example.com) for hyperlinks
-    - ![description](image.png) for images
-
-- Human-readable + machine-parsable = ✨
-
-- [Markdown Syntax Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
-
-- Text-based Diagrams
-    - [Mermaid](https://mermaid.js.org/intro/)
-    - [Graphviz](https://graphviz.org/gallery/)
-    - [...and many more](https://kroki.io/)
-```
-:::
-::: {.column}
 - Beautiful, simple, and human-readable
     - `#` and `##` for headings
     - `-` for lists
     - ...everything else is nice to know
 
 - Human-readable + machine-parsable = ✨
+    - Standard: specifications, designs, code, and documentation all in same format
+    - Highly token-efficient format for LLMs
 
 - [Markdown Syntax Cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 
@@ -179,8 +159,6 @@ Inspiration: [12 Factor Agents: Principles for building reliable LLM application
     - [Mermaid](https://mermaid.js.org/intro/)
     - [Graphviz](https://graphviz.org/gallery/)
     - [...and many more](https://kroki.io/)
-:::
-::::
 
 ## Own Your Agent Roles / System Prompts
 
@@ -244,6 +222,51 @@ flowchart LR
 
 ### Agents task sub-agents as needed.
 
+## Security
+
+- Sandboxing & Isolation
+    - Run agent execution environments in ephemeral, restricted containers
+- Local & Open-Weight Models
+    - Keep classified data and research entirely in-house
+- Deterministic Controls & Checkpoints
+    - Manage control flow and require approvals at key steps
+
+#### Risks: runaway costs, spillage, or destructive actions
+
+::: {.notes}
+- Sandboxing & Isolation
+    - An agent generating and testing code operates in an isolated Docker container with zero access to the host file system or network
+
+- Local Models - can be deployed on an isolated enclave
+
+- Deterministic Controls & Checkpoints
+    - Agent asks for permission before running `git push`, giving developer tight control over what gets added to the repository
+:::
+
+## Governance
+
+### Agent Privileges and Standardization
+- Agent RBAC (Role-Based Access Control): Apply the Principle of Least Privilege.
+    - e.g. `Analyst` agent cannot execute code; the `Tester` agent cannot update specs
+- Policy as Prompt: Centralize agent roles in version control to enforce organizational coding standards, security checks, and compliance globally
+
+### Artifact-Driven Auditing
+- Explicit artifacts (Specs, Designs, Architecture Document) guarantee traceability
+- Auditing: Traces artifacts back to the LLM inference
+- Pedagogy: Faculty can grade intermediate artifacts to assess a student's systems thinking, not just the final compiled code
+
+## Harness Selection Criteria
+
+- Agnostic: Must work with any LLM provider, locally hosted or frontier
+- Observable: Clear trail of agent communication + intermediate artifacts
+- Extensible: Allow custom agent roles
+- Secure: Sandboxing and tool permissions
+- Deterministic: precise control over generated artifacts and state transitions
+
+::: {.callout-note appearance="minimal"}
+Harness is the orchestration layer that enforces our guardrails, governance, and multi-agent workflows.
+:::
+
 ## Why OpenCode? {.smaller}
 
 - Harness of choice: good balance between features and configurability
@@ -268,35 +291,16 @@ flowchart LR
 ### Cons
 
 - Non-deterministic loop
-    - Controlling model might not always make the best decisions
-- Configuration: must edit `opencode.json` for certain features
+    - Controlling model decides task accomplishment, states, transitions
+- Configuration: must edit `opencode.json` for certain settings
 - Many features still in development
-    - e.g. [grabbing model list from your provider](https://github.com/anomalyco/opencode/pull/42660)
 - Defining specific agent roles takes additional effort
     - Result of wanting to control your own agent roles
     - Can be automated with proper tooling
 :::
 ::::
 
-## OpenCode Agentic Development Workshop {.smaller}
-
-1. Install Git, WSL, Docker; on Linux or MacOS, just ensure you have `docker compose`
-1. Grab the code: `git clone https://github.com/aadityabhatia/opencode-docker`
-    - Inspect contents: `opencode.jsonc`, `agents/`, `workspace/`
-    - `workspace` is the shared folder accessible from both the host and the container
-1. Run `docker compose up` to start OpenCode web service
-1. Open `http://localhost:4096` in your browser
-1. Configure OpenCode
-    - Add your model providers and API keys
-1. Add project `~/workspace` and start a new session
-    - `README.md` and `spec/proposal.md` contain a sample project description
-1. Start interacting with the agents!
-    - Analyst: "_write the specifications_"
-    - Architect: "_create the design document_"
-    - Planner: "_generate a detailed plan and identify opportunities for concurrent execution_"
-    - Tech Lead: "_execute the plan_"
-
-### See [detailed instructions and code here](https://github.com/aadityabhatia/opencode-docker)
+### [Agentic Software Engineering Workshop with OpenCode](https://github.com/aadityabhatia/opencode-docker)
 
 ## Future Work
 
