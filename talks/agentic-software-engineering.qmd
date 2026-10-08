@@ -3,7 +3,7 @@ format: revealjs
 title: Software Engineering with Agentic AI
 subtitle: Build software without drowning in prompts!
 description: How do we transition from unstructured prompting to agentic systems engineering?
-date: last-modified
+date: 2026-09-23
 image: /images/agentic-software-engineering.jpg
 title-slide-attributes:
     data-background-image: /images/agentic-software-engineering.jpg
@@ -304,7 +304,7 @@ Harness is the orchestration layer that enforces our guardrails, governance, and
 
 ## Future Work
 
-- Deterministic harness, e.g. [OpenHands](https://www.openhands.dev/)
+- Deterministic harness
     - Predictable control flow; agents orchestrated by a state machine
     - Precise control over intermediate artifacts: human-in-the-loop, agents-as-a-judge
 - Visualize agents and artifacts with a unified dashboard
@@ -318,17 +318,17 @@ Harness is the orchestration layer that enforces our guardrails, governance, and
 :::: {.columns}
 ::: {.column}
 ### Open Source Harnesses
-- [OpenCode](https://opencode.ai/)
-- [OpenHands](https://www.openhands.dev/)
-- [Pi.dev](https://pi.dev/)
-- [Mistral Vibe](https://github.com/mistralai/mistral-vibe)
+- [OpenCode](https://opencode.ai/) - provider agnostic
+- [Pi.dev](https://pi.dev/) - minimal, extensible harness
+- [omp](https://omp.sh/)
+
 :::
 ::: {.column}
 ### Open Weight Models
 - [Mistral Medium 3.5](https://docs.mistral.ai/models/overview) - long-running tasks
 - [Muse Glimmer 30B](https://huggingface.co/meta-models/Muse-Glimmer-30B) - reasoning, planning
-- [Poolside](https://poolside.ai/) - capable developer
-- [Google Gemma 4](https://huggingface.co/google/gemma-4-26B-A4B-it-qat-q4_0-unquantized) - reviewer, tester
+- [Poolside Laguna](https://poolside.ai/) - capable developer
+- [Nemotron 3.5 Lightning 30B A3B](https://build.nvidia.com/nvidia/nemotron-3.5-lightning-30b-a3b/modelcard)
 :::
 ::::
 
@@ -339,11 +339,11 @@ Harness is the orchestration layer that enforces our guardrails, governance, and
 - [LM Studio](https://lmstudio.ai/) - easiest setup
 - [Ollama](https://ollama.com/) - easy setup, models just work
 - [vLLM](https://vllm.ai/) - complex, high performance
+- [llama.cpp](https://github.com/ggml-org/llama.cpp) - engine / CLI
 :::
 ::: {.column}
 ### Hosted Models
 - Free and paid models with privacy tradeoffs
-- [Mistral](https://console.mistral.ai/) - ~50M tokens free per month
 - [OpenRouter](https://openrouter.ai/) - many free and paid models
 - [models.dev](https://models.dev/) - model details
 - [Hugging Face](https://huggingface.co/) - discover and download models
