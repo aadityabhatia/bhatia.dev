@@ -4,21 +4,21 @@
     "href": "talks/marimo-computational-thinking.html#instructional-gap",
     "title": "Computational Thinking with Marimo",
     "section": "Instructional Gap",
-    "text": "Instructional Gap\n\nInstall Python\ninput() is harder than it looks\nEdit code -&gt; save -&gt; go to terminal -&gt; run -&gt; repeat\nLearn to write correct syntax to solve problems\nHow many real programs use input()?\nAI is a chat box\nWhich model is the best?\nAI gave me code and it just works!"
+    "text": "Instructional Gap\n\nInstall Python\nEdit code -&gt; save -&gt; go to terminal -&gt; run -&gt; repeat\ninput() is harder than it looks\nHow many real programs use input()?\nLearn to write correct syntax to solve problems\nAI is a chat box\nWhich model is the best?\nAI gave me code and it just works!"
   },
   {
     "objectID": "talks/marimo-computational-thinking.html#marimo",
     "href": "talks/marimo-computational-thinking.html#marimo",
     "title": "Computational Thinking with Marimo",
     "section": "Marimo",
-    "text": "Marimo\n\n\n\n\n\nWhat do we get?\n\nPure Python\nInteractive UI\nReactive Execution\n\nWhat we avoid?\n\nInstall Python\ninput()\nedit &gt; save &gt; run &gt; repeat\n\nSee Full Notebook"
+    "text": "Marimo\n\n\n\n\n\nWhat do we get?\n\nPure Python\nInteractive UI\nReactive Execution\n\nWhat we avoid?\n\nInstall Python\ninput()\nnotepad &gt; edit &gt; save &gt; terminal &gt; run &gt; repeat\n\nSee Notebook"
   },
   {
     "objectID": "talks/marimo-computational-thinking.html#unique-features",
     "href": "talks/marimo-computational-thinking.html#unique-features",
     "title": "Computational Thinking with Marimo",
     "section": "Unique Features",
-    "text": "Unique Features\n\n\n\n\n\n\nDeterministic execution\n\nCell order irrelevant\nReproducible results\n\nVariable scope\nSaved as .py\nPublish on the web\n\nIntro\nUI Elements\nCharts"
+    "text": "Unique Features\n\n\n\nVariables owned by cells\n\nCell order irrelevant\nDeterministic execution\nReproducible results\n\nPrivate variables: _a = 5\nSaved as .py\nBring your own harness\nPublish with WASM\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\na = 5\n\n\n\n\n\n\n\nb = 6\n\n\n\n\n\n\n\nc = a x b\n\n\n\n\n\n\n\nd = a ^ 2 + c\n\n\n\n\n\n\n\n\n\n\n\nTutorials\n\nIntro\nDataflow\nUI Elements\nCharts\nSQL\nLayouts\n\nGallery"
   },
   {
     "objectID": "talks/marimo-computational-thinking.html#one-shot-teach-me-fundamentals",
@@ -53,28 +53,28 @@
     "href": "talks/marimo-computational-thinking.html#sudoku",
     "title": "Computational Thinking with Marimo",
     "section": "Sudoku",
-    "text": "Sudoku"
+    "text": "Sudoku\n\n\n\n\n\nPrompt\n\nHelp me to decompose a Sudoku solver in Python step-by-step\n\n\nMake the game print as a markdown table instead of plain string"
   },
   {
     "objectID": "talks/marimo-computational-thinking.html#running-locally",
     "href": "talks/marimo-computational-thinking.html#running-locally",
     "title": "Computational Thinking with Marimo",
     "section": "Running Locally",
-    "text": "Running Locally\n\n\nHow?\nwinget install astral-sh.uv # on Windows\ndnf install uv # on Fedora Linux\nbrew install uv # on MacOS or Linux with Homebrew\n\nuvx marimo edit new.py\n\nuv tool install marimo\n\n\n\nWhy?\n\nWASM Native Runtime\nNetwork Access\nReal AI integration!"
+    "text": "Running Locally\n\n\nHow?\nwinget install astral-sh.uv # on Windows\ndnf install uv # on Fedora Linux\nbrew install uv # on MacOS or Linux with Homebrew\n\nuvx marimo edit new.py\n\nuv tool install marimo\n\n\n\nWhy?\n\nWASM Native Runtime\n\nMore packages!\n\nMemory, hardware access\nNetwork Access\nReal AI integration!"
   },
   {
     "objectID": "talks/marimo-computational-thinking.html#which-ai-model-to-use",
     "href": "talks/marimo-computational-thinking.html#which-ai-model-to-use",
     "title": "Computational Thinking with Marimo",
     "section": "Which AI model to use?",
-    "text": "Which AI model to use?\n\n\nIdeal World\n\nTokens are free and unlimited\nCompanies care about your privacy\nFrontier models everywhere\n\n\n\n\nReality\n\nBring your own tokens\nStudents must experiment\nUnderstand what works!\n\n\n\n\nAll notebooks here were produced using Muse Glimmer 30B on a local GPU."
+    "text": "Which AI model to use?\n\n\nIdeal World\n\nTokens are free and unlimited\nFrontier models everywhere\n\nA hammer is all you need!\n\nCompanies care about your privacy\n\n\n\n\nReality\n\nStudents must experiment and discern\nBring your own tokens\n“Claude” is not a model\n\nUnderstand what works when!\n\nThe lethal trifecta\n\n\n\n\nAll notebooks here were produced using Muse Glimmer 30B on a local GPU."
   },
   {
     "objectID": "talks/marimo-computational-thinking.html#resources",
     "href": "talks/marimo-computational-thinking.html#resources",
     "title": "Computational Thinking with Marimo",
     "section": "Resources",
-    "text": "Resources\n\nmarimo.io\ngithub.com/usma-eecs/awesome\nMuse Glimmer 30B"
+    "text": "Resources\n\ngithub.com/usma-eecs/awesome\nMuse Glimmer 30B\nmarimo.io"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#the-problem",
@@ -186,14 +186,14 @@
     "href": "talks/agentic-software-engineering.html#future-work",
     "title": "Software Engineering with Agentic AI",
     "section": "Future Work",
-    "text": "Future Work\n\nDeterministic harness, e.g. OpenHands\n\nPredictable control flow; agents orchestrated by a state machine\nPrecise control over intermediate artifacts: human-in-the-loop, agents-as-a-judge\n\nVisualize agents and artifacts with a unified dashboard\nAgent composition\n\nDynamically define agent roles and permissions\nOrganize agents into a hierarchy for any given task\nGeneralize beyond software engineering!"
+    "text": "Future Work\n\nDeterministic harness\n\nPredictable control flow; agents orchestrated by a state machine\nPrecise control over intermediate artifacts: human-in-the-loop, agents-as-a-judge\n\nVisualize agents and artifacts with a unified dashboard\nAgent composition\n\nDynamically define agent roles and permissions\nOrganize agents into a hierarchy for any given task\nGeneralize beyond software engineering!"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#resources",
     "href": "talks/agentic-software-engineering.html#resources",
     "title": "Software Engineering with Agentic AI",
     "section": "Resources",
-    "text": "Resources\n\n\nOpen Source Harnesses\n\nOpenCode\nOpenHands\nPi.dev\nMistral Vibe\n\n\nOpen Weight Models\n\nMistral Medium 3.5 - long-running tasks\nMuse Glimmer 30B - reasoning, planning\nPoolside - capable developer\nGoogle Gemma 4 - reviewer, tester\n\n\n\n\nUse your local GPU\n\nDo this if you have a GPU with 24GB+ VRAM\nLM Studio - easiest setup\nOllama - easy setup, models just work\nvLLM - complex, high performance\n\n\nHosted Models\n\nFree and paid models with privacy tradeoffs\nMistral - ~50M tokens free per month\nOpenRouter - many free and paid models\nmodels.dev - model details\nHugging Face - discover and download models"
+    "text": "Resources\n\n\nOpen Source Harnesses\n\nOpenCode - provider agnostic\nPi.dev - minimal, extensible harness\nomp\n\n\nOpen Weight Models\n\nMistral Medium 3.5 - long-running tasks\nMuse Glimmer 30B - reasoning, planning\nPoolside Laguna - capable developer\nNemotron 3.5 Lightning 30B A3B\n\n\n\n\nUse your local GPU\n\nDo this if you have a GPU with 24GB+ VRAM\nLM Studio - easiest setup\nOllama - easy setup, models just work\nvLLM - complex, high performance\nllama.cpp - engine / CLI\n\n\nHosted Models\n\nFree and paid models with privacy tradeoffs\nOpenRouter - many free and paid models\nmodels.dev - model details\nHugging Face - discover and download models"
   },
   {
     "objectID": "awesome.html",
@@ -298,6 +298,6 @@
     "href": "talks/index.html",
     "title": "Talks & Presentations",
     "section": "",
-    "text": "Software Engineering with Agentic AI\n\n\nBuild software without drowning in prompts!\n\n\nHow do we transition from unstructured prompting to agentic systems engineering?\n\n\n\n\n\nOct 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nComputational Thinking with Marimo\n\n\nUsing marimo to solve problems\n\n\nUsing marimo to solve problems\n\n\n\n\n\nOct 8, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Computational Thinking with Marimo\n\n\nUsing marimo to solve problems\n\n\nUsing marimo to solve problems\n\n\n\n\n\nOct 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nSoftware Engineering with Agentic AI\n\n\nBuild software without drowning in prompts!\n\n\nHow do we transition from unstructured prompting to agentic systems engineering?\n\n\n\n\n\nSep 23, 2026\n\n\n\n\n\nNo matching items"
   }
 ]
