@@ -1,108 +1,80 @@
 [
   {
-    "objectID": "talks/index.html",
-    "href": "talks/index.html",
-    "title": "Talks & Presentations",
-    "section": "",
-    "text": "Software Engineering with Agentic AI\n\n\nBuild software without drowning in prompts!\n\n\nHow do we transition from unstructured prompting to agentic systems engineering?\n\n\n\n\n\nSep 3, 2026\n\n\n\n\n\nNo matching items"
+    "objectID": "talks/marimo-computational-thinking.html#instructional-gap",
+    "href": "talks/marimo-computational-thinking.html#instructional-gap",
+    "title": "Computational Thinking with Marimo",
+    "section": "Instructional Gap",
+    "text": "Instructional Gap\n\nInstall Python\ninput() is harder than it looks\nEdit code -&gt; save -&gt; go to terminal -&gt; run -&gt; repeat\nLearn to write correct syntax to solve problems\nHow many real programs use input()?\nAI is a chat box\nWhich model is the best?\nAI gave me code and it just works!"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Sonny Bhatia",
-    "section": "",
-    "text": "LinkedIn\n  \n  \n    \n     Github\n  \n  \n    \n     ORCID\n  \n\n  \n  \n\n\n🪖 Major, U.S. Army\n🏫 Instructor, EECS, US Military Academy at West Point\n🔎 Researching Collective Intelligence, Democratic Deliberation, AI for Critical Thinking\n\n\n\n🖧 CY350: Computer Networks 🖥️ AI105: Human-Machine Teaming\n\n\n\n🎤 Talks ⭐ Awesome Stuff"
+    "objectID": "talks/marimo-computational-thinking.html#marimo",
+    "href": "talks/marimo-computational-thinking.html#marimo",
+    "title": "Computational Thinking with Marimo",
+    "section": "Marimo",
+    "text": "Marimo\n\n\n\n\n\nWhat do we get?\n\nPure Python\nInteractive UI\nReactive Execution\n\nWhat we avoid?\n\nInstall Python\ninput()\nedit &gt; save &gt; run &gt; repeat\n\nSee Full Notebook"
   },
   {
-    "objectID": "index.html#now",
-    "href": "index.html#now",
-    "title": "Sonny Bhatia",
-    "section": "",
-    "text": "🪖 Major, U.S. Army\n🏫 Instructor, EECS, US Military Academy at West Point\n🔎 Researching Collective Intelligence, Democratic Deliberation, AI for Critical Thinking"
+    "objectID": "talks/marimo-computational-thinking.html#unique-features",
+    "href": "talks/marimo-computational-thinking.html#unique-features",
+    "title": "Computational Thinking with Marimo",
+    "section": "Unique Features",
+    "text": "Unique Features\n\n\n\n\n\n\nDeterministic execution\n\nCell order irrelevant\nReproducible results\n\nVariable scope\nSaved as .py\nPublish on the web\n\nIntro\nUI Elements\nCharts"
   },
   {
-    "objectID": "index.html#fall-2026",
-    "href": "index.html#fall-2026",
-    "title": "Sonny Bhatia",
-    "section": "",
-    "text": "🖧 CY350: Computer Networks 🖥️ AI105: Human-Machine Teaming"
+    "objectID": "talks/marimo-computational-thinking.html#one-shot-teach-me-fundamentals",
+    "href": "talks/marimo-computational-thinking.html#one-shot-teach-me-fundamentals",
+    "title": "Computational Thinking with Marimo",
+    "section": "One-Shot “Teach me Fundamentals”",
+    "text": "One-Shot “Teach me Fundamentals”\n\n\n\n\n\nPrompt\n\nteach me about python variables and functions\n\nNotebook"
   },
   {
-    "objectID": "index.html#more",
-    "href": "index.html#more",
-    "title": "Sonny Bhatia",
-    "section": "",
-    "text": "🎤 Talks ⭐ Awesome Stuff"
+    "objectID": "talks/marimo-computational-thinking.html#eli5",
+    "href": "talks/marimo-computational-thinking.html#eli5",
+    "title": "Computational Thinking with Marimo",
+    "section": "ELI5",
+    "text": "ELI5\n\n\n\n\n\nPrompt\n\nELI5 - after each cell, add a quick summary of the Python concepts\n\nNotebook"
   },
   {
-    "objectID": "index.html#ideas",
-    "href": "index.html#ideas",
-    "title": "Sonny Bhatia",
-    "section": "🧠 Ideas",
-    "text": "🧠 Ideas\n\nHow can LLMs enable us to ingest massive streams of unstructured information, incorporate diverse perspectives and distill them into actionable insights that align with public opinion? Democratic Deliberation 🎓 MS Thesis  ArgMap\nHow do we leverage AI to best develop critical thinking skills in the classroom? How do we maintain our cognitive abilities? 🌿 Lodestone is a great thought experiment in this space. AI for Critical Thinking\nHow can LLMs assess student homework and provide meaningful feedback? AI for Critical Thinking  AutoGrader\nWhat design patterns can enable us to collaborate with other humans and AI agents to collectively solve wicked problems? How do we leverage machines to act as complementary cognitive artifacts that augment our human capabilities? Collective Intelligence"
+    "objectID": "talks/marimo-computational-thinking.html#plotting-with-marimo",
+    "href": "talks/marimo-computational-thinking.html#plotting-with-marimo",
+    "title": "Computational Thinking with Marimo",
+    "section": "Plotting with Marimo",
+    "text": "Plotting with Marimo"
   },
   {
-    "objectID": "index.html#publications",
-    "href": "index.html#publications",
-    "title": "Sonny Bhatia",
-    "section": "📜 Publications",
-    "text": "📜 Publications\n\nGuided Sensemaking: Agents in Collaborative Deliberation, Tools for Thought (TfT) workshop at CHI 2026 Collective Intelligence AI for Critical Thinking\nModerating Democratic Discourse with LLMs, SBP-BRiMS 2024 Democratic Deliberation\nUsing LLMs to Structure and Visualize Policy Discourse, DemocrAI workshop at IJCAI 2024 🏆 Best Paper Award Democratic Deliberation\nAdvancing Policy Insights: Opinion Data Analysis and Discourse Structuring Using LLMs. Graduate Thesis and Dissertation 2023-2024. University of Central Florida. 🏆 UCF Founders’ Day 2025 Outstanding Master’s Thesis Award Collective Intelligence Democratic Deliberation 🎓 MS Thesis\nGenerally Genius: A Generals.io Agent Development and Data Collection Framework. AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment 2023"
+    "objectID": "talks/marimo-computational-thinking.html#seating-chart",
+    "href": "talks/marimo-computational-thinking.html#seating-chart",
+    "title": "Computational Thinking with Marimo",
+    "section": "Seating Chart",
+    "text": "Seating Chart"
   },
   {
-    "objectID": "index.html#projects",
-    "href": "index.html#projects",
-    "title": "Sonny Bhatia",
-    "section": "🏗️ Projects",
-    "text": "🏗️ Projects\n ArgMap Argument Mapping to Guide Policy Decisions 🎓 MS Thesis Python\n AutoGrader Python library to help evaluate student submissions Python\n Synthetic Data Generator scripts to generate synthetic datasets for educational purposes Python\n⏳ USMA Class Timer generated primarily using ChatGPT HTML JavaScript\n🤖 Generally Genius bot framework to develop automated agents for generals.io, a fast-paced real-time strategy game with imperfect information within a 2D grid world TypeScript Python\n⭐ Awesome Stuff curated list of awesome resources, tools, and projects related to computing, technology and life in general"
+    "objectID": "talks/marimo-computational-thinking.html#sudoku",
+    "href": "talks/marimo-computational-thinking.html#sudoku",
+    "title": "Computational Thinking with Marimo",
+    "section": "Sudoku",
+    "text": "Sudoku"
   },
   {
-    "objectID": "index.html#courses",
-    "href": "index.html#courses",
-    "title": "Sonny Bhatia",
-    "section": "🏫 Courses",
-    "text": "🏫 Courses\n\n🗓️ Spring 2026\n🖧 CY350: Computer Networks\n\n\n🗓️ Fall 2025\n🖧 CY350: Computer Networks  CS380: Computer Systems and Organization\n\n\n🗓️ Spring 2025\n🗃️ CY305: Cyber Foundations\n\n\n🗓️ Fall 2024\n🖥️ CY105: Computing Fundamentals"
+    "objectID": "talks/marimo-computational-thinking.html#running-locally",
+    "href": "talks/marimo-computational-thinking.html#running-locally",
+    "title": "Computational Thinking with Marimo",
+    "section": "Running Locally",
+    "text": "Running Locally\n\n\nHow?\nwinget install astral-sh.uv # on Windows\ndnf install uv # on Fedora Linux\nbrew install uv # on MacOS or Linux with Homebrew\n\nuvx marimo edit new.py\n\nuv tool install marimo\n\n\n\nWhy?\n\nWASM Native Runtime\nNetwork Access\nReal AI integration!"
   },
   {
-    "objectID": "awesome.html",
-    "href": "awesome.html",
-    "title": "Awesome Stuff",
-    "section": "",
-    "text": "Army Publishing Directorate - official Army publications, regulations, manuals\nDA PAM 600-3 - Officer Professional Development and Career Management\n\nfind branch-specific document at Army G-1 &gt; G-1 Resources\nDA PAM 600-3 Cyber FY25, Cyber Career Maps\n\nCenter for Army Lessons Learned - excellent publications; many open to the public\nDoD MWR Libraries - eBooks, audiobooks, professional reading lists\nCyber Defense Review - professional journal on cyber operations\nDoD Cyber Exchange - DoD cybersecurity resources and tools\nArmy University Press - CSA Recommended Articles, Podcasts\nLine of Departure - professional journal on military affairs\nModern War Institute - West Point - podcasts and research articles\nArmy Career Tracker - career management and branch-specific resources\nAIM 2 - assignment management and branch-related updates\nTeach at West Point - application portal for officers"
+    "objectID": "talks/marimo-computational-thinking.html#which-ai-model-to-use",
+    "href": "talks/marimo-computational-thinking.html#which-ai-model-to-use",
+    "title": "Computational Thinking with Marimo",
+    "section": "Which AI model to use?",
+    "text": "Which AI model to use?\n\n\nIdeal World\n\nTokens are free and unlimited\nCompanies care about your privacy\nFrontier models everywhere\n\n\n\n\nReality\n\nBring your own tokens\nStudents must experiment\nUnderstand what works!\n\n\n\n\nAll notebooks here were produced using Muse Glimmer 30B on a local GPU."
   },
   {
-    "objectID": "awesome.html#military-resources",
-    "href": "awesome.html#military-resources",
-    "title": "Awesome Stuff",
-    "section": "",
-    "text": "Army Publishing Directorate - official Army publications, regulations, manuals\nDA PAM 600-3 - Officer Professional Development and Career Management\n\nfind branch-specific document at Army G-1 &gt; G-1 Resources\nDA PAM 600-3 Cyber FY25, Cyber Career Maps\n\nCenter for Army Lessons Learned - excellent publications; many open to the public\nDoD MWR Libraries - eBooks, audiobooks, professional reading lists\nCyber Defense Review - professional journal on cyber operations\nDoD Cyber Exchange - DoD cybersecurity resources and tools\nArmy University Press - CSA Recommended Articles, Podcasts\nLine of Departure - professional journal on military affairs\nModern War Institute - West Point - podcasts and research articles\nArmy Career Tracker - career management and branch-specific resources\nAIM 2 - assignment management and branch-related updates\nTeach at West Point - application portal for officers"
-  },
-  {
-    "objectID": "awesome.html#cyber-security-and-privacy",
-    "href": "awesome.html#cyber-security-and-privacy",
-    "title": "Awesome Stuff",
-    "section": "Cyber, Security, and Privacy",
-    "text": "Cyber, Security, and Privacy\n\nLinux\n\nProject Bluefin - A lightweight, atomic, image-based Linux distribution designed for reliability, performance, and security with minimal effort\n\nbased on Fedora\nrelies on Flatpak for applications and Homebrew for command-line tools\n\nFedora IoT - Container-based host that is great for single-board computers and IoT devices like Raspberry Pi\nFish Shell - user-friendly command-line shell with syntax highlighting, autosuggestions, and powerful tab completions\nLinux Notes for Professionals - comprehensive Linux reference book\n\n\n\nNews Feeds\n\nKrebs on Security \nBleeping Computer \nBruce Schneier \nTroy Hunt \nHacker News - Quality News\nMilitary Times Early Bird Briefing\n\n\n\nLearning Resources\n\nPrivacy Guides  - privacy-focused tools and recommendations\n\nPrivacyTools\n\nMITRE ATT&CK\nBuilding a home lab\n\nCLI agents make self-hosting on a home server easier and fun\n\nUSASOC Smart Cards\nTerms of Service; Didn’t Read\nKali - Linux distribution for penetration testing and security auditing with a massive collection of tools\n\n\n\nTracker, Ad-blockers, Malware Protection\n\nCloudflare for Families - DNS-based malware protection\nPi-hole - network-wide DNS-based ad blocker\npfSense - open-source firewall\nNextDNS - DNS-based tracker blocker\n\n\n\nSelf-hosted services, tools, networks\n\nTailscale - mesh networking (personal VPN) for your devices\nSyncthing - file synchronization across devices\nNextcloud - self-hosted cloud storage, calendar, contacts, RSS feed reader\nGitea - self-hosted Git service, replacement for GitHub\nBitwarden - self-hosted password manager\nJitsi - self-hosted video conferencing\nMattermost - self-hosted Slack alternative\n\n\n\nMessaging, Email, Communication\n\nSignal Messenger - non-profit, encrypted messaging, voice, and video calls\nProtonMail - encrypted email\nElement - encrypted chat, video, and voice calls based on Matrix protocol; can run your own server\nPGP Encryption\n\n\n\nAndroid Tools and Resources\n\nF-Droid - open-source Android app store for free and open-source apps\nLineageOS - open-source Android OS that supports many devices\nGrapheneOS - privacy-focused Android OS for Pixel devices\nCalyxOS - privacy-focused Android OS\n/e/OS - deGoogled Android OS\n\n\n\nNews, Articles, Documentaries\n\nFlipper Zero (2023)\n\nMeanwhile, in Canada… (2024)\n\nInside the “3 Billion People” National Public Data Breach (2024)\nThe Global Surveillance Free-for-All in Mobile Ad Data (2024)\nThe Social Dilemma (2020) - documentary on social media\nThe Great Hack (2019) - documentary on Cambridge Analytica scandal\n\n\n\nWhat can you do?\n\nhaveibeenpwned.com - subscribe to breach notifications\nMozilla Monitor - find and fix data exposures\nFirefox - privacy-focused browser\nDuckDuckGo - privacy-focused search engine\nCover Your Tracks - browser fingerprinting test\nNextDNS - DNS-based tracker blocker\n\nor self-host Pi-hole\n\nConsumer Reports: Privacy and Security\nSurveillance Self-Defense\nData Removal Guide: inteltechniques.com"
-  },
-  {
-    "objectID": "awesome.html#computing-and-technology",
-    "href": "awesome.html#computing-and-technology",
-    "title": "Awesome Stuff",
-    "section": "Computing and Technology",
-    "text": "Computing and Technology\n\nHackaday \nHide and Seek!\nCan ChatGPT be wrong?\nWhat is Python\narrr - Pirate module for Python\nWhere really is the Internet?\nSeating chart generator\nVortex Cannon vs Drone\nAlgorithms\n\nThe Better Boarding Method Airlines Won’t Use\nPB&J Sandwich\n\n\n\nProgramming References\n\nDevDocs.io\nProgramming Books for Professionals\nOfficial Python Documentation\nProgramming References on Canvas\nHow to Python in VS Code\nHour of Python\nKhan Academy: Intro to Python Fundamentals\n\n\n\nDeveloper Tools\n\nMarimo reactive notebook for Python\nVisual Studio Code - development environment for grown-ups\nCircuitPython Code Editor - IDE to work with microcontrollers like Circuit Playground Bluefruit\ndiff Check - compare text side-by-side; great for comparing expected and actual output\nPyodide - in-browser REPL\nPython Tutor - step through code execution, line-by-line\nBlack Code Formatter - format Python code following PEP 8 Style Guide\nThonny - Python development environment for beginners\n\n\n\nProject Ideas and Resources\n\nMake It Yourself - A Beautifully Illustrated Guide to Making\nHackaday \nHacker News: Show\nExample Projects [Canvas]\nText-based adventure game [zybook]\nzork-py library for Python\nKaggle Data Science Notebook\nCircuit Playground Bluefruit: Puzzle Box, Escape Room, etc.\n\nFruit Piano\n\ntldraw makereal - bring your application sketches to life! - watch demo\nDevelop applications that use AI at runtime-\n\nOpenAI API - message them for API credits as a student researcher\nAnthropic API - free limited API access\nStreamlit - hosting platform to turn data scripts into shareable web apps using Python\n\nDeepnote - interactive web applications in Python\nMarimo - interactive web applications in Python\nGitHub pages - host your websites and JavaScript applications for free\nUsing Bluetooth (BLE) with Circuit Playground Bluefruit\nMulti-tasking with CircuitPython"
-  },
-  {
-    "objectID": "awesome.html#learning-and-productivity",
-    "href": "awesome.html#learning-and-productivity",
-    "title": "Awesome Stuff",
-    "section": "Learning and Productivity",
-    "text": "Learning and Productivity\n\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten  - integrated thinking method!\n\nZettelkasten Explained\n\n\nThe need for sleep\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\nAbout, Ideas, Now"
-  },
-  {
-    "objectID": "awesome.html#awesome-podcasts",
-    "href": "awesome.html#awesome-podcasts",
-    "title": "Awesome Stuff",
-    "section": "Awesome Podcasts",
-    "text": "Awesome Podcasts\n\nInside West Point: Ideas That Impact \nLex Fridman \nNo Such Podcast \nIrregular Warfare Podcast \nWest Point Association of Graduates \nWashingtonWise \nTED Talks Daily  \nNPR News Now \nThe World in Brief from The Economist \nUp First from NPR"
+    "objectID": "talks/marimo-computational-thinking.html#resources",
+    "href": "talks/marimo-computational-thinking.html#resources",
+    "title": "Computational Thinking with Marimo",
+    "section": "Resources",
+    "text": "Resources\n\nmarimo.io\ngithub.com/usma-eecs/awesome\nMuse Glimmer 30B"
   },
   {
     "objectID": "talks/agentic-software-engineering.html#the-problem",
@@ -222,5 +194,110 @@
     "title": "Software Engineering with Agentic AI",
     "section": "Resources",
     "text": "Resources\n\n\nOpen Source Harnesses\n\nOpenCode\nOpenHands\nPi.dev\nMistral Vibe\n\n\nOpen Weight Models\n\nMistral Medium 3.5 - long-running tasks\nMuse Glimmer 30B - reasoning, planning\nPoolside - capable developer\nGoogle Gemma 4 - reviewer, tester\n\n\n\n\nUse your local GPU\n\nDo this if you have a GPU with 24GB+ VRAM\nLM Studio - easiest setup\nOllama - easy setup, models just work\nvLLM - complex, high performance\n\n\nHosted Models\n\nFree and paid models with privacy tradeoffs\nMistral - ~50M tokens free per month\nOpenRouter - many free and paid models\nmodels.dev - model details\nHugging Face - discover and download models"
+  },
+  {
+    "objectID": "awesome.html",
+    "href": "awesome.html",
+    "title": "Awesome Stuff",
+    "section": "",
+    "text": "Army Publishing Directorate - official Army publications, regulations, manuals\nDA PAM 600-3 - Officer Professional Development and Career Management\n\nfind branch-specific document at Army G-1 &gt; G-1 Resources\nDA PAM 600-3 Cyber FY25, Cyber Career Maps\n\nCenter for Army Lessons Learned - excellent publications; many open to the public\nDoD MWR Libraries - eBooks, audiobooks, professional reading lists\nCyber Defense Review - professional journal on cyber operations\nDoD Cyber Exchange - DoD cybersecurity resources and tools\nArmy University Press - CSA Recommended Articles, Podcasts\nLine of Departure - professional journal on military affairs\nModern War Institute - West Point - podcasts and research articles\nArmy Career Tracker - career management and branch-specific resources\nAIM 2 - assignment management and branch-related updates\nTeach at West Point - application portal for officers"
+  },
+  {
+    "objectID": "awesome.html#military-resources",
+    "href": "awesome.html#military-resources",
+    "title": "Awesome Stuff",
+    "section": "",
+    "text": "Army Publishing Directorate - official Army publications, regulations, manuals\nDA PAM 600-3 - Officer Professional Development and Career Management\n\nfind branch-specific document at Army G-1 &gt; G-1 Resources\nDA PAM 600-3 Cyber FY25, Cyber Career Maps\n\nCenter for Army Lessons Learned - excellent publications; many open to the public\nDoD MWR Libraries - eBooks, audiobooks, professional reading lists\nCyber Defense Review - professional journal on cyber operations\nDoD Cyber Exchange - DoD cybersecurity resources and tools\nArmy University Press - CSA Recommended Articles, Podcasts\nLine of Departure - professional journal on military affairs\nModern War Institute - West Point - podcasts and research articles\nArmy Career Tracker - career management and branch-specific resources\nAIM 2 - assignment management and branch-related updates\nTeach at West Point - application portal for officers"
+  },
+  {
+    "objectID": "awesome.html#cyber-security-and-privacy",
+    "href": "awesome.html#cyber-security-and-privacy",
+    "title": "Awesome Stuff",
+    "section": "Cyber, Security, and Privacy",
+    "text": "Cyber, Security, and Privacy\n\nLinux\n\nProject Bluefin - A lightweight, atomic, image-based Linux distribution designed for reliability, performance, and security with minimal effort\n\nbased on Fedora\nrelies on Flatpak for applications and Homebrew for command-line tools\n\nFedora IoT - Container-based host that is great for single-board computers and IoT devices like Raspberry Pi\nFish Shell - user-friendly command-line shell with syntax highlighting, autosuggestions, and powerful tab completions\nLinux Notes for Professionals - comprehensive Linux reference book\n\n\n\nNews Feeds\n\nKrebs on Security \nBleeping Computer \nBruce Schneier \nTroy Hunt \nHacker News - Quality News\nMilitary Times Early Bird Briefing\n\n\n\nLearning Resources\n\nPrivacy Guides  - privacy-focused tools and recommendations\n\nPrivacyTools\n\nMITRE ATT&CK\nBuilding a home lab\n\nCLI agents make self-hosting on a home server easier and fun\n\nUSASOC Smart Cards\nTerms of Service; Didn’t Read\nKali - Linux distribution for penetration testing and security auditing with a massive collection of tools\n\n\n\nTracker, Ad-blockers, Malware Protection\n\nCloudflare for Families - DNS-based malware protection\nPi-hole - network-wide DNS-based ad blocker\npfSense - open-source firewall\nNextDNS - DNS-based tracker blocker\n\n\n\nSelf-hosted services, tools, networks\n\nTailscale - mesh networking (personal VPN) for your devices\nSyncthing - file synchronization across devices\nNextcloud - self-hosted cloud storage, calendar, contacts, RSS feed reader\nGitea - self-hosted Git service, replacement for GitHub\nBitwarden - self-hosted password manager\nJitsi - self-hosted video conferencing\nMattermost - self-hosted Slack alternative\n\n\n\nMessaging, Email, Communication\n\nSignal Messenger - non-profit, encrypted messaging, voice, and video calls\nProtonMail - encrypted email\nElement - encrypted chat, video, and voice calls based on Matrix protocol; can run your own server\nPGP Encryption\n\n\n\nAndroid Tools and Resources\n\nF-Droid - open-source Android app store for free and open-source apps\nLineageOS - open-source Android OS that supports many devices\nGrapheneOS - privacy-focused Android OS for Pixel devices\nCalyxOS - privacy-focused Android OS\n/e/OS - deGoogled Android OS\n\n\n\nNews, Articles, Documentaries\n\nFlipper Zero (2023)\n\nMeanwhile, in Canada… (2024)\n\nInside the “3 Billion People” National Public Data Breach (2024)\nThe Global Surveillance Free-for-All in Mobile Ad Data (2024)\nThe Social Dilemma (2020) - documentary on social media\nThe Great Hack (2019) - documentary on Cambridge Analytica scandal\n\n\n\nWhat can you do?\n\nhaveibeenpwned.com - subscribe to breach notifications\nMozilla Monitor - find and fix data exposures\nFirefox - privacy-focused browser\nDuckDuckGo - privacy-focused search engine\nCover Your Tracks - browser fingerprinting test\nNextDNS - DNS-based tracker blocker\n\nor self-host Pi-hole\n\nConsumer Reports: Privacy and Security\nSurveillance Self-Defense\nData Removal Guide: inteltechniques.com"
+  },
+  {
+    "objectID": "awesome.html#computing-and-technology",
+    "href": "awesome.html#computing-and-technology",
+    "title": "Awesome Stuff",
+    "section": "Computing and Technology",
+    "text": "Computing and Technology\n\nHackaday \nHide and Seek!\nCan ChatGPT be wrong?\nWhat is Python\narrr - Pirate module for Python\nWhere really is the Internet?\nSeating chart generator\nVortex Cannon vs Drone\nAlgorithms\n\nThe Better Boarding Method Airlines Won’t Use\nPB&J Sandwich\n\n\n\nProgramming References\n\nDevDocs.io\nProgramming Books for Professionals\nOfficial Python Documentation\nProgramming References on Canvas\nHow to Python in VS Code\nHour of Python\nKhan Academy: Intro to Python Fundamentals\n\n\n\nDeveloper Tools\n\nMarimo reactive notebook for Python\nVisual Studio Code - development environment for grown-ups\nCircuitPython Code Editor - IDE to work with microcontrollers like Circuit Playground Bluefruit\ndiff Check - compare text side-by-side; great for comparing expected and actual output\nPyodide - in-browser REPL\nPython Tutor - step through code execution, line-by-line\nBlack Code Formatter - format Python code following PEP 8 Style Guide\nThonny - Python development environment for beginners\n\n\n\nProject Ideas and Resources\n\nMake It Yourself - A Beautifully Illustrated Guide to Making\nHackaday \nHacker News: Show\nExample Projects [Canvas]\nText-based adventure game [zybook]\nzork-py library for Python\nKaggle Data Science Notebook\nCircuit Playground Bluefruit: Puzzle Box, Escape Room, etc.\n\nFruit Piano\n\ntldraw makereal - bring your application sketches to life! - watch demo\nDevelop applications that use AI at runtime-\n\nOpenAI API - message them for API credits as a student researcher\nAnthropic API - free limited API access\nStreamlit - hosting platform to turn data scripts into shareable web apps using Python\n\nDeepnote - interactive web applications in Python\nMarimo - interactive web applications in Python\nGitHub pages - host your websites and JavaScript applications for free\nUsing Bluetooth (BLE) with Circuit Playground Bluefruit\nMulti-tasking with CircuitPython"
+  },
+  {
+    "objectID": "awesome.html#learning-and-productivity",
+    "href": "awesome.html#learning-and-productivity",
+    "title": "Awesome Stuff",
+    "section": "Learning and Productivity",
+    "text": "Learning and Productivity\n\nYouTube: Bloom’s Taxonomy: Structuring The Learning Journey\n\nRef: Armstrong, P. (2010). Bloom’s Taxonomy. Vanderbilt University Center for Teaching.\n\nPareto Principle [The 80/20 Rule Explained]\nGrowth Mindset\nWhy take good notes?\n\nActive learning\nMemory retention\nFuture reference\n\nHow to take good notes?\n\nLogseq or Obsidian - journaling, linking, knowledge management\nOneNote\nZettelkasten  - integrated thinking method!\n\nZettelkasten Explained\n\n\nThe need for sleep\n\nYour Brain On Sleep Deprivation\nWhat would happen if you didn’t sleep?\nHow Sleep Affects Your Brain\n\nAbout, Ideas, Now"
+  },
+  {
+    "objectID": "awesome.html#awesome-podcasts",
+    "href": "awesome.html#awesome-podcasts",
+    "title": "Awesome Stuff",
+    "section": "Awesome Podcasts",
+    "text": "Awesome Podcasts\n\nInside West Point: Ideas That Impact \nLex Fridman \nNo Such Podcast \nIrregular Warfare Podcast \nWest Point Association of Graduates \nWashingtonWise \nTED Talks Daily  \nNPR News Now \nThe World in Brief from The Economist \nUp First from NPR"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sonny Bhatia",
+    "section": "",
+    "text": "LinkedIn\n  \n  \n    \n     Github\n  \n  \n    \n     ORCID\n  \n\n  \n  \n\n\n🪖 Major, U.S. Army\n🏫 Instructor, EECS, US Military Academy at West Point\n🔎 Researching Collective Intelligence, Democratic Deliberation, AI for Critical Thinking\n\n\n\n🖧 CY350: Computer Networks 🖥️ AI105: Human-Machine Teaming\n\n\n\n🎤 Talks ⭐ Awesome Stuff"
+  },
+  {
+    "objectID": "index.html#now",
+    "href": "index.html#now",
+    "title": "Sonny Bhatia",
+    "section": "",
+    "text": "🪖 Major, U.S. Army\n🏫 Instructor, EECS, US Military Academy at West Point\n🔎 Researching Collective Intelligence, Democratic Deliberation, AI for Critical Thinking"
+  },
+  {
+    "objectID": "index.html#fall-2026",
+    "href": "index.html#fall-2026",
+    "title": "Sonny Bhatia",
+    "section": "",
+    "text": "🖧 CY350: Computer Networks 🖥️ AI105: Human-Machine Teaming"
+  },
+  {
+    "objectID": "index.html#more",
+    "href": "index.html#more",
+    "title": "Sonny Bhatia",
+    "section": "",
+    "text": "🎤 Talks ⭐ Awesome Stuff"
+  },
+  {
+    "objectID": "index.html#ideas",
+    "href": "index.html#ideas",
+    "title": "Sonny Bhatia",
+    "section": "🧠 Ideas",
+    "text": "🧠 Ideas\n\nHow can LLMs enable us to ingest massive streams of unstructured information, incorporate diverse perspectives and distill them into actionable insights that align with public opinion? Democratic Deliberation 🎓 MS Thesis  ArgMap\nHow do we leverage AI to best develop critical thinking skills in the classroom? How do we maintain our cognitive abilities? 🌿 Lodestone is a great thought experiment in this space. AI for Critical Thinking\nHow can LLMs assess student homework and provide meaningful feedback? AI for Critical Thinking  AutoGrader\nWhat design patterns can enable us to collaborate with other humans and AI agents to collectively solve wicked problems? How do we leverage machines to act as complementary cognitive artifacts that augment our human capabilities? Collective Intelligence"
+  },
+  {
+    "objectID": "index.html#publications",
+    "href": "index.html#publications",
+    "title": "Sonny Bhatia",
+    "section": "📜 Publications",
+    "text": "📜 Publications\n\nGuided Sensemaking: Agents in Collaborative Deliberation, Tools for Thought (TfT) workshop at CHI 2026 Collective Intelligence AI for Critical Thinking\nModerating Democratic Discourse with LLMs, SBP-BRiMS 2024 Democratic Deliberation\nUsing LLMs to Structure and Visualize Policy Discourse, DemocrAI workshop at IJCAI 2024 🏆 Best Paper Award Democratic Deliberation\nAdvancing Policy Insights: Opinion Data Analysis and Discourse Structuring Using LLMs. Graduate Thesis and Dissertation 2023-2024. University of Central Florida. 🏆 UCF Founders’ Day 2025 Outstanding Master’s Thesis Award Collective Intelligence Democratic Deliberation 🎓 MS Thesis\nGenerally Genius: A Generals.io Agent Development and Data Collection Framework. AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment 2023"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Sonny Bhatia",
+    "section": "🏗️ Projects",
+    "text": "🏗️ Projects\n ArgMap Argument Mapping to Guide Policy Decisions 🎓 MS Thesis Python\n AutoGrader Python library to help evaluate student submissions Python\n Synthetic Data Generator scripts to generate synthetic datasets for educational purposes Python\n⏳ USMA Class Timer generated primarily using ChatGPT HTML JavaScript\n🤖 Generally Genius bot framework to develop automated agents for generals.io, a fast-paced real-time strategy game with imperfect information within a 2D grid world TypeScript Python\n⭐ Awesome Stuff curated list of awesome resources, tools, and projects related to computing, technology and life in general"
+  },
+  {
+    "objectID": "index.html#courses",
+    "href": "index.html#courses",
+    "title": "Sonny Bhatia",
+    "section": "🏫 Courses",
+    "text": "🏫 Courses\n\n🗓️ Spring 2026\n🖧 CY350: Computer Networks\n\n\n🗓️ Fall 2025\n🖧 CY350: Computer Networks  CS380: Computer Systems and Organization\n\n\n🗓️ Spring 2025\n🗃️ CY305: Cyber Foundations\n\n\n🗓️ Fall 2024\n🖥️ CY105: Computing Fundamentals"
+  },
+  {
+    "objectID": "talks/index.html",
+    "href": "talks/index.html",
+    "title": "Talks & Presentations",
+    "section": "",
+    "text": "Software Engineering with Agentic AI\n\n\nBuild software without drowning in prompts!\n\n\nHow do we transition from unstructured prompting to agentic systems engineering?\n\n\n\n\n\nOct 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nComputational Thinking with Marimo\n\n\nUsing marimo to solve problems\n\n\nUsing marimo to solve problems\n\n\n\n\n\nOct 8, 2026\n\n\n\n\n\nNo matching items"
   }
 ]
