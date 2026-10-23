@@ -35,11 +35,25 @@
     "text": "ELI5\n\n\n\n\n\nPrompt\n\nELI5 - after each cell, add a quick summary of the Python concepts\n\nNotebook"
   },
   {
-    "objectID": "talks/marimo-computational-thinking.html#plotting-with-marimo",
-    "href": "talks/marimo-computational-thinking.html#plotting-with-marimo",
+    "objectID": "talks/marimo-computational-thinking.html#cy105-teaching-functions",
+    "href": "talks/marimo-computational-thinking.html#cy105-teaching-functions",
     "title": "Computational Thinking with Marimo",
-    "section": "Plotting with Marimo",
-    "text": "Plotting with Marimo"
+    "section": "CY105: Teaching Functions",
+    "text": "CY105: Teaching Functions\n\n\n\n\n\n\nNotebook\nUpdate factorial()"
+  },
+  {
+    "objectID": "talks/marimo-computational-thinking.html#cy350-network-packet-analysis",
+    "href": "talks/marimo-computational-thinking.html#cy350-network-packet-analysis",
+    "title": "Computational Thinking with Marimo",
+    "section": "CY350: Network Packet Analysis",
+    "text": "CY350: Network Packet Analysis\n\n\n\n\n\n\nNotebook\nTask 1: Update getIPAddresses()\nTask 2: Update findPrivateIPs()"
+  },
+  {
+    "objectID": "talks/marimo-computational-thinking.html#plotting-with-seaborn",
+    "href": "talks/marimo-computational-thinking.html#plotting-with-seaborn",
+    "title": "Computational Thinking with Marimo",
+    "section": "Plotting with Seaborn",
+    "text": "Plotting with Seaborn"
   },
   {
     "objectID": "talks/marimo-computational-thinking.html#seating-chart",
@@ -298,6 +312,6 @@
     "href": "talks/index.html",
     "title": "Talks & Presentations",
     "section": "",
-    "text": "Computational Thinking with Marimo\n\n\nUsing marimo to solve problems\n\n\nUsing marimo to solve problems\n\n\n\n\n\nOct 8, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nSoftware Engineering with Agentic AI\n\n\nBuild software without drowning in prompts!\n\n\nHow do we transition from unstructured prompting to agentic systems engineering?\n\n\n\n\n\nSep 23, 2026\n\n\n\n\n\nNo matching items"
+    "text": "Computational Thinking with Marimo\n\n\nUsing marimo to solve problems\n\n\nUsing marimo to solve problems\n\n\n\n\n\nOct 23, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nSoftware Engineering with Agentic AI\n\n\nBuild software without drowning in prompts!\n\n\nHow do we transition from unstructured prompting to agentic systems engineering?\n\n\n\n\n\nSep 23, 2026\n\n\n\n\n\nNo matching items"
   }
 ]
