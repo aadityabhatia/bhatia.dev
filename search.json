@@ -46,7 +46,7 @@
     "href": "talks/marimo-computational-thinking.html#cy350-network-packet-analysis",
     "title": "Computational Thinking with Marimo",
     "section": "CY350: Network Packet Analysis",
-    "text": "CY350: Network Packet Analysis\n\n\n\n\n\n\nNotebook\nTask 1: Update getIPAddresses()\nTask 2: Update findPrivateIPs()"
+    "text": "CY350: Network Packet Analysis\n\n\n\n\n\n\nNotebook\nTask 1: getIPAddresses()\nTask 2: findPrivateIPs()"
   },
   {
     "objectID": "talks/marimo-computational-thinking.html#plotting-with-seaborn",
