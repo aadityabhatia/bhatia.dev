@@ -2,6 +2,7 @@
   {
     "listing": "/talks/index.html",
     "items": [
+      "/talks/durable-artifacts.html",
       "/talks/marimo-computational-thinking.html",
       "/talks/agentic-software-engineering.html"
     ]
