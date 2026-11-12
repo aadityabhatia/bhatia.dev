@@ -15,11 +15,11 @@ title-slide-attributes:
 :::: {.columns}
 ::: {.column width="50%"}
 - Single-use scripts - disposable by design
-- PowerPoints are hard to maintain and version control
+- PowerPoint decks are hard to version and maintain
 - Reusable code helps others, including _the future you_
 - Goal: artifacts others can easily reach, run, and extend
 
-Example: MS Thesis website instead of a bunch of powerpoints and github repositories
+- Example: an MS thesis website instead of scattered decks and repos
 :::
 ::: {.column width="50%"}
 <iframe width="100%" height=800 data-src="https://argmap.bhatia.dev/"></iframe>
@@ -28,67 +28,86 @@ Example: MS Thesis website instead of a bunch of powerpoints and github reposito
 
 ## Why? Credit and Continuity
 
-- Develop awesome stuff that goes beyond your initial audience
-    - Look beyond a semester or two.
-- Others get value from your hard work; you get the deserved credit
+- Build things that outlast a semester or two
+- Others get value from your work; you get the deserved credit
 - Reproducibility starts with code someone else can run
 - Durable tools compound
-    - _Can they not just vibecode it themselves?_
+    - _"I can just vibecoding this when I need"_
 
 ## What deserves publishing?
-
 
 :::: {.columns}
 ::: {.column width="50%"}
 - Is this a one-off answer, or a method others might need again?
 - Who is the audience: you in two years, students, collaborators, community?
-- Would someone else want to rewrite this from scratch? Publish it.
-- Name it, document it, make it easy to reach.
+- Would someone else rebuild this? Publish it.
+- Name it, document it, make it easy to reach and easy to run.
 :::
 ::: {.column width="50%"}
-<iframe width="100%" height=800 data-src="https://classtime.bhatia.dev/"></iframe>
+<iframe width="100%" height=600 data-src="https://classtime.bhatia.dev/"></iframe>
 :::
 ::::
+
+## Micropublications
+
+_Small, self-contained artifacts published as you go - not one monolith at the end._
+
+- Publish at the size of the idea
+    - A function, a worked example, a working tool
+- Release often
+    - Each unit is something others can find, run, and build on
+- Low cost per unit, repeated over time
+    - Many small artifacts compound
+- Collect them in one place so the body of work grows!
+
+## Shareable knowledge graph
+
+_Notes, code, data, and demos linked into one structure others can traverse and query._
+
+- Every artifact is a node
+    - links connect topics, prerequisites, and people
+- Add metadata (front matter) so the collection is traversable and queryable
+- Build it incrementally: each linked micropublication strengthens the graph
 
 ## Four Layers of Publishing
 
 - Package (PyPI): code others can install and extend
-- Author (Quarto): documents that showcase your work
+- Author (Quarto): documents that stay in sync with code
 - Host (GitHub Pages): a site that updates itself on every push
-- Share: make it easily accessible
+- Connect (knowledge graph): linked artifacts others can traverse and query
 
 ## Quarto: setup once, update often
 
-- [Technical publishing system](https://quarto.org/)
-- [Input: Markdown + LaTeX](https://quarto.org/docs/authoring/markdown-basics.html)
-- [Output: all major formats](https://quarto.org/docs/output-formats/all-formats.html) via pandoc — HTML, PDF, slides, DOCX
+- [Quarto](https://quarto.org/) is a technical publishing system
+- Input: [Markdown + LaTeX](https://quarto.org/docs/authoring/markdown-basics.html)
+- Output: [all major formats](https://quarto.org/docs/output-formats/all-formats.html) via pandoc - HTML, PDF, slides, DOCX
 - [Dynamic documents](https://quarto.org/docs/computations/python.html): code and prose in one source, regenerated automatically
 - [Interactive dashboards](https://quarto.org/docs/dashboards/) and [websites, books, and more](https://quarto.org/docs/gallery/)
-- Everything is markdown: version control, multiple contributors
+- Everything is Markdown: version control and multiple contributors
 
 ## Course materials
 
 :::: {.columns}
 ::: {.column width="40%"}
-- Notes, labs, assignments and interactive slides
-    - versioned in git
+- Notes, labs, and assignments, versioned in git
+- Interactive slides and examples students can run
 - Auto-rebuild on push - the course site stays current
-- Share git repositories with students
-    - Guide LLM tutors with `AGENTS.md`
+- Share the repository with students; use `AGENTS.md` to guide their LLM tutors
 :::
 ::: {.column width="60%"}
-<iframe width="100%" height=800 data-src="https://cy350.bhatia.dev/"></iframe>
+<iframe width="100%" height=600 data-src="https://cy350.bhatia.dev/"></iframe>
 :::
 ::::
 
 ## PyPI: Packaging for Reuse
 
 - `pip install focus-feed` instead of "here is a zip and good luck"
-    - or even better, `uvx focus-feed`
+    - or even better: `uvx focus-feed`
 - Releases and dependencies in one place
 - Others can build on your API
-- Discoverability: larger audience
-- Have your agent setup a workflow!
+- Discoverability: reach a larger audience
+- Have your agent draft the release workflow
+- Watch the maintenance contract - releases, issues, API stability
 
 ## Software Licenses
 
@@ -128,15 +147,18 @@ Example: MS Thesis website instead of a bunch of powerpoints and github reposito
 
 ## GitHub Pages
 
-- Static website hosting for free
-- [GitHub workflows](https://docs.github.com/en/actions) build your site
-- Docs, course sites, and demos stay current without manual uploads
-- Discoverable links instead of "upload the latest zip"
+- Free static hosting for docs, course sites, and demos
+- [GitHub workflows](https://docs.github.com/en/actions) build and deploy the site for you
+- Your pages stay current without manual uploads
 - [Develop a personal website in under 20 minutes!](https://cy350.bhatia.dev/labs/05)
 
 ## Start with one artifact
 
-- Pick one script someone else would find useful
-- Ask your agent to write a README
-- Publish to [usma-eecs](https://github.com/usma-eecs/) or your personal git location
-- Drop a link at [usma-eecs/awesome](https://github.com/usma-eecs/awesome/)!
+- Pick one script or micropublication someone else would find useful
+- Add a README and a license
+- Publish to your personal Git location or [github.com/usma-eecs](https://github.com/usma-eecs)
+- Link it into your knowledge graph and drop the link at [usma-eecs/awesome](https://github.com/usma-eecs/awesome/)!
+
+## Buff Card Analyzer
+
+<iframe width=100% height=800 style='margin-bottom: 0' sandbox="allow-scripts allow-same-origin" data-src="https://marimo.app/?embed=true&show-chrome=true#code/JYWwDg9gTgLgBCAhlUEBQaD6mDmBTAOzykRjwBNMB3YGACzgF44AiABgDoAmAVm5bSIwYJgmSoOAQWEAKGuXqMWAMwCuAG3UsANHCFhMMWurxKAQquXK4AYWTkWASgxoAAvo4BjPJpl1g5HiYnhCBjAAqUKp4zoHWmDIgEI4AXGhwGQgQHCDkMlAshemZAMRwFla29nCSBIjqAJ4AXsTFGYVObXBQeDCqUAQu7sJePup+AUEhYZHRsXjWoJCwAM4yqV1L0PBIKEl6K1ldylAQIHAhmnieRhAEh1uwcHGIGjDkwDeb4NvdeN-LeCQdTIQ6IQ5gdQA371GCIYBQA56dQwDCZP59AbImC6F5vD43XRJXSQ3Q9IYeby+fyBYKhUyzGJoOJwVSQiCISifeqJZJpdHc9SYNnqDnkURJDiqYAcZTAEwyOUmGANMB4FaMADaLA4nxWLAAuroANbAAjkJTIPCITronqYghwGSC4XsznaZwYYZgUbUyZ0mZRJkshIukViol8rqS3L5ZQdLolMoAVTd4oq1jsUHFdhM5uQaMyAG8w2mAL5dDrOO29fqDL2UsYTWnTBlB+bWOg+NVQFYARnW-MyLLAoKCChkCkwKxgUA26PRHQACmO4MBc4RyMhnqQ8ABaIwgPBwGcoAg4OAwCA7shwCAAIwAVtcYBwEwvMsBrAQIPAp6ehw-GsHTgAA5O5-iAuBlGgJAYEOZhNS6KCWAAUgATVQkBUPIcJUIACVQgBZVCAGUAC0dGQoC0Mw7DcII4iyKoqDFwwrCcJYoCDWojITjOG9elAY9Hj-XdD0goCYMRZQQHgM1oNg0gVkA1jZwaVTWOHeBmC3MgJI4U8wAkycYGnWddFkmBqy0hd7TrZ5Xz0vB1gyMobDuAA3Yh4CvQS7yfF9eIXPAAA9vGMuAADV6miABRKBTigTTbJCAgjAIaJgvsrFwKIQsMhZKg8DwY0twaTBEHve8oFM+cgK-Ry10OPK8BSj8csdIooM6xzDNnZQTIAclQxAhs9dEylIpYTDXDd80RUde1adERzHTA9RkMhQus9q4Dwbz0oQuBNR4qDPH6Hp0tEIsKygs1MAOwgdLgAAxeoVkkj9pO6RAqEwdQzREx1ttfFZIWMIG1nqrTAaIUQSH+uG8H6lAwHWYKBW-X84GRvbzruDKststdrGRphmCGsw4oAcQASVAlIori5nQPCIb8YaghHsOl7GUxoCLsS56bruknMjSomvtYxrycYSm4tAgARJmWcV9nOY-B6nuu5h3vUT6BY-HX4I4fRNxkIWruso2F0ls1idsxrtd5vRzTgDmhrXR08dt9FjTwBpdE8+pRGRwyIZgGRPd0PsbPFuAA4aUQk4jwGo6GgBucbNTYA0pWEYgMYTjJGqT72Lku57NdYq3ns1JODVEOv0obwOm4Aag9gAdAgva7kOoRL-aDbav3Bar1vG9EQfstrLETZWAqMQcpbPswBQSXWvUKRGKlxhpKZ6QidtmQWOAu3UHsVi4fIYlUllPBMRBuZfyg16CFZVBAXYGhkL+f7IA0ieWcjg4B7gAHyXhFHgTUp5dBmhxCAqABo9rviAjYZ+jo35wA-peLs+1XYAN-sgs0OAODL3RJIKAOAVK22IUAlIcAABKf0TzfxIaeMh0FTjnHXPUTc24ZAo3IboFgfY9y8FsERJW4ROjBWYfPe4Nc+iQmPBAawk5EAVRVGqIkJUMo4EwJlEAugn7WiIJQBhUAGjx1YnuHcOjVRtVYH2Fgd5EQsC4O4-i5wwA9DlKFW2DijxCXPMY7+TDEF4HwDJXh+Djz+IWMAIJJMHHmJfhQacHDGHsMATYy8YV4A0HoBAVQvkCHlUMM4t24pQmGIiX4gJKTgroK1tjeA1jk7QDgD+TpOSbGo2AOjGGrFeoyFaroSZrB5FQTKIoyEiBvD7RWJ4IQFATx4BAJ8CAop7hwBKQwLZO4Vh0GCsELBGzmBdI4D0RZ3gZAsG7t3TOOhWDgNYBNICZQ4o7RIDcRx1S1S1IQAYshjSeECSSYE4KjUWB7ncQpC5FiKA10wNClJ6LkAvWRZk8gadaCPIRY4XO+cuEjNto1dFzTQpYqeApbUbixHeNQePDIG9tFAuPMwRBMhqXJNpUtG2w8yg016Akv4M49CDWILgmlbK4CYB6FK5guLLGajzHyjFgrsVgJSPnA2s5hlEqcEMilIq4C-NnEsnYYLzy9O-veWVioERSpMU6mSZTzR2JJpgOCngGDMB6IZa0UAA35BYAAPRkN3cgHdHBvKVeqYVJcqX+roDXKCfq7VGJMaIXlfrSABo4DgU4bIZBxx9SXeZWyIDeQlfU7h7rZW+IlV0hV6Jsn5J0UU0QSaZwasIHy9NJay3o0rXAfVZri7D0yOMjlTi9GKsbeEkxugu2-0MEUr5HUlFOmmdMtVFAd3PHPsVUqVS6hHjquAqBAFWmFA8gQbyTxnKXmvOesq2jemICPE6ERHBdBDSInccq403zdQatYBQzUwIQRrr1SDu6QIKFRoNYS0dUKSHGsvXqGTX7mjpevLpuhP2Xt-f8Bse8myHwDG2OYZ9rAfw2ms8YpZRTuiyFvZaG8kHMb1KMyUM4IDoz6WuVjroOP4sHtESMOQ8gsCTCmNMEr7yWGsGs7M0F5THj8vbTKKMnAnqVEfdKz1jrsbFBwGTsC85eEJuZ44Omr3cvE-USTVmbOko4C5rooNRAmbpGZo6HBAitmjuU5Qe4AAcQ1dDECShqIawAcA-h6Dhroi9RD8c8GsUGJ6yivXlGQREODLgmABYjfyD5nw3CXqtbRfZRCnS6OVLgzWeLHB6QdCui89obqAaIA6JbejR1IsmIiRFJDMPQnFj24HyUzvab0nGA2bE13047D8U4avZfWhOYb+AM6yNIuEab7MgPjSraXaDZldvABavB22m3pZY0VTcmc2KViHOjhI8aNdyp9jNoXc0MhTKYBq+urpjhrsjypR9uEqwftDS4Huf7ts2vA7VKD8HkP3sDNsQVuApFfj3mTm+vyhAv49E2QAR2iOlYAodoCBCgK1xrhltgyCTowEEIB7xbjgKFJhoVSV2MxysLnPO+cC8QELkXYuujjMXh6XePp97NiPoGBjIZeSCeyLGNpcAkxwCVqQOXdNzzJuAHcSshQ7GdTV76A+-pWwnx1+fcgyhLZYMqoR5jJHCHmcjNx9em9cHqFIyVL9FUXOjPcl5HyQejrvtwbs0EpvzevRIEeRMcAlynG8CsMEmhk-wUhecegiSxzin4XmLciI9KIFa8oHm5mOVwg68vH6bfroKT6+cxGa3k6qpNiNjO43JvTdm5dxw07YeNTE0qv6w+NuEwdpRrNn3YC8b2zxicvfXxHejids7zCLvzZh7C+I2+zIwYe3Boga-GcGcoZkBdXL10rtzd-dd+GsldLNy+5vxEafwE58pD7Q5v43aKpVK6IiSPZP7Pbr6v7BRe6H4rAd6IBY4WxFi2xDTOQczvaI5344j4GfqNJEHmTYq8a6iS6saCK1Qkp9hGhuRwB0ykQADyBy0eDq-OK0tkBB2iRBZGnKLmfKt+vGjg2g+BcBziVBchei+B3+lBTC2aYSP+pi+BXSVB-+ViBOMhUEZYRONgPQu4aeIIvYmecI2eFGmWvMmBXu2W6gHAZuNhOeLk6Bi8WBROMUgMb6xUF8iA9aYUNqjQcAAALGwGXocD9NaAGo4peM4uzoukfKoCnswN4V7tqIoXgIaNZrFGkUdBjF0HQOCJgFEQuk1rpJyvAXSOkabEqCVjIJCPZuMCwLkU4BTHAHHNqCEA0fkbQFsq5PLJEWwKUeUZUW1qILkfUSFk0UXK0ZcI8p0WAqMVwCSiwP0elIMWQCACMcwFEcvEJleOjMFGJn4JMWwFUSCmUZgVMdohsYYUBDGApkpmUJboPAEOUOplUNmBwHAOEF2DTqcmUuoOKE6vtKFGEcnFEaFIkU1jgnCYke1maJ9gQEXm+NIV0J6HniTk8GTv5DglXo6ISbkSCioXmj9GlCsA9mQNdCzsQGQvYe3k4ZkQ4RvMoJzrADIJqEIWQHNkIakYKZSd-ENAaCelkcoErnusIhyV7qrlRurjRq7sfIyB2IqnrqpK8Y8khsbmUG4XLkViiEyeeMvA4ookkPWkrHFJIKBPnnsMeOVPVpkBabWvWtngENorEfEjwHuOVDwaVC6RkG6VaceCCFKgGRohcBGZ9MGTMraHOkok7hrrRm7uqYxs8K3gsT0HkHiCiASEglKSSOoPHjUMIOETmdwqoLSfasCBniJsQKQDbvcHnpaXWseDaXaQ6cJDEU5iabmZyUNvKVyTmTIAAH5LG7LRw6Fz6nj2bpTwj3An62n2kF7CRXbLyipjpwCEkcHcGfogr6DhGenlT+mnAiBRCzQ-SfqHCHJwAQIRExnghxl55AkP4P5JA04hDgAmDwk4I9D04Ijqh6CVzCbnD6CnBLJnJ540w7l7lcGBnGhdDUDR64BjrHT5nvCfBRyAwzh2I96nBUAVw5lZJe66glZKoQBUBrAuYWjqn9YUHlyqpEV8kUEmLinnIUGlplJgArCaioWlSYCNw4Gg5UVUBE7SCQjJynnaLnkibdAaDSyYByh1BChEXHQtadonBekVTkAXmYHbEvTjHog95MWBzroUEaUVyCXGjoW8UrAUVbLQyMVoVskR6uFZ4eF8pWXUUrAnqTTsHWBfm6ZlGOhPlPwvnqi4gXlvQoABmRXF7qjX64xDq2XiX+UPmRFoo6VVKJVxl9oUHkVjlTnjBCnjTdFDSyUNA4a+q5Wcr6UiaGVerwAdzMCaoqXxWcr5Xqiw6dpFXWCqoDWyjFaLEuHLHlVgIACElM1VGWWaql7mGlHARSFs6V5FQxUAGVMgdF7uMQJhZht4i16g1hiAthueplZo7m7lrRhp51LkKlV16lflRO+J8AZJu4TmalQ5zAx1nJ3JUcfJhBQGuRIpOalBEpW5LC7poVx4L6ycEZYk3SGmsZyVnaiNH+PQVp7mRlogJln4ZMQ6f1XuYCUCbAe0GNb6v1T1nJQNu44pOQiAoUS2C4AM4Id+nKWNdaONLVYcRNNNxVo1tUpV0chBax7V7NHe+1wUxNg12m31gtA5LR4105-JeAFVM1uMktzkROSsD2iyyc957a6I-ivK8YnBKAOAT1oKGhKkcARYmqUpjgZYiZGQpt6UioLAXZa5jpMRfwYZ5ATCDtQ6TtHymqpFlAJNLtdi7tUc8Y1Vz5SVhwXN3kgd9tnVulG8BlcxMA0dXQsdntAAMuzYkdGT1cnTDWnUWGzTOJje6TzQ0XnXnh5A0YCvAT0XAJ5IcKiY6LLShcTbUc4jncdLLXTcKfnDZsPSzT9ERTZQPakcPU5VtRpTtRRvRe2HtAXfGGbsnO3UWKxUKVyuKWWEHQfUZcfTEbMpkH3cBA5C6grcoIqW4I2H6C2GqafLrrLZGKMnCPeLNMwJKNKBwL-QqE3owF-bgogFbXULcAQIwPrJ9AggQLQEzkKJ9BVrA4wCQFbjIGwNoOHQLcoDDieiA9LOMqQ0-d6M7prnRntRqQkLCLoKQ2WaYdaLeHLgwQtJ3cAHgMRfed-ocLsAHOQF0Jww3pgGTrZaILCBwDYGUTyaQwUeoHMIzVAHZZALysFLSS0IwH2GwHgzLfKCYOvbJsFCJksrQA0IwJwNFjiStRifSDIMFKFIwDIwABrRzsWRKcFzZGAwAmCMBDQADqvBoEjqxA40zxH4VjMj6Eot2iKQPjTDxgpgQ0O9d41gITpUc2kusAWowGoGwhQG4Q0QKwYGQGIT5ARAZTRTHsQJ-QNTNVQGc1EpUTdsuy0ArjKIsjHTtUh98BKQoEvjKTgT6T4Q8hugqyAiXTr4pEDB+QL8+A+TJQfYygAA7Gs-eBEYKSUFYGs8oGwOrRKdiVBFeLskYGAFqLbDI+EBAOc8akNF4yAIk8M-46k1k8aJE9c907c-c+jGrSkBfn4wE2k-TZZEpDAIE6NLoKhPeHADhF8yTDc3cyiA87kS88k286M9+uM2qIi7ZMi389HKKc80k5eCM8Bjmsbvi1pIS6i-810oM68yC6RATrVdxHY-4o2bADw2sMFMC+89HuEfNA3tFDw8RdGZgi+XAERDmisHFsFPIIoFsYTEucQFxB+F2ClnQJC1wPo3Y9Ev8kYN5CUYFZIOQOKOgy+C2RcEIFVPKJY4pI3j4EJHcKep4A9i2fGVazcDa8wDIz67A+ihAGbTw+CRqGxWhRxSDbU-0xMx7CS+KXYoazasAN5MEAIlw8wGI8gBIxVJ+mbBa3Sr+msIGy2XPoQOFmY6OB6yqDMwuR8LA--C6763cLoDIzZhWtIdiEo9ELgxwAAMxX7ognopu+vps5ts630DApkqlv3a7BjnwJDEiXhVQmAsO83klNZd1wA93y3XXSnaUC2D1qjD2iCKM2YA3xPCkkpxt4sT2FFT0noQ7lKiB6mEXUVz3HsL1GWOWbXbW7UMXnJlKtW-WKZKaZ7JzV0H2g0Ggn3p1n0tUX0CO9wCDRgG55AvspoZCO5KnUNpnv0e7xC8gllMNrv3x54rgIiQcd04LpPtYCMVxvqMmeqIhV7aa9jwADvRECMoWBtZKMfMAXuFFXt00Ckxvj24mrRLvlHOTmS1TkBgKQLIJ7S9SniTgkopB6OdYoWA5S2aXnKye7jycacy09K16OjTgttkCUACMjVK0i13vq3i09G3uEH5xXgAx0ks1nTv5tb6fNaGeOHGfqeKdmeN42X8e2dyv2fNGOeg0ucbFidHPAMQBeczg+dQ2SDqBUDel-DmiyrcfdB+VMJGrnBUBdggzAnHhWhZA070AvxwBFcCO6B-0vzGh7ijjigVeEDQS8MCHsp6fOTHR8pDe7iHBdx8nilwAABUTXbAmn3Hvng3jxAXzAo3q3w3cAk3Q003c33Hi3ecy804AaFASlfq4oiEQ0AAPjK1S7d+k01g99+u1td4Kbd3uJ93AB919z9w4m98t064qsABXNg-gDIAd-1qsl2OQOd7kKJXkLbMoDd+nSD13H2GWN9+nWN2QPxRtHB1j9Xf58NwJcAAT298FCejqUNL3ENBwI+CGwQBIad7DyYBd8O0mQ6LO6-VrvRou8Ryu8w9qdkF3XCJ4MaLyeh-Jo8ibkVmpcTtZy2U4G0+iMJ8o5vpkJDdO-WGgFSsYhRtgN0SwNgEgA9JgCwKpB4FEEz84EAA"></iframe>
