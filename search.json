@@ -95,49 +95,63 @@
     "href": "talks/durable-artifacts.html#motivation-throwaway-artifacts-do-not-scale",
     "title": "Build Durable Artifacts",
     "section": "Motivation: throwaway artifacts do not scale",
-    "text": "Motivation: throwaway artifacts do not scale\n\n\n\nSingle-use scripts - disposable by design\nPowerPoints are hard to maintain and version control\nReusable code helps others, including the future you\nGoal: artifacts others can easily reach, run, and extend\n\nExample: MS Thesis website instead of a bunch of powerpoints and github repositories"
+    "text": "Motivation: throwaway artifacts do not scale\n\n\n\nSingle-use scripts - disposable by design\nPowerPoint decks are hard to version and maintain\nReusable code helps others, including the future you\nGoal: artifacts others can easily reach, run, and extend\nExample: an MS thesis website instead of scattered decks and repos"
   },
   {
     "objectID": "talks/durable-artifacts.html#why-credit-and-continuity",
     "href": "talks/durable-artifacts.html#why-credit-and-continuity",
     "title": "Build Durable Artifacts",
     "section": "Why? Credit and Continuity",
-    "text": "Why? Credit and Continuity\n\nDevelop awesome stuff that goes beyond your initial audience\n\nLook beyond a semester or two.\n\nOthers get value from your hard work; you get the deserved credit\nReproducibility starts with code someone else can run\nDurable tools compound\n\nCan they not just vibecode it themselves?"
+    "text": "Why? Credit and Continuity\n\nBuild things that outlast a semester or two\nOthers get value from your work; you get the deserved credit\nReproducibility starts with code someone else can run\nDurable tools compound\n\n“I can just vibecoding this when I need”"
   },
   {
     "objectID": "talks/durable-artifacts.html#what-deserves-publishing",
     "href": "talks/durable-artifacts.html#what-deserves-publishing",
     "title": "Build Durable Artifacts",
     "section": "What deserves publishing?",
-    "text": "What deserves publishing?\n\n\n\nIs this a one-off answer, or a method others might need again?\nWho is the audience: you in two years, students, collaborators, community?\nWould someone else want to rewrite this from scratch? Publish it.\nName it, document it, make it easy to reach."
+    "text": "What deserves publishing?\n\n\n\nIs this a one-off answer, or a method others might need again?\nWho is the audience: you in two years, students, collaborators, community?\nWould someone else rebuild this? Publish it.\nName it, document it, make it easy to reach and easy to run."
+  },
+  {
+    "objectID": "talks/durable-artifacts.html#micropublications",
+    "href": "talks/durable-artifacts.html#micropublications",
+    "title": "Build Durable Artifacts",
+    "section": "Micropublications",
+    "text": "Micropublications\nSmall, self-contained artifacts published as you go - not one monolith at the end.\n\nPublish at the size of the idea\n\nA function, a worked example, a working tool\n\nRelease often\n\nEach unit is something others can find, run, and build on\n\nLow cost per unit, repeated over time\n\nMany small artifacts compound\n\nCollect them in one place so the body of work grows!"
+  },
+  {
+    "objectID": "talks/durable-artifacts.html#shareable-knowledge-graph",
+    "href": "talks/durable-artifacts.html#shareable-knowledge-graph",
+    "title": "Build Durable Artifacts",
+    "section": "Shareable knowledge graph",
+    "text": "Shareable knowledge graph\nNotes, code, data, and demos linked into one structure others can traverse and query.\n\nEvery artifact is a node\n\nlinks connect topics, prerequisites, and people\n\nAdd metadata (front matter) so the collection is traversable and queryable\nBuild it incrementally: each linked micropublication strengthens the graph"
   },
   {
     "objectID": "talks/durable-artifacts.html#four-layers-of-publishing",
     "href": "talks/durable-artifacts.html#four-layers-of-publishing",
     "title": "Build Durable Artifacts",
     "section": "Four Layers of Publishing",
-    "text": "Four Layers of Publishing\n\nPackage (PyPI): code others can install and extend\nAuthor (Quarto): documents that showcase your work\nHost (GitHub Pages): a site that updates itself on every push\nShare: make it easily accessible"
+    "text": "Four Layers of Publishing\n\nPackage (PyPI): code others can install and extend\nAuthor (Quarto): documents that stay in sync with code\nHost (GitHub Pages): a site that updates itself on every push\nConnect (knowledge graph): linked artifacts others can traverse and query"
   },
   {
     "objectID": "talks/durable-artifacts.html#quarto-setup-once-update-often",
     "href": "talks/durable-artifacts.html#quarto-setup-once-update-often",
     "title": "Build Durable Artifacts",
     "section": "Quarto: setup once, update often",
-    "text": "Quarto: setup once, update often\n\nTechnical publishing system\nInput: Markdown + LaTeX\nOutput: all major formats via pandoc — HTML, PDF, slides, DOCX\nDynamic documents: code and prose in one source, regenerated automatically\nInteractive dashboards and websites, books, and more\nEverything is markdown: version control, multiple contributors"
+    "text": "Quarto: setup once, update often\n\nQuarto is a technical publishing system\nInput: Markdown + LaTeX\nOutput: all major formats via pandoc - HTML, PDF, slides, DOCX\nDynamic documents: code and prose in one source, regenerated automatically\nInteractive dashboards and websites, books, and more\nEverything is Markdown: version control and multiple contributors"
   },
   {
     "objectID": "talks/durable-artifacts.html#course-materials",
     "href": "talks/durable-artifacts.html#course-materials",
     "title": "Build Durable Artifacts",
     "section": "Course materials",
-    "text": "Course materials\n\n\n\nNotes, labs, assignments and interactive slides\n\nversioned in git\n\nAuto-rebuild on push - the course site stays current\nShare git repositories with students\n\nGuide LLM tutors with AGENTS.md"
+    "text": "Course materials\n\n\n\nNotes, labs, and assignments, versioned in git\nInteractive slides and examples students can run\nAuto-rebuild on push - the course site stays current\nShare the repository with students; use AGENTS.md to guide their LLM tutors"
   },
   {
     "objectID": "talks/durable-artifacts.html#pypi-packaging-for-reuse",
     "href": "talks/durable-artifacts.html#pypi-packaging-for-reuse",
     "title": "Build Durable Artifacts",
     "section": "PyPI: Packaging for Reuse",
-    "text": "PyPI: Packaging for Reuse\n\npip install focus-feed instead of “here is a zip and good luck”\n\nor even better, uvx focus-feed\n\nReleases and dependencies in one place\nOthers can build on your API\nDiscoverability: larger audience\nHave your agent setup a workflow!"
+    "text": "PyPI: Packaging for Reuse\n\npip install focus-feed instead of “here is a zip and good luck”\n\nor even better: uvx focus-feed\n\nReleases and dependencies in one place\nOthers can build on your API\nDiscoverability: reach a larger audience\nHave your agent draft the release workflow\nWatch the maintenance contract - releases, issues, API stability"
   },
   {
     "objectID": "talks/durable-artifacts.html#software-licenses",
@@ -151,14 +165,21 @@
     "href": "talks/durable-artifacts.html#github-pages",
     "title": "Build Durable Artifacts",
     "section": "GitHub Pages",
-    "text": "GitHub Pages\n\nStatic website hosting for free\nGitHub workflows build your site\nDocs, course sites, and demos stay current without manual uploads\nDiscoverable links instead of “upload the latest zip”\nDevelop a personal website in under 20 minutes!"
+    "text": "GitHub Pages\n\nFree static hosting for docs, course sites, and demos\nGitHub workflows build and deploy the site for you\nYour pages stay current without manual uploads\nDevelop a personal website in under 20 minutes!"
   },
   {
     "objectID": "talks/durable-artifacts.html#start-with-one-artifact",
     "href": "talks/durable-artifacts.html#start-with-one-artifact",
     "title": "Build Durable Artifacts",
     "section": "Start with one artifact",
-    "text": "Start with one artifact\n\nPick one script someone else would find useful\nAsk your agent to write a README\nPublish to usma-eecs or your personal git location\nDrop a link at usma-eecs/awesome!"
+    "text": "Start with one artifact\n\nPick one script or micropublication someone else would find useful\nAdd a README and a license\nPublish to your personal Git location or github.com/usma-eecs\nLink it into your knowledge graph and drop the link at usma-eecs/awesome!"
+  },
+  {
+    "objectID": "talks/durable-artifacts.html#buff-card-analyzer",
+    "href": "talks/durable-artifacts.html#buff-card-analyzer",
+    "title": "Build Durable Artifacts",
+    "section": "Buff Card Analyzer",
+    "text": "Buff Card Analyzer"
   },
   {
     "objectID": "index.html",
