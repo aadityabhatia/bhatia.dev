@@ -1,0 +1,142 @@
+---
+format: revealjs
+title: Build Durable Artifacts
+subtitle: Package and share your creations!
+description: Vibecoded single-use programs do not scale
+date: 2026-11-12
+image: /images/durable-artifacts.jpg
+title-slide-attributes:
+    data-background-image: /images/durable-artifacts.jpg
+    data-background-opacity: "0.3"
+---
+
+## Motivation: throwaway artifacts do not scale
+
+:::: {.columns}
+::: {.column width="50%"}
+- Single-use scripts - disposable by design
+- PowerPoints are hard to maintain and version control
+- Reusable code helps others, including _the future you_
+- Goal: artifacts others can easily reach, run, and extend
+
+Example: MS Thesis website instead of a bunch of powerpoints and github repositories
+:::
+::: {.column width="50%"}
+<iframe width="100%" height=800 data-src="https://argmap.bhatia.dev/"></iframe>
+:::
+::::
+
+## Why? Credit and Continuity
+
+- Develop awesome stuff that goes beyond your initial audience
+    - Look beyond a semester or two.
+- Others get value from your hard work; you get the deserved credit
+- Reproducibility starts with code someone else can run
+- Durable tools compound
+    - _Can they not just vibecode it themselves?_
+
+## What deserves publishing?
+
+
+:::: {.columns}
+::: {.column width="50%"}
+- Is this a one-off answer, or a method others might need again?
+- Who is the audience: you in two years, students, collaborators, community?
+- Would someone else want to rewrite this from scratch? Publish it.
+- Name it, document it, make it easy to reach.
+:::
+::: {.column width="50%"}
+<iframe width="100%" height=800 data-src="https://classtime.bhatia.dev/"></iframe>
+:::
+::::
+
+## Four Layers of Publishing
+
+- Package (PyPI): code others can install and extend
+- Author (Quarto): documents that showcase your work
+- Host (GitHub Pages): a site that updates itself on every push
+- Share: make it easily accessible
+
+## Quarto: setup once, update often
+
+- [Technical publishing system](https://quarto.org/)
+- [Input: Markdown + LaTeX](https://quarto.org/docs/authoring/markdown-basics.html)
+- [Output: all major formats](https://quarto.org/docs/output-formats/all-formats.html) via pandoc — HTML, PDF, slides, DOCX
+- [Dynamic documents](https://quarto.org/docs/computations/python.html): code and prose in one source, regenerated automatically
+- [Interactive dashboards](https://quarto.org/docs/dashboards/) and [websites, books, and more](https://quarto.org/docs/gallery/)
+- Everything is markdown: version control, multiple contributors
+
+## Course materials
+
+:::: {.columns}
+::: {.column width="40%"}
+- Notes, labs, assignments and interactive slides
+    - versioned in git
+- Auto-rebuild on push - the course site stays current
+- Share git repositories with students
+    - Guide LLM tutors with `AGENTS.md`
+:::
+::: {.column width="60%"}
+<iframe width="100%" height=800 data-src="https://cy350.bhatia.dev/"></iframe>
+:::
+::::
+
+## PyPI: Packaging for Reuse
+
+- `pip install focus-feed` instead of "here is a zip and good luck"
+    - or even better, `uvx focus-feed`
+- Releases and dependencies in one place
+- Others can build on your API
+- Discoverability: larger audience
+- Have your agent setup a workflow!
+
+## Software Licenses
+
+:::: {.columns}
+::: {.column}
+### MIT
+
+- Permissive; closed derivatives allowed
+- Keep the copyright and license notice
+- Fewest conditions, widest adoption
+:::
+::: {.column}
+### Apache 2.0
+
+- MIT plus explicit patent grants
+- Extra clauses: notices, trademarks
+- Patent protection for company code
+:::
+::::
+
+:::: {.columns}
+::: {.column}
+### SSPL
+
+- Source-available, not OSI open source
+- Network copyleft: SaaS must publish source
+- Blocks cloud strip-mining; less adoption
+:::
+::: {.column}
+### GPL and family
+
+- Copyleft: derivatives must stay GPL
+- GPLv2/v3 plus AGPL for network services
+- Guarantees downstream stays open
+:::
+::::
+
+## GitHub Pages
+
+- Static website hosting for free
+- [GitHub workflows](https://docs.github.com/en/actions) build your site
+- Docs, course sites, and demos stay current without manual uploads
+- Discoverable links instead of "upload the latest zip"
+- [Develop a personal website in under 20 minutes!](https://cy350.bhatia.dev/labs/05)
+
+## Start with one artifact
+
+- Pick one script someone else would find useful
+- Ask your agent to write a README
+- Publish to [usma-eecs](https://github.com/usma-eecs/) or your personal git location
+- Drop a link at [usma-eecs/awesome](https://github.com/usma-eecs/awesome/)!
